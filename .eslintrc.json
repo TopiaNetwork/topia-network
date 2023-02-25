@@ -1,0 +1,39 @@
+{
+  "env": {
+    "es6": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:react-hooks/recommended",
+    "next/core-web-vitals",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "rules": {
+    "@next/next/no-img-element": "off",
+    "no-multi-spaces": "error",
+    "default-case": "error",
+    "eqeqeq": ["error", "smart"],
+    "no-eval": "error",
+    "no-implied-eval": "error",
+    "no-param-reassign": "error",
+    "no-return-assign": "error",
+    "no-return-await": "error",
+    "no-script-url": "error",
+    "no-sequences": "error",
+    "array-bracket-newline": ["error", "consistent"],
+    "block-spacing": "error",
+    "brace-style": "error",
+    "comma-spacing": ["error", { "before": false, "after": true }],
+    "func-call-spacing": ["error", "never"],
+    "key-spacing": ["error", { "mode": "strict" }],
+    "keyword-spacing": ["error", { "before": true }],
+    "no-whitespace-before-property": "error",
+    "no-var": "error",
+    "prefer-const": "error",
+    "@typescript-eslint/ban-ts-comment": "off"
+  }
+}
