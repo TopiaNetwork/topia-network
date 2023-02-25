@@ -3,72 +3,72 @@
 <svg version="1.1" id="icon_improve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
 	 y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:url(#圆角矩形_19_1_);}
-	.st1{fill:none;stroke:url(#圆角矩形_19_拷贝_4_1_);stroke-width:2;}
-	.st2{fill:url(#圆角矩形_19_拷贝_1_);}
-	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:url(#圆角矩形_19_拷贝_2_1_);}
-	.st4{fill:url(#圆角矩形_19_拷贝_2-2_1_);}
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:url(#Rounded_Rect_19_1_);}
+	.st1{fill:none;stroke:url(#Rounded_Rect_19_Copy_4_1_);stroke-width:2;}
+	.st2{fill:url(#Rounded_Rect_19_Copy_1_);}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:url(#Rounded_Rect_19_Copy_2_1_);}
+	.st4{fill:url(#Rounded_Rect_19_Copy_2-2_1_);}
 	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#96FA96;}
-	.st6{fill:none;stroke:url(#圆角矩形_19_拷贝_5_1_);stroke-width:2;}
-	.st7{fill:url(#圆角矩形_20_1_);}
-	.st8{fill:url(#圆角矩形_20_拷贝_1_);}
+	.st6{fill:none;stroke:url(#Rounded_Rect_19_Copy_5_1_);stroke-width:2;}
+	.st7{fill:url(#Rounded_Rect_20_1_);}
+	.st8{fill:url(#Rounded_Rect_20_Copy_1_);}
 </style>
 <g>
-	
-		<linearGradient id="圆角矩形_19_1_" gradientUnits="userSpaceOnUse" x1="699" y1="-1391" x2="729" y2="-1391" gradientTransform="matrix(1 0 0 -1 -687.5 -1364.5)">
+
+		<linearGradient id="Rounded_Rect_19_1_" gradientUnits="userSpaceOnUse" x1="699" y1="-1391" x2="729" y2="-1391" gradientTransform="matrix(1 0 0 -1 -687.5 -1364.5)">
 		<stop  offset="0" style="stop-color:#19FFF4"/>
 		<stop  offset="1" style="stop-color:#AEFFAE"/>
 	</linearGradient>
-	<path id="圆角矩形_19" class="st0" d="M15.5,11.5h22c2.2,0,4,1.8,4,4v22c0,2.2-1.8,4-4,4h-22c-2.2,0-4-1.8-4-4v-22
+	<path id="Rounded_Rect_19" class="st0" d="M15.5,11.5h22c2.2,0,4,1.8,4,4v22c0,2.2-1.8,4-4,4h-22c-2.2,0-4-1.8-4-4v-22
 		C11.5,13.3,13.3,11.5,15.5,11.5z"/>
-	
-		<linearGradient id="圆角矩形_19_拷贝_4_1_" gradientUnits="userSpaceOnUse" x1="735" y1="-1401.2849" x2="761" y2="-1401.2849" gradientTransform="matrix(1 0 0 -1 -687.5 -1364.5)">
+
+		<linearGradient id="Rounded_Rect_19_Copy_4_1_" gradientUnits="userSpaceOnUse" x1="735" y1="-1401.2849" x2="761" y2="-1401.2849" gradientTransform="matrix(1 0 0 -1 -687.5 -1364.5)">
 		<stop  offset="0" style="stop-color:#79FBC2;stop-opacity:0"/>
 		<stop  offset="1" style="stop-color:#79FBC2"/>
 	</linearGradient>
-	<path id="圆角矩形_19_拷贝_4" class="st1" d="M47.5,31.5h22c2.2,0,4,1.8,4,4v7.6"/>
-	
-		<linearGradient id="圆角矩形_19_拷贝_1_" gradientUnits="userSpaceOnUse" x1="18.5" y1="73.5" x2="34.5" y2="73.5" gradientTransform="matrix(1 0 0 -1 0 100)">
+	<path id="Rounded_Rect_19_Copy_4" class="st1" d="M47.5,31.5h22c2.2,0,4,1.8,4,4v7.6"/>
+
+		<linearGradient id="Rounded_Rect_19_Copy_1_" gradientUnits="userSpaceOnUse" x1="18.5" y1="73.5" x2="34.5" y2="73.5" gradientTransform="matrix(1 0 0 -1 0 100)">
 		<stop  offset="0" style="stop-color:#19FFF4"/>
 		<stop  offset="1" style="stop-color:#AEFFAE"/>
 	</linearGradient>
-	<path id="圆角矩形_19_拷贝" class="st2" d="M22.5,18.5h8c2.2,0,4,1.8,4,4v8c0,2.2-1.8,4-4,4h-8c-2.2,0-4-1.8-4-4v-8
+	<path id="Rounded_Rect_19_Copy" class="st2" d="M22.5,18.5h8c2.2,0,4,1.8,4,4v8c0,2.2-1.8,4-4,4h-8c-2.2,0-4-1.8-4-4v-8
 		C18.5,20.3,20.3,18.5,22.5,18.5z"/>
-	
-		<linearGradient id="圆角矩形_19_拷贝_2_1_" gradientUnits="userSpaceOnUse" x1="746" y1="-1438" x2="776" y2="-1438" gradientTransform="matrix(1 0 0 -1 -687.5 -1364.5)">
+
+		<linearGradient id="Rounded_Rect_19_Copy_2_1_" gradientUnits="userSpaceOnUse" x1="746" y1="-1438" x2="776" y2="-1438" gradientTransform="matrix(1 0 0 -1 -687.5 -1364.5)">
 		<stop  offset="0" style="stop-color:#19FFF4"/>
 		<stop  offset="1" style="stop-color:#AEFFAE"/>
 	</linearGradient>
-	<path id="圆角矩形_19_拷贝_2" class="st3" d="M62.5,58.5h22c2.2,0,4,1.8,4,4v22c0,2.2-1.8,4-4,4h-22c-2.2,0-4-1.8-4-4v-22
+	<path id="Rounded_Rect_19_Copy_2" class="st3" d="M62.5,58.5h22c2.2,0,4,1.8,4,4v22c0,2.2-1.8,4-4,4h-22c-2.2,0-4-1.8-4-4v-22
 		C58.5,60.3,60.3,58.5,62.5,58.5z"/>
-	
-		<linearGradient id="圆角矩形_19_拷贝_2-2_1_" gradientUnits="userSpaceOnUse" x1="65.5" y1="26.5" x2="81.5" y2="26.5" gradientTransform="matrix(1 0 0 -1 0 100)">
+
+		<linearGradient id="Rounded_Rect_19_Copy_2-2_1_" gradientUnits="userSpaceOnUse" x1="65.5" y1="26.5" x2="81.5" y2="26.5" gradientTransform="matrix(1 0 0 -1 0 100)">
 		<stop  offset="0" style="stop-color:#19FFF4"/>
 		<stop  offset="1" style="stop-color:#AEFFAE"/>
 	</linearGradient>
-	<path id="圆角矩形_19_拷贝_2-2" class="st4" d="M69.5,65.5h8c2.2,0,4,1.8,4,4v8c0,2.2-1.8,4-4,4h-8c-2.2,0-4-1.8-4-4v-8
+	<path id="Rounded_Rect_19_Copy_2-2" class="st4" d="M69.5,65.5h8c2.2,0,4,1.8,4,4v8c0,2.2-1.8,4-4,4h-8c-2.2,0-4-1.8-4-4v-8
 		C65.5,67.3,67.3,65.5,69.5,65.5z"/>
-	<path id="三角形_2" class="st5" d="M73.6,47.5l-3.5-5h7L73.6,47.5z"/>
-	
-		<linearGradient id="圆角矩形_19_拷贝_5_1_" gradientUnits="userSpaceOnUse" x1="713.625" y1="-1429.7151" x2="740" y2="-1429.7151" gradientTransform="matrix(1 0 0 -1 -687.5 -1364.5)">
+	<path id="Triangle_2" class="st5" d="M73.6,47.5l-3.5-5h7L73.6,47.5z"/>
+
+		<linearGradient id="Rounded_Rect_19_Copy_5_1_" gradientUnits="userSpaceOnUse" x1="713.625" y1="-1429.7151" x2="740" y2="-1429.7151" gradientTransform="matrix(1 0 0 -1 -687.5 -1364.5)">
 		<stop  offset="0" style="stop-color:#79FBC2"/>
 		<stop  offset="1" style="stop-color:#79FBC2;stop-opacity:0"/>
 	</linearGradient>
-	<path id="圆角矩形_19_拷贝_5" class="st6" d="M52.5,70.5H30.2c-2.2,0-4-1.8-4.1-4c0,0,0,0,0,0v-7.6"/>
-	<path id="三角形_2_拷贝" class="st5" d="M26,54.5l3.5,5h-7.1L26,54.5z"/>
-	
-		<linearGradient id="圆角矩形_20_1_" gradientUnits="userSpaceOnUse" x1="14.5" y1="15" x2="42.5" y2="15" gradientTransform="matrix(1 0 0 -1 0 100)">
+	<path id="Rounded_Rect_19_Copy_5" class="st6" d="M52.5,70.5H30.2c-2.2,0-4-1.8-4.1-4c0,0,0,0,0,0v-7.6"/>
+	<path id="Triangle_2_Copy" class="st5" d="M26,54.5l3.5,5h-7.1L26,54.5z"/>
+
+		<linearGradient id="Rounded_Rect_20_1_" gradientUnits="userSpaceOnUse" x1="14.5" y1="15" x2="42.5" y2="15" gradientTransform="matrix(1 0 0 -1 0 100)">
 		<stop  offset="0" style="stop-color:#79FBC2"/>
 		<stop  offset="1" style="stop-color:#79FBC2;stop-opacity:0"/>
 	</linearGradient>
-	<path id="圆角矩形_20" class="st7" d="M16,83.5h25c0.8,0,1.5,0.7,1.5,1.5l0,0c0,0.8-0.7,1.5-1.5,1.5H16c-0.8,0-1.5-0.7-1.5-1.5
+	<path id="Rounded_Rect_20" class="st7" d="M16,83.5h25c0.8,0,1.5,0.7,1.5,1.5l0,0c0,0.8-0.7,1.5-1.5,1.5H16c-0.8,0-1.5-0.7-1.5-1.5
 		l0,0C14.5,84.2,15.2,83.5,16,83.5z"/>
-	
-		<linearGradient id="圆角矩形_20_拷贝_1_" gradientUnits="userSpaceOnUse" x1="49.5" y1="85" x2="77.5" y2="85" gradientTransform="matrix(1 0 0 -1 0 100)">
+
+		<linearGradient id="Rounded_Rect_20_Copy_1_" gradientUnits="userSpaceOnUse" x1="49.5" y1="85" x2="77.5" y2="85" gradientTransform="matrix(1 0 0 -1 0 100)">
 		<stop  offset="0" style="stop-color:#79FBC2"/>
 		<stop  offset="1" style="stop-color:#79FBC2;stop-opacity:0"/>
 	</linearGradient>
-	<path id="圆角矩形_20_拷贝" class="st8" d="M51,13.5h25c0.8,0,1.5,0.7,1.5,1.5l0,0c0,0.8-0.7,1.5-1.5,1.5H51
+	<path id="Rounded_Rect_20_Copy" class="st8" d="M51,13.5h25c0.8,0,1.5,0.7,1.5,1.5l0,0c0,0.8-0.7,1.5-1.5,1.5H51
 		c-0.8,0-1.5-0.7-1.5-1.5l0,0C49.5,14.2,50.2,13.5,51,13.5z"/>
 </g>
 </svg>

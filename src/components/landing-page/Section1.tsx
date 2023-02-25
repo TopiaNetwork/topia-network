@@ -11,7 +11,7 @@ export const Section1 = () => {
                 <UniverseBg1 className="w-[1680px]" />
               </div>
             </div>
-            <div>
+            <div className="font-bold">
               <span className="px-3.5 text-[76px] text-[#33F8FF]">SCALE</span>
               <span className="px-3.5 text-[76px]">TO</span>
               <span className="px-3.5 text-[76px] text-[#96FA96]">
@@ -30,9 +30,11 @@ export const Section1 = () => {
 
       <div className="bg-[rgba(0,0,0,0.8)] pb-[340px]">
         <div className="flex justify-center pt-[68px]">
-          <span className="px-3.5 text-[40px] text-[#96FA96]">WHY</span>
-          <span className="px-3.5 text-[40px]">BUILD</span>
-          <span className="px-3.5 text-[40px]">TOPIA</span>
+          <span className="px-1.5 text-[40px] font-bold text-[#96FA96]">
+            WHY
+          </span>
+          <span className="px-1.5 text-[40px] font-bold">BUILD</span>
+          <span className="px-1.5 text-[40px] font-bold">TOPIA</span>
         </div>
         <div className="mx-4 mt-6 flex justify-center tracking-wide">
           Scaling the data storage capability of Ethereum for fully on-chain
