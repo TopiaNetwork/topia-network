@@ -3,23 +3,27 @@ import { UniverseBg1 } from '../svg/Universe-bg1'
 export const Section1 = () => {
   return (
     <div className="overflow-hidden">
-      <div className="flex min-h-screen items-center justify-center">
-        <div className="relative flex flex-col items-center">
-          <div className="absolute z-[-1] flex w-full justify-center">
-            <div>
-              <UniverseBg1 className="w-[1680px]" />
+      <div className="h-[1000px] min-h-screen">
+        <div className="flex min-h-screen items-center justify-center">
+          <div className="relative flex flex-col items-center">
+            <div className="absolute z-[-1] flex w-full justify-center">
+              <div>
+                <UniverseBg1 className="w-[1680px]" />
+              </div>
             </div>
-          </div>
-          <div>
-            <span className="px-3.5 text-[76px] text-[#33F8FF]">SCALE</span>
-            <span className="px-3.5 text-[76px]">TO</span>
-            <span className="px-3.5 text-[76px] text-[#96FA96]">INFINITY</span>
-          </div>
-          <div className="mt-3 text-3xl font-light">
-            EVM Compatible Storage Layer2
-          </div>
-          <div className="my-16 flex items-center justify-center rounded-full bg-[#96FA96]">
-            <span className="py-2 px-5 text-black">Start Building</span>
+            <div>
+              <span className="px-3.5 text-[76px] text-[#33F8FF]">SCALE</span>
+              <span className="px-3.5 text-[76px]">TO</span>
+              <span className="px-3.5 text-[76px] text-[#96FA96]">
+                INFINITY
+              </span>
+            </div>
+            <div className="mt-3 text-3xl font-light">
+              EVM Compatible Storage Layer2
+            </div>
+            <div className="my-16 flex items-center justify-center rounded-full bg-[#96FA96]">
+              <span className="py-2 px-5 text-black">Start Building</span>
+            </div>
           </div>
         </div>
       </div>
