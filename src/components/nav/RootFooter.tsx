@@ -47,39 +47,39 @@ export const RootFooter = () => {
                 Join the community
               </div>
             </div>
-            <div className="m-2.5 h-[132px] w-[420px] flex-auto rounded-[10px] border border-solid border-[#17271F] bg-[#0C1414] shadow-[0_6px_9px_1px_rgba(150,250,150,0.1)]">
-              <div className="mx-8 mt-7 flex">
-                <img className="w-[28px]" src="/img/icon_email.svg" alt="" />
-                <div className="ml-3">Email</div>
-              </div>
-              <div className="mx-8 mt-3 flex items-center">
-                <AppTextField
-                  variant="outlined"
-                  className="flex-auto placeholder:text-[#B3B3B3]"
-                  sx={{
-                    marginRight: 2,
-                    '& .MuiOutlinedInput-root': {
-                      borderRadius: '8px',
-                      height: '38px',
-                      fontSize: '14px',
-                    },
-                    '& .MuiOutlinedInput-input': {
-                      '&::placeholder': {
-                        color: '#B3B3B3',
-                      },
-                      'caret-color': 'white',
-                      color: 'white',
-                    },
-                  }}
-                  placeholder="Your email address"
-                />
-                <div className="flex items-center justify-center rounded-lg bg-[#96FA96]">
-                  <span className="py-2 px-2.5 text-sm text-black">
-                    Subscribe
-                  </span>
-                </div>
-              </div>
-            </div>
+            {/*<div className="m-2.5 h-[132px] w-[420px] flex-auto rounded-[10px] border border-solid border-[#17271F] bg-[#0C1414] shadow-[0_6px_9px_1px_rgba(150,250,150,0.1)]">*/}
+            {/*  <div className="mx-8 mt-7 flex">*/}
+            {/*    <img className="w-[28px]" src="/img/icon_email.svg" alt="" />*/}
+            {/*    <div className="ml-3">Email</div>*/}
+            {/*  </div>*/}
+            {/*  <div className="mx-8 mt-3 flex items-center">*/}
+            {/*    <AppTextField*/}
+            {/*      variant="outlined"*/}
+            {/*      className="flex-auto placeholder:text-[#B3B3B3]"*/}
+            {/*      sx={{*/}
+            {/*        marginRight: 2,*/}
+            {/*        '& .MuiOutlinedInput-root': {*/}
+            {/*          borderRadius: '8px',*/}
+            {/*          height: '38px',*/}
+            {/*          fontSize: '14px',*/}
+            {/*        },*/}
+            {/*        '& .MuiOutlinedInput-input': {*/}
+            {/*          '&::placeholder': {*/}
+            {/*            color: '#B3B3B3',*/}
+            {/*          },*/}
+            {/*          'caret-color': 'white',*/}
+            {/*          color: 'white',*/}
+            {/*        },*/}
+            {/*      }}*/}
+            {/*      placeholder="Your email address"*/}
+            {/*    />*/}
+            {/*    <div className="flex items-center justify-center rounded-lg bg-[#96FA96]">*/}
+            {/*      <span className="py-2 px-2.5 text-sm text-black">*/}
+            {/*        Subscribe*/}
+            {/*      </span>*/}
+            {/*    </div>*/}
+            {/*  </div>*/}
+            {/*</div>*/}
           </div>
         </div>
       </div>
@@ -88,12 +88,12 @@ export const RootFooter = () => {
         <div className="mx-4 mt-[288px] flex h-[94px] max-w-[1120px] flex-auto items-center justify-between border-t border-solid border-[rgba(150,250,150,0.1)]">
           <img className="w-[124px]" src="/img/topia.svg" alt="" />
           <div className="flex items-center">
-            <div className="mx-1.5 rounded-full border border-solid border-[#17271F] bg-[#0C1414] px-5 py-1.5 text-sm shadow-[0_1px_3px_rgba(150,250,150,0.1)]">
-              Terms of use
-            </div>
-            <div className="ml-1.5 rounded-full border border-solid border-[#17271F] bg-[#0C1414] px-5 py-1.5 text-sm shadow-[0_1px_3px_rgba(150,250,150,0.1)]">
-              Privacy Policy
-            </div>
+            {/*<div className="mx-1.5 rounded-full border border-solid border-[#17271F] bg-[#0C1414] px-5 py-1.5 text-sm shadow-[0_1px_3px_rgba(150,250,150,0.1)]">*/}
+            {/*  Terms of use*/}
+            {/*</div>*/}
+            {/*<div className="ml-1.5 rounded-full border border-solid border-[#17271F] bg-[#0C1414] px-5 py-1.5 text-sm shadow-[0_1px_3px_rgba(150,250,150,0.1)]">*/}
+            {/*  Privacy Policy*/}
+            {/*</div>*/}
           </div>
         </div>
       </div>
