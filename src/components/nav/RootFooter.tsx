@@ -22,7 +22,7 @@ export const RootFooter = () => {
           <div className="mx-1.5 mt-[76px] flex flex-wrap justify-between">
             <div className="group m-2.5 h-[132px] w-[212px] flex-auto rounded-[10px] border border-solid border-[#17271F] bg-[#0C1414] shadow-[0_6px_9px_1px_rgba(150,250,150,0.1)] hover:bg-[#96FA96] hover:text-black">
               <div className="mx-8 mt-7 flex">
-                <TwitterIcon className="w-[28px] fill-white group-hover:fill-black" />
+                <TwitterIcon className="w-[28px] group-hover:fill-black" />
                 <div className="ml-3">Twitter</div>
               </div>
               <div className="ml-8 mt-5 text-sm text-[#B3B3B3] group-hover:text-black group-hover:underline">
@@ -31,7 +31,7 @@ export const RootFooter = () => {
             </div>
             <div className="group m-2.5 h-[132px] w-[212px] flex-auto rounded-[10px] border border-solid border-[#17271F] bg-[#0C1414] shadow-[0_6px_9px_1px_rgba(150,250,150,0.1)] hover:bg-[#96FA96] hover:text-black">
               <div className="mx-8 mt-7 flex">
-                <DiscordIcon className="w-[28px] fill-white group-hover:fill-black" />
+                <DiscordIcon className="w-[28px] group-hover:fill-black" />
                 <div className="ml-3">Discord</div>
               </div>
               <div className="ml-9 mt-5 text-sm text-[#B3B3B3] group-hover:text-black group-hover:underline">
@@ -40,7 +40,7 @@ export const RootFooter = () => {
             </div>
             <div className="group m-2.5 h-[132px] w-[212px] flex-auto rounded-[10px] border border-solid border-[#17271F] bg-[#0C1414] shadow-[0_6px_9px_1px_rgba(150,250,150,0.1)] hover:bg-[#96FA96] hover:text-black">
               <div className="mx-8 mt-7 flex">
-                <MediumIcon className="w-[28px] fill-white group-hover:fill-black" />
+                <MediumIcon className="w-[28px] group-hover:fill-black" />
                 <div className="ml-3">Medium</div>
               </div>
               <div className="ml-[34px] mt-5 text-sm text-[#B3B3B3] group-hover:text-black group-hover:underline">

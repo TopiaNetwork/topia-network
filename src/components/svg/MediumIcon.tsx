@@ -7,6 +7,7 @@ export const MediumIcon = (props: SVGProps<SVGSVGElement>) => {
       width="30"
       height="30"
       viewBox="0 0 30 30"
+      fill="#fff"
       {...props}
     >
       <path
