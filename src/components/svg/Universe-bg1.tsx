@@ -63,15 +63,24 @@ export const UniverseBg1 = (props: SVGProps<SVGSVGElement>) => {
               cy="971"
               r="640"
             />
-            <image
-              xmlns="http://www.w3.org/2000/svg"
-              x="319"
-              y="331"
-              width="1280"
-              height="1280"
-              xmlnsXlink="http://www.w3.org/1999/xlink"
-              xlinkHref="/img/section1_bg_inner.webp"
-            />
+            <foreignObject x="319" y="331" width="1280" height="1280">
+              <picture>
+                <source
+                  srcSet="/img/section1_bg_inner.avif"
+                  type="image/avif"
+                />
+                <source
+                  srcSet="/img/section1_bg_inner.webp"
+                  type="image/webp"
+                />
+                <img
+                  width="1280"
+                  height="1280"
+                  src="/img/section1_bg_inner.png"
+                  alt=""
+                />
+              </picture>
+            </foreignObject>
           </g>
           <use xlinkHref="#oval_01_copy" stroke="#96fa96" fill="none" />
         </g>
