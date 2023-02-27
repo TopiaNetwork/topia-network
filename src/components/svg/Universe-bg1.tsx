@@ -47,20 +47,6 @@ export const UniverseBg1 = (props: SVGProps<SVGSVGElement>) => {
           <feBlend result="blend" mode="screen" in2="SourceGraphic" />
           <feBlend result="blend-2" in="SourceGraphic" />
         </filter>
-        <filter
-          id="filter-2"
-          x="319.5"
-          y="331"
-          width="1280"
-          height="1280"
-          filterUnits="userSpaceOnUse"
-        >
-          <feGaussianBlur result="blur" stdDeviation="50" in="SourceAlpha" />
-          <feFlood result="flood" floodColor="#96fa96" floodOpacity="0.55" />
-          <feComposite result="composite-2" operator="out" in2="blur" />
-          <feComposite result="composite" operator="in" in2="SourceAlpha" />
-          <feBlend result="blend" mode="screen" in2="SourceGraphic" />
-        </filter>
       </defs>
       <g clipPath="url(#clip-path)">
         <g id="icon_bg">
@@ -77,16 +63,17 @@ export const UniverseBg1 = (props: SVGProps<SVGSVGElement>) => {
               cy="971"
               r="640"
             />
+            <image
+              xmlns="http://www.w3.org/2000/svg"
+              x="319"
+              y="331"
+              width="1280"
+              height="1280"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+              xlinkHref="/img/section1_bg_inner.webp"
+            />
           </g>
           <use xlinkHref="#oval_01_copy" stroke="#96fa96" fill="none" />
-          <circle
-            id="oval_02"
-            fill="#070a0a"
-            filter="url(#filter-2)"
-            cx="959.5"
-            cy="971"
-            r="640"
-          />
         </g>
       </g>
     </svg>
