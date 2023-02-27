@@ -1,4 +1,10 @@
 import { ArrowDropDownIcon } from '../svg/ArrowDropDownIcon'
+import {
+  TOPIA_DISCORD_LINK,
+  TOPIA_GITHUB_LINK,
+  TOPIA_MEDIUM_LINK,
+  TOPIA_TWITTER_LINK,
+} from '../../constants/community'
 
 export const RootHeader = () => {
   return (
@@ -20,12 +26,40 @@ export const RootHeader = () => {
               <ArrowDropDownIcon className="w-5 group-hover/1:fill-[#96FA96]" />
             </div>
             <div className="invisible absolute top-full right-0 rounded-[10px] border border-solid border-[#1A2626] bg-[#070A0A] py-2 opacity-0 transition-all group-hover/0:visible group-hover/0:opacity-100">
-              <div className="px-8 py-2 hover:text-[#96FA96]">Twitter</div>
-              <div className="px-8 py-2 hover:text-[#96FA96]">Discord</div>
-              <div className="px-8 py-2 hover:text-[#96FA96]">Medium</div>
+              <a
+                className="block px-8 py-2.5 hover:text-[#96FA96]"
+                href={TOPIA_TWITTER_LINK}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Twitter
+              </a>
+              <a
+                className="block px-8 py-2.5 hover:text-[#96FA96]"
+                href={TOPIA_DISCORD_LINK}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Discord
+              </a>
+              <a
+                className="block px-8 py-2.5 hover:text-[#96FA96]"
+                href={TOPIA_MEDIUM_LINK}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Medium
+              </a>
             </div>
           </div>
-          <div className="pl-12 hover:text-[#96FA96]">Whitepaper</div>
+          <a
+            className="pl-12 hover:text-[#96FA96]"
+            href={TOPIA_GITHUB_LINK}
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
           {/*<div className="pl-14">About Us</div>*/}
         </div>
       </div>

@@ -2,6 +2,11 @@ import { TwitterIcon } from '../svg/TwitterIcon'
 import { DiscordIcon } from '../svg/DiscordIcon'
 import { MediumIcon } from '../svg/MediumIcon'
 import AppTextField from '../app-ui-kit/AppTextField'
+import {
+  TOPIA_DISCORD_LINK,
+  TOPIA_MEDIUM_LINK,
+  TOPIA_TWITTER_LINK,
+} from '../../constants/community'
 
 export const RootFooter = () => {
   return (
@@ -20,7 +25,12 @@ export const RootFooter = () => {
             important updates
           </div>
           <div className="mx-1.5 mt-[76px] flex flex-wrap justify-between">
-            <div className="group m-2.5 h-[132px] w-[212px] flex-auto rounded-[10px] border border-solid border-[#17271F] bg-[#0C1414] shadow-[0_6px_9px_1px_rgba(150,250,150,0.1)] hover:bg-[#96FA96] hover:text-black">
+            <a
+              className="group m-2.5 block h-[132px] w-[212px] flex-auto rounded-[10px] border border-solid border-[#17271F] bg-[#0C1414] shadow-[0_6px_9px_1px_rgba(150,250,150,0.1)] hover:bg-[#96FA96] hover:text-black"
+              href={TOPIA_TWITTER_LINK}
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="mx-8 mt-7 flex">
                 <TwitterIcon className="w-[28px] group-hover:fill-black" />
                 <div className="ml-3">Twitter</div>
@@ -28,8 +38,13 @@ export const RootFooter = () => {
               <div className="ml-8 mt-5 text-sm text-[#B3B3B3] group-hover:text-black group-hover:underline">
                 Follow the latest news
               </div>
-            </div>
-            <div className="group m-2.5 h-[132px] w-[212px] flex-auto rounded-[10px] border border-solid border-[#17271F] bg-[#0C1414] shadow-[0_6px_9px_1px_rgba(150,250,150,0.1)] hover:bg-[#96FA96] hover:text-black">
+            </a>
+            <a
+              href={TOPIA_DISCORD_LINK}
+              target="_blank"
+              rel="noreferrer"
+              className="group m-2.5 block h-[132px] w-[212px] flex-auto rounded-[10px] border border-solid border-[#17271F] bg-[#0C1414] shadow-[0_6px_9px_1px_rgba(150,250,150,0.1)] hover:bg-[#96FA96] hover:text-black"
+            >
               <div className="mx-8 mt-7 flex">
                 <DiscordIcon className="w-[28px] group-hover:fill-black" />
                 <div className="ml-3">Discord</div>
@@ -37,8 +52,13 @@ export const RootFooter = () => {
               <div className="ml-9 mt-5 text-sm text-[#B3B3B3] group-hover:text-black group-hover:underline">
                 Get involved
               </div>
-            </div>
-            <div className="group m-2.5 h-[132px] w-[212px] flex-auto rounded-[10px] border border-solid border-[#17271F] bg-[#0C1414] shadow-[0_6px_9px_1px_rgba(150,250,150,0.1)] hover:bg-[#96FA96] hover:text-black">
+            </a>
+            <a
+              href={TOPIA_MEDIUM_LINK}
+              target="_blank"
+              rel="noreferrer"
+              className="group m-2.5 block h-[132px] w-[212px] flex-auto rounded-[10px] border border-solid border-[#17271F] bg-[#0C1414] shadow-[0_6px_9px_1px_rgba(150,250,150,0.1)] hover:bg-[#96FA96] hover:text-black"
+            >
               <div className="mx-8 mt-7 flex">
                 <MediumIcon className="w-[28px] group-hover:fill-black" />
                 <div className="ml-3">Medium</div>
@@ -46,7 +66,7 @@ export const RootFooter = () => {
               <div className="ml-[34px] mt-5 text-sm text-[#B3B3B3] group-hover:text-black group-hover:underline">
                 Join the community
               </div>
-            </div>
+            </a>
             {/*<div className="m-2.5 h-[132px] w-[420px] flex-auto rounded-[10px] border border-solid border-[#17271F] bg-[#0C1414] shadow-[0_6px_9px_1px_rgba(150,250,150,0.1)]">*/}
             {/*  <div className="mx-8 mt-7 flex">*/}
             {/*    <img className="w-[28px]" src="/img/icon_email.svg" alt="" />*/}

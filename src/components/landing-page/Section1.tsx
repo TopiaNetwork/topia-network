@@ -1,4 +1,5 @@
 import { UniverseBg1 } from '../svg/Universe-bg1'
+import { TOPIA_GITHUB_LINK } from '../../constants/community'
 
 export const Section1 = () => {
   return (
@@ -20,7 +21,14 @@ export const Section1 = () => {
               EVM Compatible Storage Layer2
             </div>
             <div className="my-16 flex items-center justify-center rounded-full bg-[#96FA96]">
-              <span className="py-2 px-5 text-black">Start Building</span>
+              <a
+                className="py-2 px-5 text-black"
+                href={TOPIA_GITHUB_LINK}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Start Building
+              </a>
             </div>
           </div>
         </div>
