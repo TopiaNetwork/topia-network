@@ -11,14 +11,12 @@ export const Section1 = () => {
                 <UniverseBg1 className="w-[1680px]" />
               </div>
             </div>
-            <div className="font-bold">
-              <span className="px-3.5 text-[76px] text-[#33F8FF]">SCALE</span>
-              <span className="px-3.5 text-[76px]">TO</span>
-              <span className="px-3.5 text-[76px] text-[#96FA96]">
-                INFINITY
-              </span>
+            <div className="text-[76px] font-bold max-lg:flex max-lg:flex-col max-lg:items-center max-lg:text-6xl">
+              <span className="px-3.5 pb-3 text-[#33F8FF]">SCALE</span>
+              <span className="px-3.5 pb-3">TO</span>
+              <span className="px-3.5 pb-3 text-[#96FA96]">INFINITY</span>
             </div>
-            <div className="mt-3 text-3xl font-light">
+            <div className="text-center text-3xl font-light">
               EVM Compatible Storage Layer2
             </div>
             <div className="my-16 flex items-center justify-center rounded-full bg-[#96FA96]">
