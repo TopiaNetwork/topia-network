@@ -7,10 +7,10 @@ export const ArrowDropDownIcon = (props: SVGProps<SVGSVGElement>) => {
       width="10"
       height="5"
       viewBox="0 0 10 5"
+      fill="#fff"
       {...props}
     >
       <path
-        fill="#fff"
         fillRule="evenodd"
         d="M863,42l-5-5h10Z"
         transform="translate(-858 -37)"
