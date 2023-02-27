@@ -5,7 +5,7 @@ import AppTextField from '../app-ui-kit/AppTextField'
 
 export const RootFooter = () => {
   return (
-    <div className="mt-[384px] bg-[url('/img/bg_footer.webp')] bg-top bg-repeat-y pt-[220px]">
+    <div className="mt-48 bg-[url('/img/bg_footer.webp')] bg-top bg-repeat-y pt-[220px]">
       <div className="flex justify-center">
         <div className="w-[1150px] max-w-[1150px]">
           <div className="mx-4 flex justify-center">
