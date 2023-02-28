@@ -10,7 +10,7 @@ import {
 
 export const RootFooter = () => {
   return (
-    <div className="mt-48 bg-[url('/img/bg_footer.webp')] bg-top bg-repeat-y pt-[220px]">
+    <div className="mt-48 bg-[url('/img/bg_footer.webp')] bg-top bg-repeat-y pt-36">
       <div className="flex justify-center">
         <div className="w-[1150px] max-w-[1150px]">
           <div className="mx-4 flex justify-center">
@@ -105,7 +105,7 @@ export const RootFooter = () => {
       </div>
 
       <div className="flex justify-center">
-        <div className="mx-4 mt-[288px] flex h-[94px] max-w-[1120px] flex-auto items-center justify-between border-t border-solid border-[rgba(150,250,150,0.1)]">
+        <div className="mx-4 mt-24 flex h-[94px] max-w-[1120px] flex-auto items-center justify-between border-t border-solid border-[rgba(150,250,150,0.1)]">
           <img className="w-[124px]" src="/img/topia.svg" alt="" />
           <div className="flex items-center">
             {/*<div className="mx-1.5 rounded-full border border-solid border-[#17271F] bg-[#0C1414] px-5 py-1.5 text-sm shadow-[0_1px_3px_rgba(150,250,150,0.1)]">*/}
