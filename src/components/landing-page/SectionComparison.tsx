@@ -11,7 +11,7 @@ export const SectionComparison = () => {
     <div className="mt-24 flex justify-center">
       <div className="mx-4 flex w-[1128px] max-w-[1128px] flex-col items-center">
         <div className="text-[40px] font-bold">COMPARISON</div>
-        <div className="mt-[72px] flex w-full items-center">
+        <div className="mt-10 flex w-full items-center">
           <div className="mx-1 flex w-[216px] flex-auto flex-col">
             <div className="my-1 h-[60px] w-full rounded-tl-[40px] border border-solid border-[#273838] bg-[#0E1414]" />
             {compItems.map((item, index) => (
