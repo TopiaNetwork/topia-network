@@ -5,6 +5,7 @@ import {
   compSSTORE,
   compTopia,
 } from '../../constants/comparison'
+import { TopiaLogo } from '../svg/TopiaLogo'
 
 export const SectionComparison = () => {
   return (
@@ -90,7 +91,7 @@ export const SectionComparison = () => {
           </div>
           <div className="mx-1 flex w-[252px] flex-auto flex-col">
             <div className="my-1 flex h-[60px] w-full items-center justify-center rounded-tr-[40px] border border-solid border-[#314747] bg-[#151F1F]">
-              <img className="h-8" src="/img/topia.svg" alt="Topia" />
+              <TopiaLogo className="h-8" />
             </div>
             {compTopia.map((item, index) => (
               <div
