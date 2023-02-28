@@ -9,10 +9,10 @@ import { TopiaLogo } from '../svg/TopiaLogo'
 
 export const RootHeader = () => {
   return (
-    <div className="fixed z-10 flex h-20 w-full items-center justify-center bg-[#070A0A]">
+    <header className="fixed z-10 flex h-20 w-full items-center justify-center bg-[#070A0A]">
       <div className="mx-4 flex max-w-[1120px] flex-auto items-center justify-between">
         <TopiaLogo className="w-[140px]" />
-        <div className="flex items-center justify-between">
+        <nav className="flex items-center justify-between">
           {/*<div className="flex cursor-pointer items-center justify-between pl-12">*/}
           {/*  <p className="mr-3">Build</p>*/}
           {/*  <ArrowDropDownIcon className="w-5" />*/}
@@ -62,8 +62,8 @@ export const RootHeader = () => {
             GitHub
           </a>
           {/*<div className="pl-14">About Us</div>*/}
-        </div>
+        </nav>
       </div>
-    </div>
+    </header>
   )
 }

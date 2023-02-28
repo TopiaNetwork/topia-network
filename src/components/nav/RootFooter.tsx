@@ -10,7 +10,7 @@ import { TopiaLogo } from '../svg/TopiaLogo'
 
 export const RootFooter = () => {
   return (
-    <div className="mt-48 bg-[url('/img/bg_footer.webp')] bg-top bg-repeat-y pt-36">
+    <footer className="mt-48 bg-[url('/img/bg_footer.webp')] bg-top bg-repeat-y pt-36">
       <div className="flex justify-center">
         <div className="w-[1150px] max-w-[1150px]">
           <div className="mx-4 flex justify-center">
@@ -117,6 +117,6 @@ export const RootFooter = () => {
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   )
 }
