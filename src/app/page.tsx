@@ -1,19 +1,21 @@
 import React from 'react'
 import { RootHeader } from '../components/nav/RootHeader'
 import { Section1 } from '../components/landing-page/Section1'
-import { Section2 } from '../components/landing-page/Section2'
-import { Section3 } from '../components/landing-page/Section3'
-import { Section4 } from '../components/landing-page/Section4'
+import { SectionHow } from '../components/landing-page/SectionHow'
+import { SectionApplication } from '../components/landing-page/SectionApplication'
+import { SectionRoadmap } from '../components/landing-page/SectionRoadmap'
 import { RootFooter } from '../components/nav/RootFooter'
+import { SectionComparison } from '../components/landing-page/SectionComparison'
 
 const page = async () => {
   return (
     <div className="relative w-full">
       <RootHeader />
       <Section1 />
-      <Section2 />
-      <Section3 />
-      <Section4 />
+      <SectionHow />
+      <SectionComparison />
+      <SectionApplication />
+      <SectionRoadmap />
       <RootFooter />
     </div>
   )

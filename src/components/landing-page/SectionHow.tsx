@@ -1,4 +1,4 @@
-export const Section2 = () => {
+export const SectionHow = () => {
   return (
     <>
       <div className="flex justify-center bg-[#121A1A]">

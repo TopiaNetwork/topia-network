@@ -8,7 +8,7 @@ import {
 
 export const RootHeader = () => {
   return (
-    <div className="fixed z-10 flex h-20 w-full items-center justify-center bg-black">
+    <div className="fixed z-10 flex h-20 w-full items-center justify-center bg-[#070A0A]">
       <div className="mx-4 flex max-w-[1120px] flex-auto items-center justify-between">
         <img className="w-[140px]" src="/img/topia.svg" alt="" />
         <div className="flex items-center justify-between">
