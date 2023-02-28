@@ -5,12 +5,13 @@ import {
   TOPIA_MEDIUM_LINK,
   TOPIA_TWITTER_LINK,
 } from '../../constants/community'
+import { TopiaLogo } from '../svg/TopiaLogo'
 
 export const RootHeader = () => {
   return (
     <div className="fixed z-10 flex h-20 w-full items-center justify-center bg-[#070A0A]">
       <div className="mx-4 flex max-w-[1120px] flex-auto items-center justify-between">
-        <img className="w-[140px]" src="/img/topia.svg" alt="" />
+        <TopiaLogo className="w-[140px]" />
         <div className="flex items-center justify-between">
           {/*<div className="flex cursor-pointer items-center justify-between pl-12">*/}
           {/*  <p className="mr-3">Build</p>*/}
