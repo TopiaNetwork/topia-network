@@ -20,7 +20,7 @@ export const HeaderButton = () => {
         {/*  <p className="mr-3">Learn</p>*/}
         {/*  <ArrowDropDownIcon className="w-5" />*/}
         {/*</div>*/}
-        <div className="group/0 relative ml-12">
+        <div className="group/0 relative ml-12 max-sm:hidden">
           <div className="flex cursor-pointer items-center justify-between py-3">
             <p className="mr-3 group-hover/0:text-[#96FA96]">Community</p>
             <ArrowDropDownIcon className="w-5 group-hover/0:fill-[#96FA96]" />
@@ -53,14 +53,14 @@ export const HeaderButton = () => {
           </div>
         </div>
         <a
-          className="ml-5 sm:ml-12 sm:hover:text-[#96FA96]"
+          className="ml-5 hover:text-[#96FA96]"
           href={TOPIA_GITHUB_LINK}
           target="_blank"
           rel="noreferrer"
         >
           {/* GitHub */}
-          <div className="hidden sm:block">GitHub</div>
-          <div className="sm:hidden">
+          <div className="max-sm:hidden">GitHub</div>
+          <div className="hidden max-sm:relative max-sm:top-[-3px] max-sm:block">
             <GitHubIcon />
           </div>
         </a>

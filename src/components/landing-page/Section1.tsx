@@ -3,8 +3,8 @@ import { TOPIA_GITHUB_LINK } from '../../constants/community'
 
 export const Section1 = () => {
   return (
-    <div>
-      <div className="h-[1000px] min-h-screen overflow-hidden">
+    <div className="overflow-hidden">
+      <div className="h-[1000px] min-h-screen">
         <div className="flex min-h-screen items-center justify-center">
           <div className="relative flex flex-col items-center">
             <div className="absolute z-[-1] flex w-full justify-center">
@@ -35,7 +35,7 @@ export const Section1 = () => {
       </div>
 
       <div className="bg-[rgba(0,0,0,0.8)] pb-[340px]">
-        <div className="flex justify-center pt-[68px]">
+        <div className="flex justify-center pt-[68px] max-lg:flex-col max-lg:text-center">
           <span className="px-1.5 text-[40px] font-bold text-[#96FA96]">
             WHY
           </span>
@@ -47,8 +47,8 @@ export const Section1 = () => {
           Dapps and personal data sovereignty.
         </div>
         <div className="flex justify-center">
-          <div className="mx-4 mt-10 grid w-[1120px] min-w-0 max-w-[1120px] grid-cols-[repeat(auto-fill,minmax(400px,1fr))] gap-7">
-            <div className="flex h-[216px] items-center justify-between rounded-lg border border-solid border-[#273838] bg-[#0E1414] py-4 pl-10 pr-7 shadow-[0_3px_5px_0px_rgba(150,250,150,0.1)]">
+          <div className="mx-4 mt-10 grid w-[1120px] min-w-0 max-w-[1120px] grid-cols-[repeat(auto-fill,minmax(400px,1fr))] gap-7 max-lg:mx-2 max-lg:grid-cols-[repeat(auto-fill,minmax(320px,1fr))] max-sm:grid-cols-[repeat(auto-fill,minmax(304px,1fr))]">
+            <div className="flex h-[216px] items-center justify-between rounded-lg border border-solid border-[#273838] bg-[#0E1414] py-4 pl-10 pr-7 shadow-[0_3px_5px_0px_rgba(150,250,150,0.1)] max-sm:h-[280px]">
               <div>
                 <div className="text-xl font-bold tracking-wide">IMPROVE</div>
                 <div className="mt-4 max-w-xs leading-8 tracking-wide">
@@ -62,7 +62,7 @@ export const Section1 = () => {
                 alt=""
               />
             </div>
-            <div className="flex h-[216px] items-center justify-between rounded-lg border border-solid border-[#273838] bg-[#0E1414] py-4 pl-10 pr-7 shadow-[0_3px_5px_0px_rgba(150,250,150,0.1)]">
+            <div className="flex h-[216px] items-center justify-between rounded-lg border border-solid border-[#273838] bg-[#0E1414] py-4 pl-10 pr-7 shadow-[0_3px_5px_0px_rgba(150,250,150,0.1)] max-sm:h-[280px]">
               <div>
                 <div className="text-xl font-bold tracking-wide">EXPAND</div>
                 <div className="mt-4 max-w-xs leading-8 tracking-wide">
@@ -76,7 +76,7 @@ export const Section1 = () => {
                 alt=""
               />
             </div>
-            <div className="flex h-[216px] items-center justify-between rounded-lg border border-solid border-[#273838] bg-[#0E1414] py-4 pl-10 pr-7 shadow-[0_3px_5px_0px_rgba(150,250,150,0.1)]">
+            <div className="flex h-[216px] items-center justify-between rounded-lg border border-solid border-[#273838] bg-[#0E1414] py-4 pl-10 pr-7 shadow-[0_3px_5px_0px_rgba(150,250,150,0.1)] max-sm:h-[280px]">
               <div>
                 <div className="text-xl font-bold tracking-wide">REDUCING</div>
                 <div className="mt-4 max-w-[280px] leading-8 tracking-wide">
@@ -89,7 +89,7 @@ export const Section1 = () => {
                 alt=""
               />
             </div>
-            <div className="flex h-[216px] items-center justify-between rounded-lg border border-solid border-[#273838] bg-[#0E1414] py-4 pl-10 pr-7 shadow-[0_3px_5px_0px_rgba(150,250,150,0.1)]">
+            <div className="flex h-[216px] items-center justify-between rounded-lg border border-solid border-[#273838] bg-[#0E1414] py-4 pl-10 pr-7 shadow-[0_3px_5px_0px_rgba(150,250,150,0.1)] max-sm:h-[280px]">
               <div>
                 <div className="text-xl font-bold tracking-wide">ACHIEVE</div>
                 <div className="mt-4 max-w-[368px] leading-8 tracking-wide">

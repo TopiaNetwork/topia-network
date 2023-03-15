@@ -3,15 +3,15 @@ export const SectionHow = () => {
     <>
       <div className="flex justify-center bg-[#121A1A]">
         <div className="mx-4 mt-8 mb-32 flex w-[1120px] max-w-[1120px] flex-wrap justify-between">
-          <div className="mr-4 mt-6">
-            <div className="flex">
+          <div className="mr-4 mt-6 max-lg:w-full">
+            <div className="flex max-lg:flex-col max-lg:text-center">
               <span className="pr-1.5 text-[40px] font-bold text-[#96FA96]">
                 HOW
               </span>
               <span className="px-1.5 text-[40px] font-bold">TO</span>
               <span className="px-1.5 text-[40px] font-bold">BUILD</span>
             </div>
-            <div className="mt-2.5 max-w-sm px-1 text-lg leading-9 tracking-wide">
+            <div className="mt-2.5 max-w-sm px-1 text-lg leading-9 tracking-wide max-lg:max-w-full max-lg:text-center">
               Distributed Storage Deeply Integrated with Layer2
             </div>
           </div>
