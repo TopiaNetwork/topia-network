@@ -12,8 +12,8 @@ export const RootFooter = () => {
   return (
     <footer className="mt-48 bg-[url('/img/bg_footer.webp')] bg-top bg-repeat-y pt-36">
       <div className="flex justify-center">
-        <div className="w-[1150px] max-w-[1150px]">
-          <div className="mx-4 flex justify-center">
+        <div className="container max-w-[1150px]">
+          <div className="mx-4 flex flex-col justify-center text-center md:flex-row">
             <span className="pr-1.5 text-[40px] font-bold text-[#33F8FF]">
               JOIN
             </span>
@@ -25,6 +25,7 @@ export const RootFooter = () => {
             important updates
           </div>
           <div className="mx-1.5 mt-[76px] flex flex-wrap justify-between">
+            {/* <div className="grid"> */}
             <a
               className="group m-2.5 block h-[132px] w-[212px] flex-auto rounded-[10px] border border-solid border-[#17271F] bg-[#0C1414] shadow-[0_6px_9px_1px_rgba(150,250,150,0.1)] hover:bg-[#96FA96] hover:text-black"
               href={TOPIA_TWITTER_LINK}
