@@ -12,7 +12,7 @@ export const Section1 = () => {
                 <UniverseBg1 className="w-[1680px]" />
               </div>
             </div>
-            <div className="text-[76px] font-bold max-lg:flex max-lg:flex-col max-lg:items-center max-lg:text-6xl">
+            <div className="text-[76px] font-bold max-lg:flex max-lg:flex-col max-lg:items-center max-lg:text-6xl max-sm:text-5xl">
               <span className="px-3.5 pb-3 text-[#33F8FF]">SCALE</span>
               <span className="px-3.5 pb-3">TO</span>
               <span className="px-3.5 pb-3 text-[#96FA96]">INFINITY</span>
@@ -47,8 +47,8 @@ export const Section1 = () => {
           Dapps and personal data sovereignty.
         </div>
         <div className="flex justify-center">
-          <div className="mx-4 mt-10 grid w-[1120px] min-w-0 max-w-[1120px] grid-cols-[repeat(auto-fill,minmax(400px,1fr))] gap-7 max-lg:mx-2 max-lg:grid-cols-[repeat(auto-fill,minmax(320px,1fr))] max-sm:grid-cols-[repeat(auto-fill,minmax(304px,1fr))]">
-            <div className="flex h-[216px] items-center justify-between rounded-lg border border-solid border-[#273838] bg-[#0E1414] py-4 pl-10 pr-7 shadow-[0_3px_5px_0px_rgba(150,250,150,0.1)] max-sm:h-[280px]">
+          <div className="mx-4 mt-10 grid w-[1120px] min-w-0 max-w-[1120px] grid-cols-[repeat(auto-fill,minmax(400px,1fr))] gap-7 max-lg:mx-2 max-lg:grid-cols-[repeat(auto-fill,minmax(320px,1fr))] max-sm:grid-cols-[repeat(auto-fill,minmax(270px,1fr))]">
+            <div className="flex h-[216px] items-center justify-between rounded-lg border border-solid border-[#273838] bg-[#0E1414] py-4 pl-10 pr-7 shadow-[0_3px_5px_0px_rgba(150,250,150,0.1)] max-sm:h-[280px] max-sm:p-5">
               <div>
                 <div className="text-xl font-bold tracking-wide">IMPROVE</div>
                 <div className="mt-4 max-w-xs leading-8 tracking-wide">
@@ -62,7 +62,7 @@ export const Section1 = () => {
                 alt=""
               />
             </div>
-            <div className="flex h-[216px] items-center justify-between rounded-lg border border-solid border-[#273838] bg-[#0E1414] py-4 pl-10 pr-7 shadow-[0_3px_5px_0px_rgba(150,250,150,0.1)] max-sm:h-[280px]">
+            <div className="flex h-[216px] items-center justify-between rounded-lg border border-solid border-[#273838] bg-[#0E1414] py-4 pl-10 pr-7 shadow-[0_3px_5px_0px_rgba(150,250,150,0.1)] max-sm:h-[280px] max-sm:p-5">
               <div>
                 <div className="text-xl font-bold tracking-wide">EXPAND</div>
                 <div className="mt-4 max-w-xs leading-8 tracking-wide">
@@ -76,7 +76,7 @@ export const Section1 = () => {
                 alt=""
               />
             </div>
-            <div className="flex h-[216px] items-center justify-between rounded-lg border border-solid border-[#273838] bg-[#0E1414] py-4 pl-10 pr-7 shadow-[0_3px_5px_0px_rgba(150,250,150,0.1)] max-sm:h-[280px]">
+            <div className="flex h-[216px] items-center justify-between rounded-lg border border-solid border-[#273838] bg-[#0E1414] py-4 pl-10 pr-7 shadow-[0_3px_5px_0px_rgba(150,250,150,0.1)] max-sm:h-[280px] max-sm:p-5">
               <div>
                 <div className="text-xl font-bold tracking-wide">REDUCING</div>
                 <div className="mt-4 max-w-[280px] leading-8 tracking-wide">
@@ -89,7 +89,7 @@ export const Section1 = () => {
                 alt=""
               />
             </div>
-            <div className="flex h-[216px] items-center justify-between rounded-lg border border-solid border-[#273838] bg-[#0E1414] py-4 pl-10 pr-7 shadow-[0_3px_5px_0px_rgba(150,250,150,0.1)] max-sm:h-[280px]">
+            <div className="flex h-[216px] items-center justify-between rounded-lg border border-solid border-[#273838] bg-[#0E1414] py-4 pl-10 pr-7 shadow-[0_3px_5px_0px_rgba(150,250,150,0.1)] max-sm:h-[280px] max-sm:p-5">
               <div>
                 <div className="text-xl font-bold tracking-wide">ACHIEVE</div>
                 <div className="mt-4 max-w-[368px] leading-8 tracking-wide">

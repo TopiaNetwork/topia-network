@@ -10,8 +10,10 @@ import { TopiaLogo } from '../svg/TopiaLogo'
 export const SectionComparison = () => {
   return (
     <div className="mt-24 flex justify-center">
-      <div className="container mx-4 flex max-w-[1128px] flex-col items-center">
-        <div className="text-[40px] font-bold">COMPARISON</div>
+      <div className="container mx-4 flex max-w-[1128px] flex-col items-center max-sm:mx-0">
+        <div className="text-[40px] font-bold max-sm:text-[36px]">
+          COMPARISON
+        </div>
         <div className="mt-10 flex w-full items-center overflow-auto">
           <div className="mx-1 flex w-[216px] flex-auto flex-col">
             <div className="my-1 h-[60px] w-full rounded-tl-[40px] border border-solid border-[#273838] bg-[#0E1414] max-lg:h-[93px]" />

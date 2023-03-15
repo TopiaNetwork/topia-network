@@ -53,14 +53,14 @@ export const HeaderButton = () => {
           </div>
         </div>
         <a
-          className="ml-5 hover:text-[#96FA96]"
+          className="ml-5 hover:text-[#96FA96] max-sm:ml-0 max-sm:mr-4"
           href={TOPIA_GITHUB_LINK}
           target="_blank"
           rel="noreferrer"
         >
           {/* GitHub */}
           <div className="max-sm:hidden">GitHub</div>
-          <div className="hidden max-sm:relative max-sm:top-[-3px] max-sm:block">
+          <div className="relative top-[-3px] hidden max-sm:block">
             <GitHubIcon />
           </div>
         </a>
