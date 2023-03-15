@@ -13,7 +13,7 @@ export const RootFooter = () => {
     <footer className="mt-48 bg-[url('/img/bg_footer.webp')] bg-top bg-repeat-y pt-36">
       <div className="flex justify-center">
         <div className="container max-w-[1150px]">
-          <div className="mx-4 flex justify-center text-center text-[40px] max-lg:flex-col max-sm:text-[36px]">
+          <div className="mx-4 flex justify-center text-center text-[40px] max-sm:flex-col max-sm:text-[36px]">
             <span className="pr-1.5 font-bold text-[#33F8FF]">JOIN</span>
             <span className="px-1.5 font-bold">THE</span>
             <span className="px-1.5 font-bold">COMMUNITY</span>

@@ -53,7 +53,7 @@ export const HeaderButton = () => {
           </div>
         </div>
         <a
-          className="ml-5 hover:text-[#96FA96] max-sm:ml-0 max-sm:mr-4"
+          className="ml-5 hover:text-[#96FA96] max-sm:ml-0"
           href={TOPIA_GITHUB_LINK}
           target="_blank"
           rel="noreferrer"
