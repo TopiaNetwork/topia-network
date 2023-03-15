@@ -1,7 +1,3 @@
-/*
- * @Date: 2023-03-14 11:26:17
- * @LastEditTime: 2023-03-14 17:53:04
- */
 import { TopiaLogo } from '../svg/TopiaLogo'
 import { HeaderButton } from './HeaderButton'
 

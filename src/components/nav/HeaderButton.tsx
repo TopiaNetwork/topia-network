@@ -1,7 +1,3 @@
-/*
- * @Date: 2023-03-14 17:12:19
- * @LastEditTime: 2023-03-14 18:10:48
- */
 'use client'
 import { ArrowDropDownIcon } from '../svg/ArrowDropDownIcon'
 import GitHubIcon from '@mui/icons-material/GitHub'
