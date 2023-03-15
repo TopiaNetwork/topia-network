@@ -3,8 +3,8 @@ import { TOPIA_GITHUB_LINK } from '../../constants/community'
 
 export const Section1 = () => {
   return (
-    <div className="overflow-hidden">
-      <div className="h-[1000px] min-h-screen">
+    <div>
+      <div className="h-[1000px] min-h-screen overflow-hidden">
         <div className="flex min-h-screen items-center justify-center">
           <div className="relative flex flex-col items-center">
             <div className="absolute z-[-1] flex w-full justify-center">
