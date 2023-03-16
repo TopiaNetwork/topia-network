@@ -61,7 +61,6 @@ export const HeaderButton = () => {
         <div className="relative top-[-2px] hidden max-sm:block">
           <GithubIcon />
         </div>
-        {/* <GithubIcon className="w-[28px]" /> */}
       </a>
       {/* <div className="pl-14">About Us</div> */}
     </nav>
