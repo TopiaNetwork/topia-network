@@ -17,24 +17,24 @@ export const SectionHow = () => {
           </div>
           <ul className="mt-6 max-w-[720px] flex-auto basis-[560px] list-inside list-none text-sm tracking-wide">
             <li className="flex flex-nowrap items-center py-2">
-              <div className="mr-6 h-1.5 w-1.5 rounded bg-white" />
+              <div className="mr-6 h-1.5 w-1.5 flex-shrink-0 rounded bg-white" />
               <span>
                 Strong interoperability between storage and smart contracts
               </span>
             </li>
             <li className="flex flex-nowrap items-center py-2">
-              <div className="mr-6 h-1.5 w-1.5 rounded bg-white" />
+              <div className="mr-6 h-1.5 w-1.5 flex-shrink-0 rounded bg-white" />
               <span>Storage nodes need to submit storage proofs on-chain</span>
             </li>
             <li className="flex flex-nowrap items-center py-2">
-              <div className="mr-6 h-1.5 w-1.5 rounded bg-white" />
+              <div className="mr-6 h-1.5 w-1.5 flex-shrink-0 rounded bg-white" />
               <span>
                 Incentives for storage nodes are an integral part of the
                 economic model of the native Topia token
               </span>
             </li>
             <li className="flex flex-nowrap items-center py-2">
-              <div className="mr-6 h-1.5 w-1.5 rounded bg-white" />
+              <div className="mr-6 h-1.5 w-1.5 flex-shrink-0 rounded bg-white" />
               <span>
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
                 The nodes' effective storage proof data determines their

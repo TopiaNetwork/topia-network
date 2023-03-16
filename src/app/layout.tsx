@@ -2,6 +2,18 @@ import './globals.css'
 import { Providers } from '../components/providers'
 import React from 'react'
 
+export const metadata = {
+  title: 'Topia - EVM Compatible Storage Layer2',
+  description: 'EVM Compatible Storage Layer2',
+  icons: {
+    icon: '/favicon.ico',
+  },
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+  },
+}
+
 export default function RootLayout({
   children,
 }: {
