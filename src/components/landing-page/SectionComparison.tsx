@@ -10,13 +10,13 @@ import { TopiaLogo } from '../svg/TopiaLogo'
 export const SectionComparison = () => {
   return (
     <div className="mt-24 flex justify-center">
-      <div className="container mx-4 flex max-w-[1128px] flex-col items-center">
+      <div className="flex max-w-full flex-col items-center">
         <div className="text-[40px] font-bold max-sm:text-[35px]">
           COMPARISON
         </div>
-        <div className="w-screen max-w-full px-4">
-          <div className="mt-10 flex w-full items-center overflow-auto">
-            <div className="mx-1 flex w-[216px] min-w-[200px] flex-auto flex-col">
+        <div className="flex w-screen max-w-full justify-center px-4">
+          <div className="mt-10 flex max-w-[1128px] items-center overflow-auto">
+            <div className="mr-1 flex w-[216px] min-w-[200px] flex-auto flex-col">
               <div className="my-1 h-[60px] w-full rounded-tl-[40px] border border-solid border-[#273838] bg-[#0E1414]" />
               {compItems.map((item, index) => (
                 <div
@@ -92,7 +92,7 @@ export const SectionComparison = () => {
                 </div>
               ))}
             </div>
-            <div className="mx-1 flex w-[252px] min-w-[200px] flex-auto flex-col">
+            <div className="ml-1 flex w-[252px] min-w-[200px] flex-auto flex-col">
               <div className="my-1 flex h-[60px] w-full items-center justify-center rounded-tr-[40px] border border-solid border-[#314747] bg-[#151F1F]">
                 <TopiaLogo className="h-8" />
               </div>
