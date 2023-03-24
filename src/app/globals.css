@@ -14,6 +14,14 @@
   }
 }
 
+.g-body-container {
+  @apply max-w-[1400px] mx-4 flex flex-grow;
+}
+
+.g-page-height {
+  @apply min-h-screen h-[1000px];
+}
+
 * {
   box-sizing: border-box;
 }

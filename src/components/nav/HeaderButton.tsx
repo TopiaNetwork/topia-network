@@ -18,7 +18,7 @@ export const HeaderButton = () => {
       {/*  <p className="mr-3">Learn</p>*/}
       {/*  <ArrowDropDownIcon className="w-5" />*/}
       {/*</div>*/}
-      <div className="group/0 relative ml-12 max-sm:hidden">
+      <div className="group/0 relative mr-7 ml-12 max-sm:hidden">
         <div className="flex cursor-pointer items-center justify-between py-3">
           <p className="mr-3 group-hover/0:text-[#96FA96]">Community</p>
           <ArrowDropDownIcon className="w-5 group-hover/0:fill-[#96FA96]" />

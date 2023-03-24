@@ -7,9 +7,9 @@ import {
 } from '../../constants/comparison'
 import { TopiaLogo } from '../svg/TopiaLogo'
 
-export const SectionComparison = () => {
+export const HomeComparison = () => {
   return (
-    <div className="mt-24 flex justify-center">
+    <section className="g-page-height mt-24 flex justify-center">
       <div className="flex max-w-full flex-col items-center">
         <div className="text-[40px] font-bold max-sm:text-[35px]">
           Decentralized Storage Comparison
@@ -114,6 +114,6 @@ export const SectionComparison = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
