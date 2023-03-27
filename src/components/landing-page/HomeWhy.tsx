@@ -20,7 +20,7 @@ export const HomeWhy = () => {
             Scaling the data storage capability of Ethereum while significantly
             reducing KV storage costs
           </h2>
-          <div className="grid flex-grow grid-cols-2 gap-x-[50px] gap-y-[78px]">
+          <div className="grid flex-grow grid-cols-2 gap-x-[40px] gap-y-[78px]">
             {displayWhy(
               'IMPROVE',
               'Improve the interoperability of smart contracts and distributed storage'

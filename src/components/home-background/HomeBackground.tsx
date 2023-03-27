@@ -1,6 +1,5 @@
-import Image from 'next/image'
 // import proto1 from '../../../public/img/background/pto_01.png'
-import proto2 from '../../../public/img/background/pto_02.png'
+// import proto2 from '../../../public/img/background/pto_02.png'
 // import proto3 from '../../../public/img/background/pto_03.png'
 // import proto4 from '../../../public/img/background/pto_04.png'
 // import proto5 from '../../../public/img/background/pto_05.png'
@@ -16,21 +15,25 @@ export const HomeBackground = () => {
           alt="Picture 1 of background"
           className="absolute top-[-2%] right-[-10%] h-[121.4%]"
         ></img>
-        <div className="bg-while flex h-full w-screen justify-center">
-          <div className="g-body-container items-end">
-            <div className="flex w-[408px] justify-end">
-              <Image
-                src={proto2}
+        <img
+          src="/img/background/pto_02.png"
+          alt="Picture 2 of background"
+          className="absolute right-[65%] bottom-0 h-[18.73%]"
+        ></img>
+        {/* <div className="flex h-full w-screen justify-center">
+          <div className="g-body-container">
+            <div className="flex h-full flex-col">
+              <img
+                src="/img/background/pto_02.png"
                 alt="Picture 2 of background"
-                className="relative right-[70px] h-[12.8%]"
-              ></Image>
+                className="relative h-[18.73%] object-scale-down"
+              ></img>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="g-page-height relative w-full min-w-[1280px]">
         <img
-          loading="lazy"
           src="/img/background/pto_03.png"
           alt="Picture 3 of background"
           className="absolute left-[-10%] top-[416px] h-[110.11%]"

@@ -5,7 +5,7 @@ export const HomeHow = () => {
         <div className="g-back-divide-line">
           <div className="h-[2px] w-[25px] bg-[#6eff89]"></div>
         </div>
-        <p className="mb-[10px] text-[14px]">{des}</p>
+        <p className="mb-[10px] text-[14px] text-[#fff]/90">{des}</p>
         <div></div>
       </div>
     )
@@ -14,7 +14,7 @@ export const HomeHow = () => {
     <section className="g-page-height flex w-full items-center justify-center">
       <div className="g-body-container justify-center">
         <div className="flex w-[585px] flex-col">
-          <h1 className="pl-[66px] text-[56px]">
+          <h1 className="pl-[63px] text-[56px]">
             <b className="text-[#6eff89]">How</b> to Build
           </h1>
           <h2 className="mb-[56px] mt-[30px] pl-[66px]">

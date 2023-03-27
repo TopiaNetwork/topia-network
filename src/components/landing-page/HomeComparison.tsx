@@ -26,7 +26,7 @@ export const HomeComparison = () => {
     return (
       <div className="mx-1 flex w-[216px] min-w-[200px] flex-col">
         <div className="my-1 flex h-[60px] w-full flex-auto items-center justify-center border border-solid border-[#273838] bg-[#3B5D66]/10">
-          <img className="h-7" src={logo} alt={logoname} />
+          <img className="h-9" src={logo} alt={logoname} />
         </div>
         {compItems.map((item, index) => (
           <div
