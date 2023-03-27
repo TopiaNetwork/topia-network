@@ -15,13 +15,34 @@
 }
 
 .g-body-container {
-  @apply max-w-[1400px] mx-4 flex flex-grow;
+  @apply max-w-[1120px] mx-4 flex flex-grow;
 }
 
 .g-page-height {
-  @apply min-h-screen h-[1000px];
+  @apply min-h-[960px] h-screen;
+}
+
+.g-back-divide-line {
+  display: flex;
+  align-items: center;
+}
+
+.g-back-divide-line::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: rgba(255 255 255 / 20%);
+  margin-left: 10px;
+}
+
+.g-card {
+  @apply rounded-[16px] bg-[#3B5D66]/10 border border-white/10;
 }
 
 * {
   box-sizing: border-box;
+}
+
+html {
+  min-width: 1120px;
 }

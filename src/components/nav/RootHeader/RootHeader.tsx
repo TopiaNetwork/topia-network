@@ -1,4 +1,4 @@
-import { TopiaLogo } from '../svg/TopiaLogo'
+import { TopiaLogo } from '../../svg/TopiaLogo'
 import { HeaderButton } from './HeaderButton'
 
 export const RootHeader = () => {

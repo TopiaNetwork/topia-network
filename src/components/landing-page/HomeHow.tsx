@@ -1,27 +1,31 @@
 export const HomeHow = () => {
   const displayHow = (des: string) => {
     return (
-      <div className="w-full]">
-        <p className="mt-8 text-[19px]">{des}</p>
+      <div className="flex w-full flex-col justify-between">
+        <div className="g-back-divide-line">
+          <div className="h-[2px] w-[25px] bg-[#6eff89]"></div>
+        </div>
+        <p className="mb-[10px] text-[14px]">{des}</p>
+        <div></div>
       </div>
     )
   }
   return (
-    <section className="g-page-height flex w-full justify-center">
-      <div className="g-body-container h-full justify-center">
-        <div className="flex w-[774px] flex-col">
-          <h1 className="px-[89px] text-[68px]">
-            <b className="text-[#6EFF89]">How</b> to Build
+    <section className="g-page-height flex w-full items-center justify-center">
+      <div className="g-body-container justify-center">
+        <div className="flex w-[585px] flex-col">
+          <h1 className="pl-[66px] text-[56px]">
+            <b className="text-[#6eff89]">How</b> to Build
           </h1>
-          <h2 className="mb-[5rem] mt-1 ml-[6px] px-[89px]">
+          <h2 className="mb-[56px] mt-[30px] pl-[66px]">
             Distributed Storage DeeplyIntegrated with Layer2
           </h2>
-          <div className="grid flex-grow grid-cols-1 bg-[#3B5D66]/10 p-[89px]">
+          <div className="g-card grid h-[560px] grid-cols-1 py-[77px] pl-[66px]  pr-[85px]">
             {displayHow('The first evm-compatible storage layer2 based on OP')}
-            {displayHow('Storage nodes need to submit storage proofs on-chain')}
             {displayHow(
               'Strong interoperability between storage and smart contracts'
             )}
+            {displayHow('Storage nodes need to submit storage proofs on-chain')}
             {displayHow(
               'Incentives for storage nodes are an integral part of the economic model of the native Topia token'
             )}

@@ -1,5 +1,5 @@
 import React from 'react'
-import { RootHeader } from '../components/nav/RootHeader'
+import { RootHeader } from '../components/nav/RootHeader/RootHeader'
 // import { Section1 } from '../components/landing-page/Section1'
 // import { SectionHow } from '../components/landing-page/SectionHow'
 // import { SectionApplication } from '../components/landing-page/SectionApplication'
@@ -13,7 +13,7 @@ import { HomeHow } from '../components/landing-page/HomeHow'
 import { HomeComparison } from '../components/landing-page/HomeComparison'
 import { HomeApplication } from '../components/landing-page/HomeApplication'
 import { HomeRoadMap } from '../components/landing-page/HomeRoadMap'
-import { HomeCommunity } from '../components/landing-page/HomeCommunity'
+import { HomeCommunity } from '../components/landing-page/Community/HomeCommunity'
 import { RootFooter } from '../components/nav/RootFooter'
 
 const page = async () => {

@@ -1,24 +1,33 @@
 export const HomeRoadMap = () => {
   const displayRoadMap = (period: string, title: string, des: string[]) => {
     return (
-      <div className="flex w-full">
-        <h3>{period}</h3>
-        <div>
-          <h3>{title}</h3>
-          <ul>{des.map((item) => displayLi(item))}</ul>
+      <div className="mb-[20px] flex w-full">
+        <h3 className="w-[230px] flex-shrink-0 text-[21px]">{period}</h3>
+        <div className="flex flex-grow flex-col">
+          <h3 className="g-back-divide-line relative left-[-17px] top-[-3px] mb-[10px] text-[25px] ">
+            {title}
+          </h3>
+          <ul className="grid flex-grow grid-cols-1 text-[14px]">
+            {des.map((item, index) => displayLi(index, item))}
+          </ul>
         </div>
       </div>
     )
   }
-  const displayLi = (des: string) => {
-    return <li>{des}</li>
+  const displayLi = (index: number, des: string) => {
+    return (
+      <li key={index} className="list-disc leading-[30px] text-white/[.7]">
+        {/* <div className="mr-6 h-1.5 w-1.5 flex-shrink-0 rounded bg-white inline" /> */}
+        {des}
+      </li>
+    )
   }
   return (
-    <section className="g-page-height flex w-full justify-center">
-      <div className="g-body-container h-full justify-center">
-        <div className="flex w-[774px] flex-col bg-[#3B5D66]/10 p-[89px]">
-          <h1 className="px-[89px] text-[68px]">RoadMap</h1>
-          <div>
+    <section className="g-page-height mt-[200px] flex w-full justify-center">
+      <div className="g-body-container h-full items-end justify-center">
+        <div className="g-card flex w-[900px] flex-col pt-[50px] pl-[43px] pr-[95px] pb-[62px]">
+          <h1 className="pl-[211px] text-[56px] font-semibold">RoadMap</h1>
+          <div className="mt-[45px] grid flex-grow grid-cols-1 gap-y-[30px]">
             {displayRoadMap('Q4 2021 - Q4 2023', 'Mainnet', [
               'Conducting research and designing technical solutions',
               'Developing OP contracts and Topia dStorage contracts',

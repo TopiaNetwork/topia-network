@@ -1,0 +1,35 @@
+.navtransition {
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.navtransition:hover {
+  color: #6eff89;
+}
+
+.headertran {
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.headercommunitygroup:hover .headertran {
+  color: #6eff89;
+}
+
+.headerfill {
+  /* fill: #fff; */
+  transition: all 0.5s ease;
+}
+
+.headercommunitygroup:hover .headerfill {
+  fill: #6eff89;
+}
+
+.headlist {
+  /* fill: #fff; */
+  display: none;
+}
+
+.headercommunitygroup:hover .headlist {
+  display: block;
+}
