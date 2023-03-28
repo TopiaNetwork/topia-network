@@ -2458,9 +2458,9 @@
     "slice-ansi" "^5.0.0"
     "string-width" "^5.0.0"
 
-"client-only@0.0.1":
+"client-only@^0.0.1", "client-only@0.0.1":
   "integrity" "sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA=="
-  "resolved" "https://registry.npmjs.org/client-only/-/client-only-0.0.1.tgz"
+  "resolved" "https://registry.npmmirror.com/client-only/-/client-only-0.0.1.tgz"
   "version" "0.0.1"
 
 "clsx@^1.2.1":
@@ -3852,6 +3852,11 @@
   dependencies:
     "prelude-ls" "^1.2.1"
     "type-check" "~0.4.0"
+
+"lib-flexible@^0.3.2":
+  "integrity" "sha512-9yowMWA70tKhKdCJDaltY0mNQG4OWo7pWKScnTp9aiSxS7s20ZYlwBRE3335nweOf5qKXVC7sDxJwMPM8/MFZg=="
+  "resolved" "https://registry.npmmirror.com/lib-flexible/-/lib-flexible-0.3.2.tgz"
+  "version" "0.3.2"
 
 "lilconfig@^2.0.5", "lilconfig@^2.0.6", "lilconfig@2.0.6":
   "integrity" "sha512-9JROoBW7pobfsx+Sq2JsASvCo6Pfo6WWoUW79HuB1BCoBXD4PLWJPqDF6fNj67pqBYTbAHkE57M1kS/+L1neOg=="

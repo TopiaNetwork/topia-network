@@ -9,7 +9,7 @@
 export const HomeBackground = () => {
   return (
     <div className="absolute z-[-1] flex h-full w-full flex-col overflow-hidden bg-[#070B0C]">
-      <div className="g-page-height relative w-full min-w-[1680px]">
+      <div className="g-page-height relative max-h-[1080px] w-full min-w-[1680px]">
         <img
           src="/img/background/pto_01.png"
           alt="Picture 1 of background"
@@ -48,17 +48,9 @@ export const HomeBackground = () => {
       <div className="g-page-height relative w-full min-w-[1280px]">
         <img
           loading="lazy"
-          src="/img/background/pto_05.png"
-          alt="Picture 5 of background"
-          className="absolute bottom-[0%] right-[18%] h-[47.77%]"
-        ></img>
-      </div>
-      <div className="g-page-height relative w-full min-w-[1280px]">
-        <img
-          loading="lazy"
-          src="/img/background/pto_06.png"
-          alt="Picture 6 of background"
-          className="absolute bottom-[-15%] right-[5%] h-[65.48%]"
+          src="/img/background/pto_10.png"
+          alt="Picture 10 of background"
+          className="absolute bottom-[-30%] right-[-20%] h-[100%]"
         ></img>
       </div>
       <div className="g-page-height relative w-full min-w-[1280px]">
@@ -66,7 +58,15 @@ export const HomeBackground = () => {
           loading="lazy"
           src="/img/background/pto_07.png"
           alt="Picture 7 of background"
-          className="absolute bottom-0 left-[15%] h-[27.05%]"
+          className="absolute bottom-[-15%] left-[15%] h-[27.05%]"
+        ></img>
+      </div>
+      <div className="g-page-height relative w-full min-w-[1280px]">
+        <img
+          loading="lazy"
+          src="/img/background/pto_06.png"
+          alt="Picture 6 of background"
+          className="absolute bottom-0 right-[-5%] h-[65.48%]"
         ></img>
       </div>
       <div className="g-page-height relative w-full min-w-[1380px]">
@@ -74,7 +74,7 @@ export const HomeBackground = () => {
           loading="lazy"
           src="/img/background/pto_08.png"
           alt="Picture 8 of background"
-          className="absolute top-[20px] left-[35%] h-[56.29%]"
+          className="absolute top-[220px] left-[35%] h-[56.29%]"
         ></img>
         <img
           loading="lazy"

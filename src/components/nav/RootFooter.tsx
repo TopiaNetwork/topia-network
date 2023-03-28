@@ -15,8 +15,8 @@ export const RootFooter = () => {
             className="flex h-[37px] w-[139px] items-center rounded-full bg-[#6eff89] text-black"
             onClick={climbToTop}
           >
-            <div className="ml-[4px] h-[31px] rounded-full border border-solid border-black bg-[#4CFF6D]">
-              <ArrowUp height={31} />
+            <div className="ml-[4px] h-[31px] w-[31px] rounded-full border border-solid border-black bg-[#4CFF6D]">
+              <ArrowUp height="100%" />
             </div>
             <p className="ml-[8px] text-[14px]">Back to top</p>
           </button>

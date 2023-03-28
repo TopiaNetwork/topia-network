@@ -23,7 +23,7 @@ export const HomeRoadMap = () => {
     )
   }
   return (
-    <section className="g-page-height mt-[200px] flex w-full justify-center">
+    <section className="g-page-height mt-[400px] flex w-full justify-center">
       <div className="g-body-container h-full items-end justify-center">
         <div className="g-card flex w-[900px] flex-col pt-[50px] pl-[43px] pr-[95px] pb-[62px]">
           <h1 className="pl-[211px] text-[56px] font-semibold">RoadMap</h1>

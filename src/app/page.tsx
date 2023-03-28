@@ -15,10 +15,12 @@ import { HomeApplication } from '../components/landing-page/HomeApplication'
 import { HomeRoadMap } from '../components/landing-page/HomeRoadMap'
 import { HomeCommunity } from '../components/landing-page/Community/HomeCommunity'
 import { RootFooter } from '../components/nav/RootFooter'
+import { Utils } from '../utils/Utils'
 
 const page = async () => {
   return (
     <div className="relative w-full">
+      <Utils />
       <HomeBackground />
       <RootHeader />
       <HomeEnterSection />

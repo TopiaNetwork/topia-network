@@ -31,7 +31,7 @@ export const HomeComparison = () => {
         {compItems.map((item, index) => (
           <div
             key={index}
-            className="my-1 flex h-[60px] w-full items-center justify-center border border-solid border-[#273838] bg-[#3B5D66]/10 px-6 text-center text-sm"
+            className="my-1 flex h-[60px] w-full items-center justify-center border border-solid border-[#273838] bg-[#3B5D66]/10 px-6 text-center text-[12px]"
           >
             {item === true ? (
               <img className="h-6" src="/img/icon_yes.svg" alt="Yes" />
