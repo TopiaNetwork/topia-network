@@ -9,16 +9,16 @@
 export const HomeBackground = () => {
   return (
     <div className="absolute z-[-1] flex h-full w-full flex-col overflow-hidden bg-[#070B0C]">
-      <div className="g-page-height relative max-h-[1080px] w-full min-w-[1680px]">
+      <div className="g-page-height relative w-full phone:max-h-[1080px] phone:min-w-[1680px]">
         <img
           src="/img/background/pto_01.png"
           alt="Picture 1 of background"
-          className="absolute top-[-2%] right-[-10%] h-[121.4%]"
+          className="absolute right-[-203px] top-[53px] h-[688px] rotate-[-20deg] phone:top-[-2%] phone:right-[-10%] phone:h-[121.4%] phone:rotate-0"
         ></img>
         <img
           src="/img/background/pto_02.png"
           alt="Picture 2 of background"
-          className="absolute right-[65%] bottom-0 h-[18.73%]"
+          className="absolute left-[231px] bottom-[20px] h-[155px] phone:right-[65%] phone:bottom-0 phone:h-[18.73%]"
         ></img>
         {/* <div className="flex h-full w-screen justify-center">
           <div className="g-body-container">
@@ -32,38 +32,34 @@ export const HomeBackground = () => {
           </div>
         </div> */}
       </div>
-      <div className="g-page-height relative w-full min-w-[1280px]">
+      <div className="g-page-height relative max-h-[1080px] w-full phone:min-w-[1280px]">
         <img
           src="/img/background/pto_03.png"
           alt="Picture 3 of background"
-          className="absolute left-[-10%] top-[416px] h-[110.11%]"
+          className="absolute left-[-250px] top-[250px] h-[733px] rotate-[-20deg] phone:left-[-10%] phone:top-[416px] phone:h-[110.11%]"
         ></img>
         <img
-          loading="lazy"
           src="/img/background/pto_04.png"
           alt="Picture 4 of background"
-          className="absolute top-[69.17%] right-[8%] h-[24.97%]"
+          className="absolute right-[30px] top-[1200px] h-[206px] phone:top-[69.17%] phone:right-[8%] phone:h-[24.97%]"
         ></img>
       </div>
-      <div className="g-page-height relative w-full min-w-[1280px]">
+      <div className="g-page-height relative mt-[520px] w-full phone:mt-0 phone:min-w-[1280px]">
         <img
-          loading="lazy"
           src="/img/background/pto_10.png"
           alt="Picture 10 of background"
-          className="absolute bottom-[-30%] right-[-20%] h-[100%]"
+          className="absolute bottom-[-400px] right-[-400px] h-[960px] phone:bottom-[-30%] phone:right-[-20%] phone:h-[100%]"
         ></img>
       </div>
-      <div className="g-page-height relative w-full min-w-[1280px]">
+      <div className="g-page-height relative w-full phone:min-w-[1280px]">
         <img
-          loading="lazy"
           src="/img/background/pto_07.png"
           alt="Picture 7 of background"
-          className="absolute bottom-[-15%] left-[15%] h-[27.05%]"
+          className="absolute bottom-[-5%] left-[15%] h-[27.05%] rotate-[30deg]"
         ></img>
       </div>
-      <div className="g-page-height relative w-full min-w-[1280px]">
+      <div className="g-page-height relative w-full phone:min-w-[1280px]">
         <img
-          loading="lazy"
           src="/img/background/pto_06.png"
           alt="Picture 6 of background"
           className="absolute bottom-0 right-[-5%] h-[65.48%]"
@@ -71,15 +67,13 @@ export const HomeBackground = () => {
       </div>
       <div className="g-page-height relative w-full min-w-[1380px]">
         <img
-          loading="lazy"
           src="/img/background/pto_08.png"
           alt="Picture 8 of background"
           className="absolute top-[220px] left-[35%] h-[56.29%]"
         ></img>
         <img
-          loading="lazy"
           src="/img/background/pto_09.png"
-          alt="Picture 8 of background"
+          alt="Picture 9 of background"
           className="absolute bottom-[-405px] right-[22%] h-[20.32%]"
         ></img>
       </div>

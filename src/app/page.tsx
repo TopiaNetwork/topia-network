@@ -8,13 +8,13 @@ import { RootHeader } from '../components/nav/RootHeader/RootHeader'
 // import { SectionComparison } from '../components/landing-page/SectionComparison'
 import { HomeBackground } from '../components/home-background/HomeBackground'
 import { HomeEnterSection } from '../components/landing-page/HomeEnterSection'
-import { HomeWhy } from '../components/landing-page/HomeWhy'
+import { HomeWhy } from '../components/landing-page/WhyBuild/HomeWhy'
 import { HomeHow } from '../components/landing-page/HomeHow'
 import { HomeComparison } from '../components/landing-page/HomeComparison'
-import { HomeApplication } from '../components/landing-page/HomeApplication'
-import { HomeRoadMap } from '../components/landing-page/HomeRoadMap'
-import { HomeCommunity } from '../components/landing-page/Community/HomeCommunity'
-import { RootFooter } from '../components/nav/RootFooter'
+// import { HomeApplication } from '../components/landing-page/HomeApplication'
+// import { HomeRoadMap } from '../components/landing-page/HomeRoadMap'
+// import { HomeCommunity } from '../components/landing-page/Community/HomeCommunity'
+// import { RootFooter } from '../components/nav/RootFooter'
 import { Utils } from '../utils/Utils'
 
 const page = async () => {
@@ -27,15 +27,10 @@ const page = async () => {
       <HomeWhy />
       <HomeHow />
       <HomeComparison />
-      <HomeApplication />
-      <HomeRoadMap />
-      <HomeCommunity />
-      {/* <Section1 /> */}
-      {/* <SectionHow /> */}
-      {/* <SectionComparison /> */}
-      {/* <SectionApplication /> */}
-      {/* <SectionRoadmap /> */}
-      <RootFooter />
+      {/* <HomeApplication /> */}
+      {/* <HomeRoadMap /> */}
+      {/* <HomeCommunity /> */}
+      {/* <RootFooter /> */}
     </div>
   )
 }

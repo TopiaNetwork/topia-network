@@ -15,7 +15,7 @@
 }
 
 .g-body-container {
-  @apply max-w-[1120px] mx-4 flex flex-grow;
+  @apply max-w-[1120px] mx-[31px] flex flex-grow;
 }
 
 .g-page-height {
@@ -44,7 +44,6 @@
 }
 
 html {
-  min-width: 1120px;
   scroll-behavior: smooth;
   font-size: 10px;
 }

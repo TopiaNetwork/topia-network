@@ -23,11 +23,13 @@ export const HeaderButton = () => {
   }
   return (
     <nav className="flex items-center">
-      <div
-        className={`relative mr-7 ml-12 max-sm:hidden ${style.headercommunitygroup}`}
-      >
+      <div className={`relative mr-7 ml-12 ${style.headercommunitygroup}`}>
         <div className="flex cursor-pointer items-center justify-between py-3">
-          <p className={`mr-[28px] ${style.headertran}`}>Community</p>
+          <p
+            className={`mr-[28px] ${style.headertran} text-[29px] phone:text-[15px]`}
+          >
+            Community
+          </p>
           <ArrowDropDownIcon className={`w-5 ${style.headerfill}`} />
         </div>
         <div
@@ -39,15 +41,15 @@ export const HeaderButton = () => {
         </div>
       </div>
       <a
-        className={`ml-[81px] max-sm:ml-0 ${style.navtransition}`}
+        className={`ml-0 phone:ml-[81px] ${style.navtransition}`}
         href={TOPIA_GITHUB_LINK}
         target="_blank"
         rel="noreferrer"
       >
         {/* GitHub */}
-        <div className="max-sm:hidden">GitHub</div>
-        <div className="relative top-[-2px] hidden max-sm:block">
-          <GithubIcon />
+        <div className="hidden phone:block phone:text-[15px]">GitHub</div>
+        <div className="relative top-[-2px] block phone:hidden">
+          <GithubIcon className="h-[41px]" />
         </div>
       </a>
       {/* <div className="pl-14">About Us</div> */}
