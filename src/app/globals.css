@@ -46,4 +46,5 @@
 html {
   min-width: 1120px;
   scroll-behavior: smooth;
+  font-size: 10px;
 }

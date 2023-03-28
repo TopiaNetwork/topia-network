@@ -1,9 +1,10 @@
 'use client'
 import { useEffect } from 'react'
-import { setDomFontSizeDebounce } from './rem'
+import { setRem, setDomFontSizeDebounce } from './rem'
 
 export const Utils = () => {
   useEffect(() => {
+    setRem()
     window.addEventListener('resize', setDomFontSizeDebounce)
   })
   return <div></div>

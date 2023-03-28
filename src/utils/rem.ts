@@ -1,6 +1,6 @@
 import 'client-only'
 const baseSize = 10
-const setRem = () => {
+export const setRem = () => {
   // console.log(document.documentElement.clientWidth)
   const scale = document.documentElement.clientWidth / 2031
   if (scale < 0.7) {
