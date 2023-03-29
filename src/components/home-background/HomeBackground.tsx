@@ -51,30 +51,30 @@ export const HomeBackground = () => {
           className="absolute bottom-[-400px] right-[-400px] h-[960px] phone:bottom-[-30%] phone:right-[-20%] phone:h-[100%]"
         ></img>
       </div>
-      <div className="g-page-height relative w-full phone:min-w-[1280px]">
+      <div className="g-page-height relative mt-[300px] w-full phone:mt-0 phone:min-w-[1280px]">
         <img
           src="/img/background/pto_07.png"
           alt="Picture 7 of background"
-          className="absolute bottom-[-5%] left-[15%] h-[27.05%] rotate-[30deg]"
+          className="absolute bottom-0 left-0 h-[289px] rotate-[30deg] phone:bottom-[-5%] phone:left-[15%] phone:h-[27.05%]"
         ></img>
       </div>
-      <div className="g-page-height relative w-full phone:min-w-[1280px]">
+      <div className="g-page-height relative mt-[800px] w-full phone:mt-0 phone:min-w-[1280px]">
         <img
           src="/img/background/pto_06.png"
           alt="Picture 6 of background"
-          className="absolute bottom-0 right-[-5%] h-[65.48%]"
+          className="absolute bottom-0 right-[-200px] h-[623px] phone:right-[-5%] phone:h-[65.48%]"
         ></img>
       </div>
-      <div className="g-page-height relative w-full min-w-[1380px]">
+      <div className="relative h-[2700px] min-h-[960px] w-full phone:h-screen phone:min-w-[1380px]">
         <img
           src="/img/background/pto_08.png"
           alt="Picture 8 of background"
-          className="absolute top-[220px] left-[35%] h-[56.29%]"
+          className="absolute top-[50px] right-[400px] h-[596px] phone:top-[220px] phone:left-[35%] phone:h-[56.29%]"
         ></img>
         <img
           src="/img/background/pto_09.png"
           alt="Picture 9 of background"
-          className="absolute bottom-[-405px] right-[22%] h-[20.32%]"
+          className="absolute bottom-[100px] right-0 h-[265px] phone:bottom-[-405px] phone:right-[22%] phone:h-[20.32%]"
         ></img>
       </div>
     </div>

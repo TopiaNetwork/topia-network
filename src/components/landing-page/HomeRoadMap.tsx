@@ -1,13 +1,21 @@
 export const HomeRoadMap = () => {
   const displayRoadMap = (period: string, title: string, des: string[]) => {
     return (
-      <div className="mb-[20px] flex w-full">
-        <h3 className="w-[230px] flex-shrink-0 text-[21px]">{period}</h3>
+      <div className="g-card flex w-full flex-col px-[35px] pt-[48px] pb-[36px] phone:mb-[20px] phone:flex-row phone:border-0 phone:bg-transparent phone:p-0">
+        <h3 className="hidden w-[230px] flex-shrink-0 text-[21px] phone:block">
+          {period}
+        </h3>
+        <h3 className="flex-shrink-0 text-[35px] text-[#6EFF89] phone:hidden">
+          {title}
+        </h3>
         <div className="flex flex-grow flex-col">
-          <h3 className="g-back-divide-line relative left-[-17px] top-[-3px] mb-[10px] text-[25px] ">
+          <h3 className="g-back-divide-line relative left-[-17px] top-[-3px] mb-[10px] !hidden text-[25px] phone:!flex">
             {title}
           </h3>
-          <ul className="grid flex-grow grid-cols-1 text-[14px]">
+          <h3 className="g-back-divide-line relative top-[-3px] mt-[23px] mb-[33px] text-[31px] phone:hidden">
+            {period}
+          </h3>
+          <ul className="ml-[28px] grid flex-grow grid-cols-1 gap-y-[40px] text-[29px] phone:text-[14px]">
             {des.map((item, index) => displayLi(index, item))}
           </ul>
         </div>
@@ -16,17 +24,22 @@ export const HomeRoadMap = () => {
   }
   const displayLi = (index: number, des: string) => {
     return (
-      <li key={index} className="list-disc leading-[30px] text-white/[.7]">
+      <li
+        key={index}
+        className="list-disc leading-[35px] text-white/[.7] phone:leading-[30px]"
+      >
         {/* <div className="mr-6 h-1.5 w-1.5 flex-shrink-0 rounded bg-white inline" /> */}
         {des}
       </li>
     )
   }
   return (
-    <section className="g-page-height mt-[400px] flex w-full justify-center">
+    <section className="mt-[650px] flex h-[1800px] min-h-[960px] w-full justify-center phone:mt-[400px] phone:h-screen">
       <div className="g-body-container h-full items-end justify-center">
-        <div className="g-card flex w-[900px] flex-col pt-[50px] pl-[43px] pr-[95px] pb-[62px]">
-          <h1 className="pl-[211px] text-[56px] font-semibold">RoadMap</h1>
+        <div className="flex  flex-col items-center p-0 phone:w-[900px] phone:items-start phone:rounded-[16px] phone:border phone:border-white/10 phone:bg-[#3B5D66]/10 phone:pt-[50px] phone:pl-[43px] phone:pr-[95px] phone:pb-[62px]">
+          <h1 className="text-[56px] font-semibold phone:pl-[211px]">
+            RoadMap
+          </h1>
           <div className="mt-[45px] grid flex-grow grid-cols-1 gap-y-[30px]">
             {displayRoadMap('Q4 2021 - Q4 2023', 'Mainnet', [
               'Conducting research and designing technical solutions',

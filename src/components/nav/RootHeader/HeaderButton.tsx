@@ -12,7 +12,7 @@ export const HeaderButton = () => {
   const renderBtn = (href: string, name: string) => {
     return (
       <a
-        className={`block px-8 py-2.5 ${style.navtransition}`}
+        className={`block px-8 py-2.5 font-thin ${style.navtransition}`}
         href={href}
         target="_blank"
         rel="noreferrer"
@@ -23,17 +23,19 @@ export const HeaderButton = () => {
   }
   return (
     <nav className="flex items-center">
-      <div className={`relative mr-7 ml-12 ${style.headercommunitygroup}`}>
+      <div
+        className={`relative mr-[36px] ml-12 phone:mr-7 ${style.headercommunitygroup}`}
+      >
         <div className="flex cursor-pointer items-center justify-between py-3">
           <p
-            className={`mr-[28px] ${style.headertran} text-[29px] phone:text-[15px]`}
+            className={`mr-[10px] phone:mr-[28px] ${style.headertran} text-[29px] phone:text-[15px]`}
           >
             Community
           </p>
           <ArrowDropDownIcon className={`w-5 ${style.headerfill}`} />
         </div>
         <div
-          className={`absolute top-full right-0 py-2 ${style.headlist} g-card`}
+          className={`absolute top-full right-0 rounded-[10px] py-[30px] phone:py-2 ${style.headlist} h-auto w-full border border-[#37674A] bg-[#070B0C]/50 text-center text-[29px] phone:h-auto phone:text-[15px]`}
         >
           {renderBtn(TOPIA_TWITTER_LINK, 'Twitter')}
           {renderBtn(TOPIA_DISCORD_LINK, 'Discord')}

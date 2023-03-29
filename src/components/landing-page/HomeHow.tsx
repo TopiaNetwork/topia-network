@@ -19,7 +19,7 @@ export const HomeHow = () => {
           <h1 className="pl-[63px] text-[56px]">
             <b className="text-[#6eff89]">How</b> to Build
           </h1>
-          <h2 className="mb-[26px] mt-[22px] pl-[66px] text-[31px] phone:mb-[56px] phone:mt-[30px] phone:text-[14px]">
+          <h2 className="mb-[26px] mt-[22px] w-[382px] pl-[66px] text-[31px] phone:mb-[56px] phone:mt-[30px] phone:w-auto phone:text-[14px]">
             Distributed Storage DeeplyIntegrated with Layer2
           </h2>
           <div className="g-card grid h-[703px] grid-cols-1 py-[73px] pl-[66px] pr-[85px] phone:h-[560px]  phone:py-[77px]">

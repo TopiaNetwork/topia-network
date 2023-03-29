@@ -38,7 +38,7 @@ export const HomeComparison = () => {
     return compItems.map((item, index) => (
       <div
         key={index}
-        className="my-1 flex h-[60px] w-full items-center border border-solid border-[#273838] bg-[#3B5D66]/10 pl-10"
+        className="my-1 flex h-[60px] min-h-[36PX] w-full items-center border border-solid border-[#273838] bg-[#3B5D66]/10 pl-10 text-[16px] phone:text-[12px]"
       >
         <span>{item}</span>
       </div>
@@ -48,7 +48,7 @@ export const HomeComparison = () => {
     const { logo, logoname, compItems } = data
     return (
       <div
-        className="mx-2 flex w-[216px] min-w-[200px] flex-col"
+        className="flex min-w-[150PX] flex-col phone:mx-2 phone:w-[216px] phone:min-w-[200px]"
         key={logoname}
       >
         <div className="my-1 flex h-[60px] w-full flex-auto items-center justify-center border border-solid border-[#273838] bg-[#3B5D66]/10">
@@ -57,12 +57,20 @@ export const HomeComparison = () => {
         {compItems.map((item, index) => (
           <div
             key={index}
-            className="my-1 flex h-[60px] w-full items-center justify-center border border-solid border-[#273838] bg-[#3B5D66]/10 px-6 text-center text-[12px]"
+            className="my-1 flex h-[60px] min-h-[36PX] w-full items-center justify-center border border-solid border-[#273838] bg-[#3B5D66]/10 px-6 text-center text-[16px] phone:text-[12px]"
           >
             {item === true ? (
-              <img className="h-6" src="/img/icon_yes.svg" alt="Yes" />
+              <img
+                className="h-[25px] phone:h-6"
+                src="/img/icon_yes.svg"
+                alt="Yes"
+              />
             ) : item === false ? (
-              <img className="h-7" src="/img/icon_no.svg" alt="No" />
+              <img
+                className="h-[30px] phone:h-7"
+                src="/img/icon_no.svg"
+                alt="No"
+              />
             ) : (
               <span>{item}</span>
             )}
@@ -92,7 +100,7 @@ export const HomeComparison = () => {
   }
 
   return (
-    <section className="g-page-height mx-[31px] mt-24 flex justify-center">
+    <section className="mx-[31px] mt-24 flex h-[1200px] min-h-[960px] justify-center phone:h-screen">
       <div className="flex max-w-full flex-col items-center">
         <div className="text-[56px] font-bold tracking-[1.5px]">
           Decentralized Storage{' '}
@@ -106,8 +114,8 @@ export const HomeComparison = () => {
           )}
         </div>
         <div className="flex w-screen max-w-full justify-center">
-          <div className="mt-10 grid grid-cols-3 items-center overflow-auto phone:flex">
-            <div className="mr-1 flex w-[216px] min-w-[200px] flex-auto flex-col">
+          <div className="mt-10 flex max-w-[1120px] items-center gap-x-[4px] overflow-auto phone:flex">
+            <div className="mr-1 flex min-w-[150PX] flex-auto flex-col phone:w-[216px] phone:min-w-[200px]">
               <div className="my-1 h-[60px] w-full rounded-tl-[40px] border border-solid border-[#273838] bg-[#3B5D66]/10" />
               {blockNameRender(compItems)}
             </div>
@@ -117,19 +125,27 @@ export const HomeComparison = () => {
             <div className="phone:hidden">
               {blockItemRender(showArr[showing])}
             </div>
-            <div className="ml-1 flex w-[222px] min-w-[200px] flex-auto flex-col">
+            <div className="ml-1 flex min-w-[150PX] flex-auto flex-grow flex-col phone:w-[222px] phone:min-w-[200px]">
               <div className="my-1 flex h-[60px] w-full items-center justify-center rounded-tr-[40px] border border-solid border-[#314747] bg-[#3B5D66]/10">
                 <TopiaLogo className="h-[30px]" />
               </div>
               {compTopia.map((item, index) => (
                 <div
                   key={index}
-                  className="my-1 flex h-[63.5px] w-full items-center justify-center border border-solid border-[#314747] bg-[#3B5D66]/10 px-6 text-center"
+                  className="my-1 flex h-[63.5px] min-h-[36PX] w-full items-center justify-center border border-solid border-[#314747] bg-[#3B5D66]/10 px-6 text-center text-[18px] phone:text-[12px]"
                 >
                   {item === true ? (
-                    <img className="h-8" src="/img/icon_yes.svg" alt="Yes" />
+                    <img
+                      className="h-[28px] phone:h-8"
+                      src="/img/icon_yes.svg"
+                      alt="Yes"
+                    />
                   ) : item === false ? (
-                    <img className="h-9" src="/img/icon_no.svg" alt="No" />
+                    <img
+                      className="h-[33px] phone:h-9"
+                      src="/img/icon_no.svg"
+                      alt="No"
+                    />
                   ) : (
                     <span className="font-semibold">{item}</span>
                   )}

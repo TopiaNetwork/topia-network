@@ -2,13 +2,16 @@ import 'client-only'
 const baseSize = 10
 export const setRem = () => {
   const width = document.documentElement.clientWidth
-  console.log(width)
-  if (width < 1300) {
-    if (width < 769) {
-      document.getElementsByTagName('html')[0].style.fontSize = '10px'
-      return
-    }
-    document.getElementsByTagName('html')[0].style.fontSize = '6.5px'
+  // console.log(width)
+  if (width < 769) {
+    const scale = document.documentElement.clientWidth / 768
+    document.getElementsByTagName('html')[0].style.fontSize = `${
+      baseSize * scale
+    }px`
+    return
+  }
+  if (width < 1350) {
+    document.getElementsByTagName('html')[0].style.fontSize = '8px'
     return
   }
   const scale = document.documentElement.clientWidth / 2031
