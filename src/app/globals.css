@@ -15,11 +15,11 @@
 }
 
 .g-body-container {
-  @apply max-w-[1120px] mx-[31px] flex flex-grow;
+  @apply max-w-[1120px] mx-[10px] flex flex-grow;
 }
 
 .g-page-height {
-  @apply min-h-[960px] h-screen;
+  @apply min-h-[1080px] h-screen max-h-[1300px];
 }
 
 .g-back-divide-line {
@@ -45,5 +45,13 @@
 
 html {
   scroll-behavior: smooth;
-  font-size: 10px;
+  font-size: 16px;
 }
+
+/*
+@media screen and (max-width: 768px) {
+  html {
+    font-size: calc(100vw/55)
+  }
+}
+*/

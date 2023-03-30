@@ -2,27 +2,27 @@ export const HomeWhy = () => {
   const displayWhy = (title: string, des: string) => {
     return (
       <div>
-        <h3 className="g-back-divide-line text-[31px] phone:text-[21px]">
+        <h3 className="g-back-divide-line text-[28px] sm:text-[31px] md:text-[21px]">
           {title}
         </h3>
-        <p className="mt-[20px] text-[29px] text-white/[.7] phone:text-[14px] phone:leading-[26px]">
+        <p className="mt-[20px] text-[23px] text-white/[.7] sm:text-[29px] md:text-[14px] md:leading-[26px]">
           {des}
         </p>
       </div>
     )
   }
   return (
-    <section className="flex h-[1500px] w-full justify-center phone:h-screen phone:min-h-[960px]">
+    <section className="mt-[100px] flex h-[1500px] w-full justify-center md:h-screen md:max-h-[1300px] md:min-h-[960px]">
       <div className="g-body-container h-full items-start justify-end">
-        <div className="flex w-[584px] flex-col py-0 pl-0 pr-0 phone:w-[793px] phone:rounded-[16px] phone:border phone:border-white/10 phone:bg-[#3B5D66]/10 phone:py-[94px] phone:pl-[65px] phone:pr-[50px]">
-          <h1 className="ml-[41px] text-[57px] font-semibold tracking-wide phone:ml-0 phone:text-[49px]">
+        <div className="flex w-auto flex-col py-0 pl-0 pr-0 sm:max-w-[584px] md:w-[793px] md:rounded-[16px] md:border md:border-white/10 md:bg-[#3B5D66]/10 md:py-[94px] md:pl-[65px] md:pr-[50px]">
+          <h1 className="ml-[20px] text-[38px] font-semibold tracking-wide sm:ml-[41px] sm:text-[57px] md:ml-0 md:text-[49px]">
             <b className="text-[#6eff89]">Why</b> Build Topia
           </h1>
-          <h2 className="ml-[41px] mt-[19px] mb-[32px] w-[426px] text-[31px] phone:ml-0 phone:mt-[11px] phone:mb-[85px] phone:w-auto phone:text-[14px]">
-            Improve the interoperability of smart contracts and distributed
-            storage
+          <h2 className="ml-[20px] mt-[19px] mb-[32px] max-w-[426px] text-[20px] sm:ml-[41px] sm:text-[31px] md:ml-0 md:mt-[11px] md:mb-[85px] md:w-auto md:text-[14px]">
+            Scaling the data storage capability of Ethereum while significantly
+            reducing KV storage costs
           </h2>
-          <div className="g-card phone:rounded-0 grid flex-grow grid-cols-1 gap-x-[40px] gap-y-[61px] py-[72px] px-[41px] phone:grid-cols-2 phone:gap-x-[40px] phone:gap-y-[78px] phone:border-0 phone:bg-transparent phone:py-0 phone:px-0">
+          <div className="g-card md:rounded-0 grid flex-grow grid-cols-1 gap-x-[40px] gap-y-[61px] py-[20px] px-[20px] sm:py-[72px] sm:px-[41px] md:grid-cols-2 md:gap-x-[40px] md:gap-y-[78px] md:border-0 md:bg-transparent md:py-0 md:px-0">
             {displayWhy(
               'IMPROVE',
               'Improve the interoperability of smart contracts and distributed storage'

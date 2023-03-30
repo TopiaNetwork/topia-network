@@ -2,11 +2,11 @@ export const HomeApplication = () => {
   const displayApplication = (title: string, des: string) => {
     return (
       <div className="w-full]">
-        <h3 className="g-back-divide-line text-[33px] phone:text-[18px]">
+        <h3 className="g-back-divide-line text-[25px] sm:text-[33px] md:text-[18px]">
           {title}
         </h3>
         {des ? (
-          <p className="mt-[5px] text-[29px] text-[#fff]/70 phone:text-[14px] phone:text-[#fff]/90">
+          <p className="mt-[5px] text-[20px] text-[#fff]/70 sm:text-[29px] md:text-[14px] md:text-[#fff]/90">
             {des}
           </p>
         ) : null}
@@ -14,11 +14,11 @@ export const HomeApplication = () => {
     )
   }
   return (
-    <section className="flex h-[1800px] min-h-[960px] w-full justify-center phone:h-screen">
+    <section className="flex min-h-[960px] w-full justify-center md:h-screen md:max-h-[1300px]">
       <div className="g-body-container h-full items-center justify-center">
-        <div className="flex w-full flex-col items-center phone:items-start">
-          <h1 className="pl-[20px] text-[56px]">Application</h1>
-          <div className="mt-[60px] hidden flex-grow grid-cols-2 gap-x-[18px] phone:grid">
+        <div className="flex w-full flex-col items-center md:h-full md:items-start">
+          <h1 className="pl-[20px] text-[40px] sm:text-[56px]">Application</h1>
+          <div className="mt-[60px] hidden flex-grow grid-cols-2 gap-x-[18px] md:grid">
             <div className="g-card grid h-[449px] flex-grow grid-cols-1 p-[50px]">
               {displayApplication(
                 'Social Media',
@@ -52,7 +52,7 @@ export const HomeApplication = () => {
               )}
             </div>
           </div>
-          <div className="g-card mt-[60px] grid flex-grow grid-cols-1 gap-y-[55px] p-[50px] phone:hidden">
+          <div className="g-card mt-[60px] grid flex-grow grid-cols-1 gap-y-[55px] p-[50px] md:hidden">
             {displayApplication(
               'Social Media',
               'Decentralized media (Mirror), dTwitter, dPersonal blog, etc'

@@ -1,21 +1,21 @@
 export const HomeRoadMap = () => {
   const displayRoadMap = (period: string, title: string, des: string[]) => {
     return (
-      <div className="g-card flex w-full flex-col px-[35px] pt-[48px] pb-[36px] phone:mb-[20px] phone:flex-row phone:border-0 phone:bg-transparent phone:p-0">
-        <h3 className="hidden w-[230px] flex-shrink-0 text-[21px] phone:block">
+      <div className="g-card flex w-full flex-col px-[10px] pt-[10px] pb-[10px] sm:px-[35px] sm:pt-[48px] sm:pb-[36px] md:mb-[20px] md:flex-row md:border-0 md:bg-transparent md:p-0">
+        <h3 className="hidden w-[230px] flex-shrink-0 text-[21px] md:block">
           {period}
         </h3>
-        <h3 className="flex-shrink-0 text-[35px] text-[#6EFF89] phone:hidden">
+        <h3 className="flex-shrink-0 text-[25px] text-[#6EFF89] sm:text-[35px] md:hidden">
           {title}
         </h3>
         <div className="flex flex-grow flex-col">
-          <h3 className="g-back-divide-line relative left-[-17px] top-[-3px] mb-[10px] !hidden text-[25px] phone:!flex">
+          <h3 className="g-back-divide-line relative top-[-3px] mb-[10px] !hidden text-[25px] md:!flex">
             {title}
           </h3>
-          <h3 className="g-back-divide-line relative top-[-3px] mt-[23px] mb-[33px] text-[31px] phone:hidden">
+          <h3 className="g-back-divide-line relative top-[-3px] mt-[23px] mb-[33px] text-[20px] sm:text-[31px] md:hidden">
             {period}
           </h3>
-          <ul className="ml-[28px] grid flex-grow grid-cols-1 gap-y-[40px] text-[29px] phone:text-[14px]">
+          <ul className="ml-[25px] grid flex-grow grid-cols-1 gap-y-[15px] text-[18px] sm:text-[25px] md:ml-[17px] md:gap-y-[10px] md:text-[14px]">
             {des.map((item, index) => displayLi(index, item))}
           </ul>
         </div>
@@ -26,7 +26,7 @@ export const HomeRoadMap = () => {
     return (
       <li
         key={index}
-        className="list-disc leading-[35px] text-white/[.7] phone:leading-[30px]"
+        className="list-disc leading-[35px] text-white/[.7] md:leading-[30px]"
       >
         {/* <div className="mr-6 h-1.5 w-1.5 flex-shrink-0 rounded bg-white inline" /> */}
         {des}
@@ -34,12 +34,10 @@ export const HomeRoadMap = () => {
     )
   }
   return (
-    <section className="mt-[650px] flex h-[1800px] min-h-[960px] w-full justify-center phone:mt-[400px] phone:h-screen">
+    <section className="mt-[650px] flex h-auto min-h-[960px] w-full justify-center sm:h-[1800px] md:mt-[-50px] md:h-screen md:max-h-[1300px]">
       <div className="g-body-container h-full items-end justify-center">
-        <div className="flex  flex-col items-center p-0 phone:w-[900px] phone:items-start phone:rounded-[16px] phone:border phone:border-white/10 phone:bg-[#3B5D66]/10 phone:pt-[50px] phone:pl-[43px] phone:pr-[95px] phone:pb-[62px]">
-          <h1 className="text-[56px] font-semibold phone:pl-[211px]">
-            RoadMap
-          </h1>
+        <div className="flex flex-col items-center p-0 md:max-w-[900px] md:items-start md:rounded-[16px] md:border md:border-white/10 md:bg-[#3B5D66]/10 md:pt-[50px] md:pl-[43px] md:pr-[95px] md:pb-[62px]">
+          <h1 className="text-[56px] font-semibold md:pl-[228px]">RoadMap</h1>
           <div className="mt-[45px] grid flex-grow grid-cols-1 gap-y-[30px]">
             {displayRoadMap('Q4 2021 - Q4 2023', 'Mainnet', [
               'Conducting research and designing technical solutions',

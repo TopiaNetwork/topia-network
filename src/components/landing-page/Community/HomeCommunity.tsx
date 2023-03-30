@@ -39,7 +39,7 @@ export const HomeCommunity = () => {
     )
   }
   return (
-    <section className="relative bottom-[-20px] z-10 mt-[200px] hidden w-full items-end justify-between phone:flex">
+    <section className="relative bottom-[-20px] z-10 mt-[200px] hidden w-full items-end justify-between md:flex">
       <div className="h-[90px] flex-grow rounded-[16px] bg-[#0F171A]"></div>
       <div className="flex basis-[1172px] items-center justify-center rounded-[16px] bg-[#070B0C] pb-[26px]">
         <div className="g-card flex max-w-[1120px] flex-grow items-center justify-between px-[52px] py-[36px]">

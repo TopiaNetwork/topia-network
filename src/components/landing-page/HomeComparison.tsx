@@ -38,7 +38,7 @@ export const HomeComparison = () => {
     return compItems.map((item, index) => (
       <div
         key={index}
-        className="my-1 flex h-[60px] min-h-[36PX] w-full items-center border border-solid border-[#273838] bg-[#3B5D66]/10 pl-10 text-[16px] phone:text-[12px]"
+        className="my-[3px] flex h-[60px] min-h-[36px] w-full items-center bg-[#3B5D66]/10 pl-10 text-[16px] md:text-[12px]"
       >
         <span>{item}</span>
       </div>
@@ -48,26 +48,26 @@ export const HomeComparison = () => {
     const { logo, logoname, compItems } = data
     return (
       <div
-        className="flex min-w-[150PX] flex-col phone:mx-2 phone:w-[216px] phone:min-w-[200px]"
+        className="mx-[1.5px] flex min-w-[150px] flex-col md:w-[216px] md:min-w-[200px]"
         key={logoname}
       >
-        <div className="my-1 flex h-[60px] w-full flex-auto items-center justify-center border border-solid border-[#273838] bg-[#3B5D66]/10">
+        <div className="my-[3px] flex h-[60px] w-full flex-auto items-center justify-center bg-[#3B5D66]/10">
           <img className="h-[30px]" src={logo} alt={logoname} />
         </div>
         {compItems.map((item, index) => (
           <div
             key={index}
-            className="my-1 flex h-[60px] min-h-[36PX] w-full items-center justify-center border border-solid border-[#273838] bg-[#3B5D66]/10 px-6 text-center text-[16px] phone:text-[12px]"
+            className="my-[3px] flex h-[60px] min-h-[36px] w-full items-center justify-center bg-[#3B5D66]/10 px-6 text-center text-[16px] md:text-[12px]"
           >
             {item === true ? (
               <img
-                className="h-[25px] phone:h-6"
+                className="h-[25px] md:h-6"
                 src="/img/icon_yes.svg"
                 alt="Yes"
               />
             ) : item === false ? (
               <img
-                className="h-[30px] phone:h-7"
+                className="h-[30px] md:h-7"
                 src="/img/icon_no.svg"
                 alt="No"
               />
@@ -86,63 +86,61 @@ export const HomeComparison = () => {
 
   const renderBtn = (logo: string, index: number, logoname: string) => {
     return (
-      <button
+      <div
         className={
           `${showing === index ? 'border-[#33F8FF] ' : 'border-white '}` +
-          'flex h-[66px] w-[225px] items-center justify-center rounded-[10px] border-[1px]'
+          'curcor-pointer flex h-[36px] flex-auto basis-[200px] items-center justify-center rounded-[10px] border-[1px] sm:h-[66px]'
         }
         key={logoname}
         onClick={() => changeShowing(index)}
       >
-        <img src={logo} alt={logoname} className="h-[30px]" />
-      </button>
+        <img src={logo} alt={logoname} className="w-[80%]" />
+      </div>
     )
   }
 
   return (
-    <section className="mx-[31px] mt-24 flex h-[1200px] min-h-[960px] justify-center phone:h-screen">
+    <section className="mx-[10px] mt-24 flex h-[1200px] min-h-[960px] justify-center md:mt-[-200px] md:h-screen md:max-h-[1300px]">
       <div className="flex max-w-full flex-col items-center">
-        <div className="text-[56px] font-bold tracking-[1.5px]">
+        <div className="text-[30px] font-bold tracking-[1.5px] sm:text-[56px]">
           Decentralized Storage{' '}
-          <span className="text-[#6EFF89] phone:font-[#ffffff]">
-            Comparison
-          </span>
+          <span className="text-[#6EFF89] md:font-[#ffffff]">Comparison</span>
         </div>
-        <div className="mt-[23px] grid grid-cols-3 gap-x-[15px] phone:hidden">
+        <div className="mt-[23px] flex w-full justify-between space-x-1 md:hidden">
           {showArr.map((item, index) =>
             renderBtn(item.logo, index, item.logoname)
           )}
         </div>
         <div className="flex w-screen max-w-full justify-center">
-          <div className="mt-10 flex max-w-[1120px] items-center gap-x-[4px] overflow-auto phone:flex">
-            <div className="mr-1 flex min-w-[150PX] flex-auto flex-col phone:w-[216px] phone:min-w-[200px]">
-              <div className="my-1 h-[60px] w-full rounded-tl-[40px] border border-solid border-[#273838] bg-[#3B5D66]/10" />
+          <div className="mt-10 flex max-w-[1120px] items-center gap-x-[1.5px] overflow-auto">
+            <div className="flex min-w-[200px] flex-auto flex-grow flex-col md:w-[216px] md:min-w-[200px]">
+              <div className="my-[3px] h-[60px] w-full bg-[#3B5D66]/10" />
               {blockNameRender(compItems)}
             </div>
-            <div className="hidden phone:flex">
+            <div className="hidden md:flex">
               {showArr.map((item) => blockItemRender(item))}
             </div>
-            <div className="phone:hidden">
+            <div className="min-w-[200px] flex-auto flex-grow md:hidden">
               {blockItemRender(showArr[showing])}
             </div>
-            <div className="ml-1 flex min-w-[150PX] flex-auto flex-grow flex-col phone:w-[222px] phone:min-w-[200px]">
-              <div className="my-1 flex h-[60px] w-full items-center justify-center rounded-tr-[40px] border border-solid border-[#314747] bg-[#3B5D66]/10">
+            <div className="flex min-w-[242px] flex-auto flex-grow flex-col md:w-[222px] md:min-w-[200px]">
+              <div className="my-[3px] flex h-[60px] w-full items-center justify-center rounded-tr-[40px] border-[2px] border-[#fff]/10 bg-[#3B5D66]/10 md:border-0">
                 <TopiaLogo className="h-[30px]" />
               </div>
               {compTopia.map((item, index) => (
                 <div
                   key={index}
-                  className="my-1 flex h-[63.5px] min-h-[36PX] w-full items-center justify-center border border-solid border-[#314747] bg-[#3B5D66]/10 px-6 text-center text-[18px] phone:text-[12px]"
+                  className="my-[3px] flex h-[63.5px] min-h-[36px] w-full items-center justify-center border-[2px] border-[#fff]/10 bg-[#3B5D66]/10 px-6 text-center text-[18px] md:border-0 md:text-[12px]"
                 >
                   {item === true ? (
                     <img
-                      className="h-[28px] phone:h-8"
+                      className="h-[28px] md:h-8"
                       src="/img/icon_yes.svg"
                       alt="Yes"
                     />
                   ) : item === false ? (
                     <img
-                      className="h-[33px] phone:h-9"
+                      className="h-[33px] md:h-9"
                       src="/img/icon_no.svg"
                       alt="No"
                     />

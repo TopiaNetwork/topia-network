@@ -8,17 +8,17 @@
 // import proto8 from '../../../public/img/background/pto_08.png'
 export const HomeBackground = () => {
   return (
-    <div className="absolute z-[-1] flex h-full w-full flex-col overflow-hidden bg-[#070B0C]">
-      <div className="g-page-height relative w-full phone:max-h-[1080px] phone:min-w-[1680px]">
+    <div className="absolute z-[-1] flex h-full w-full flex-col items-center overflow-hidden bg-[#070B0C]">
+      <div className="g-page-height relative w-[768px] md:max-h-[1080px] md:w-[2280px]">
         <img
           src="/img/background/pto_01.png"
           alt="Picture 1 of background"
-          className="absolute right-[-203px] top-[53px] h-[688px] rotate-[-20deg] phone:top-[-2%] phone:right-[-10%] phone:h-[121.4%] phone:rotate-0"
+          className="absolute right-[-200px] top-[100px] w-[600px] rotate-[-20deg] md:top-[-2%] md:right-[-10%] md:h-auto md:w-[55.4%] md:rotate-0"
         ></img>
         <img
           src="/img/background/pto_02.png"
           alt="Picture 2 of background"
-          className="absolute left-[231px] bottom-[20px] h-[155px] phone:right-[65%] phone:bottom-0 phone:h-[18.73%]"
+          className="absolute left-[231px] bottom-[20px] h-[155px] md:left-[35%] md:bottom-[-120px] md:h-[23.73%]"
         ></img>
         {/* <div className="flex h-full w-screen justify-center">
           <div className="g-body-container">
@@ -32,49 +32,49 @@ export const HomeBackground = () => {
           </div>
         </div> */}
       </div>
-      <div className="g-page-height relative max-h-[1080px] w-full phone:min-w-[1280px]">
+      <div className="relative h-[1500px] max-h-[1080px] w-full md:min-w-[1280px] md:max-w-[2320px]">
         <img
           src="/img/background/pto_03.png"
           alt="Picture 3 of background"
-          className="absolute left-[-250px] top-[250px] h-[733px] rotate-[-20deg] phone:left-[-10%] phone:top-[416px] phone:h-[110.11%]"
+          className="absolute left-[-150px] top-[450px] h-[400px] rotate-[-10deg] sm:left-[-250px] sm:h-[733px] md:left-[-10%] md:top-[416px] md:h-auto md:w-[52.11%] md:rotate-0"
         ></img>
         <img
           src="/img/background/pto_04.png"
           alt="Picture 4 of background"
-          className="absolute right-[30px] top-[1200px] h-[206px] phone:top-[69.17%] phone:right-[8%] phone:h-[24.97%]"
+          className="absolute right-[30px] top-[1350px] h-[206px] md:top-[64.17%] md:right-[18%] md:h-[24.97%]"
         ></img>
       </div>
-      <div className="g-page-height relative mt-[520px] w-full phone:mt-0 phone:min-w-[1280px]">
+      <div className="g-page-height relative mt-[600px] w-full md:mt-0 md:min-w-[1280px] md:max-w-[2580px]">
         <img
           src="/img/background/pto_10.png"
           alt="Picture 10 of background"
-          className="absolute bottom-[-400px] right-[-400px] h-[960px] phone:bottom-[-30%] phone:right-[-20%] phone:h-[100%]"
+          className="absolute bottom-[400px] right-[-200px] h-[600px] sm:bottom-0 sm:right-[-400px] sm:h-[960px] md:bottom-[-30%] md:right-[-10%] md:h-[90%]"
         ></img>
       </div>
-      <div className="g-page-height relative mt-[300px] w-full phone:mt-0 phone:min-w-[1280px]">
+      <div className="g-page-height relative mt-[300px] w-full md:mt-[-200px] md:min-w-[1280px] md:max-w-[2580px]">
         <img
           src="/img/background/pto_07.png"
           alt="Picture 7 of background"
-          className="absolute bottom-0 left-0 h-[289px] rotate-[30deg] phone:bottom-[-5%] phone:left-[15%] phone:h-[27.05%]"
+          className="absolute bottom-[350px] left-0 h-[289px] rotate-[30deg] md:bottom-[-5%] md:left-[18%] md:h-[27.05%]"
         ></img>
       </div>
-      <div className="g-page-height relative mt-[800px] w-full phone:mt-0 phone:min-w-[1280px]">
+      <div className="g-page-height relative w-full md:mt-[-220px] md:min-w-[1280px] md:max-w-[2580px]">
         <img
           src="/img/background/pto_06.png"
           alt="Picture 6 of background"
-          className="absolute bottom-0 right-[-200px] h-[623px] phone:right-[-5%] phone:h-[65.48%]"
+          className="absolute bottom-[-200px] right-[-200px] h-[400px] sm:h-[623px] md:right-[6%] md:h-[65.48%]"
         ></img>
       </div>
-      <div className="relative h-[2700px] min-h-[960px] w-full phone:h-screen phone:min-w-[1380px]">
+      <div className="relative mt-[1050px] h-[1800px] min-h-[960px] w-full md:mt-[400px] md:h-screen md:max-h-[1300px] md:min-w-[1380px]  md:max-w-[2580px]">
         <img
           src="/img/background/pto_08.png"
           alt="Picture 8 of background"
-          className="absolute top-[50px] right-[400px] h-[596px] phone:top-[220px] phone:left-[35%] phone:h-[56.29%]"
+          className="absolute top-[-400px] right-[-150px] h-[300px] sm:h-[596px] md:top-[-50px] md:left-[35%] md:h-[56.29%]"
         ></img>
         <img
           src="/img/background/pto_09.png"
           alt="Picture 9 of background"
-          className="absolute bottom-[100px] right-0 h-[265px] phone:bottom-[-405px] phone:right-[22%] phone:h-[20.32%]"
+          className="absolute bottom-[600px] right-0 h-[265px] sm:bottom-[100px] md:bottom-[-150px] md:right-[27%] md:h-[20.32%]"
         ></img>
       </div>
     </div>

@@ -3,9 +3,9 @@ export const HomeHow = () => {
     return (
       <div className="flex w-full flex-col justify-between">
         <div className="g-back-divide-line">
-          <div className="h-[2px] w-[31px] bg-[#6eff89] phone:w-[25px]"></div>
+          <div className="h-[2px] w-[31px] bg-[#6eff89] md:w-[25px]"></div>
         </div>
-        <p className="mb-[10px] text-[29px] font-thin phone:text-[14px] phone:text-[#fff]/90">
+        <p className="mb-[10px] text-[29px] font-thin md:text-[14px] md:text-[#fff]/90">
           {des}
         </p>
         <div></div>
@@ -13,16 +13,16 @@ export const HomeHow = () => {
     )
   }
   return (
-    <section className="g-page-height flex w-full items-center justify-center">
+    <section className="g-page-height flex w-full justify-center">
       <div className="g-body-container justify-center">
-        <div className="flex w-[594px] flex-col phone:w-[585px]">
-          <h1 className="pl-[63px] text-[56px]">
+        <div className="flex max-w-[594px] flex-col md:w-[585px]">
+          <h1 className="pl-[20px] text-[38px]  sm:pl-[63px] sm:text-[56px]">
             <b className="text-[#6eff89]">How</b> to Build
           </h1>
-          <h2 className="mb-[26px] mt-[22px] w-[382px] pl-[66px] text-[31px] phone:mb-[56px] phone:mt-[30px] phone:w-auto phone:text-[14px]">
+          <h2 className="mb-[26px] mt-[22px] max-w-[382px] pl-[20px] text-[25px] sm:pl-[66px] sm:text-[31px] md:mb-[56px] md:mt-[30px] md:w-auto md:text-[14px]">
             Distributed Storage DeeplyIntegrated with Layer2
           </h2>
-          <div className="g-card grid h-[703px] grid-cols-1 py-[73px] pl-[66px] pr-[85px] phone:h-[560px]  phone:py-[77px]">
+          <div className="g-card grid grid-cols-1 py-[20px] pl-[20px] pr-[20px] sm:py-[73px] sm:pl-[66px] sm:pr-[85px] md:h-[560px]  md:py-[77px]">
             {displayHow('The first evm-compatible storage layer2 based on OP')}
             {displayHow(
               'Strong interoperability between storage and smart contracts'

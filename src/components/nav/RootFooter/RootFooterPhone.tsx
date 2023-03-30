@@ -39,14 +39,16 @@ export const RootFooterPhone = () => {
     )
   }
   return (
-    <section className="relative z-10 mt-[100px] flex h-[800px] w-full flex-col items-center justify-center phone:hidden">
+    <section className="relative z-10 mt-[100px] flex h-[800px] w-full flex-col items-center justify-center md:hidden">
       {/* <div className="flex flex-col items-center justify-center rounded-[16px] bg-[#070B0C] pb-[26px]">
       </div> */}
       <TopiaIcon className="h-[102px]" />
-      <h1 className="mt-[34px] text-[57px] tracking-[2px]">
-        <b className="text-[#6eff89]">Join</b> the Community
+      <h1 className="mt-[34px] flex flex-col items-center justify-center text-[40px] tracking-[2px] sm:flex-row sm:space-x-4 md:text-[57px]">
+        <b className="text-[#6eff89]">Join</b>
+        <span>the</span>
+        <span>Community</span>
       </h1>
-      <h2 className="text-center text-[31px] font-thin">
+      <h2 className="text-center text-[25px] font-thin sm:text-[31px]">
         <p>Get involved, Take part in community</p>
         <p>discussions and keep up with</p>
         <p>important updates</p>
