@@ -5,7 +5,7 @@ export const HomeHow = () => {
         <div className="g-back-divide-line">
           <div className="h-[2px] w-[31px] bg-[#6eff89] md:w-[25px]"></div>
         </div>
-        <p className="mb-[10px] text-[29px] font-thin md:text-[14px] md:text-[#fff]/90">
+        <p className="mt-[10px] mb-[20px] text-[23px] font-thin sm:mb-[10px] md:mt-0 md:text-[14px] md:text-[#fff]/90">
           {des}
         </p>
         <div></div>

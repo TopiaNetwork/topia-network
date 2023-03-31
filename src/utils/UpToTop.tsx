@@ -50,11 +50,11 @@ export const UpToTop = () => {
       {visibleBackTopBtn && (
         <div
           className={
-            'fixed bottom-[31px] right-[31px] z-[999] flex h-[80px] w-[80px] cursor-pointer flex-col items-center rounded-full border-[2px] border-[#E6E6E6] bg-[#00FF7A]'
+            'fixed bottom-[31px] right-[31px] z-[999] flex h-[50px] w-[50px] cursor-pointer flex-col items-center rounded-full border-[2px] border-[#E6E6E6] bg-[#00FF7A] md:h-[80px] md:w-[80px]'
           }
           onClick={climbToTop}
         >
-          <div className="relative top-[18px] mt-[8px] h-[4px] w-[26px] bg-black"></div>
+          <div className="relative top-[9px] mt-[8px] h-[4px] w-[14px] bg-black md:top-[18px] md:w-[26px]"></div>
           <ArrowUp height="100%" />
         </div>
       )}

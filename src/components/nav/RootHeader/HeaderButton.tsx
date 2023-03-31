@@ -50,7 +50,7 @@ export const HeaderButton = () => {
       >
         {/* GitHub */}
         <div className="hidden md:block md:text-[16px]">GitHub</div>
-        <div className="relative top-[-2px] block md:hidden">
+        <div className="relative top-[-2px] right-[-5px] block md:hidden">
           <GithubIcon className="h-[28px] md:h-[41px]" />
         </div>
       </a>
