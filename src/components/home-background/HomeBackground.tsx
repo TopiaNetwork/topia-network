@@ -48,7 +48,7 @@ export const HomeBackground = () => {
         <img
           src="/img/background/pto_10.png"
           alt="Picture 10 of background"
-          className="absolute bottom-[400px] right-[-200px] h-[600px] sm:bottom-0 sm:right-[-400px] sm:h-[960px] md:bottom-[-30%] md:right-[-10%] md:h-[90%]"
+          className="absolute bottom-[400px] right-[-200px] h-[600px] sm:bottom-0 sm:right-[-300px] sm:h-[660px] md:bottom-[-30%] md:right-[-10%] md:h-[90%]"
         ></img>
       </div>
       <div className="g-page-height relative mt-[300px] w-full md:mt-[-200px] md:min-w-[1280px] md:max-w-[2580px]">
@@ -65,16 +65,16 @@ export const HomeBackground = () => {
           className="absolute bottom-[-200px] right-[-200px] h-[400px] sm:h-[623px] md:right-[6%] md:h-[65.48%]"
         ></img>
       </div>
-      <div className="relative mt-[1050px] h-[1800px] min-h-[960px] w-full md:mt-[400px] md:h-screen md:max-h-[1300px] md:min-w-[1380px]  md:max-w-[2580px]">
+      <div className="relative mt-[1260px] h-[1800px] min-h-[960px] w-full sm:mt-[650px] md:mt-[400px] md:h-screen md:max-h-[1300px] md:min-w-[1380px]  md:max-w-[2580px]">
         <img
           src="/img/background/pto_08.png"
           alt="Picture 8 of background"
-          className="absolute top-[-400px] right-[-150px] h-[300px] sm:h-[596px] md:top-[-50px] md:left-[35%] md:h-[56.29%]"
+          className="absolute top-[-400px] right-[-150px] h-[300px] sm:h-[496px] md:top-[-50px] md:left-[35%] md:h-[56.29%]"
         ></img>
         <img
           src="/img/background/pto_09.png"
           alt="Picture 9 of background"
-          className="absolute bottom-[600px] right-0 h-[265px] sm:bottom-[100px] md:bottom-[-250px] md:right-[17%] md:h-[20.32%]"
+          className="absolute bottom-[600px] right-0 h-[265px] sm:bottom-[250px] md:bottom-[-250px] md:right-[17%] md:h-[20.32%]"
         ></img>
       </div>
     </div>
