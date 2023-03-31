@@ -34,7 +34,7 @@ export const HomeRoadMap = () => {
     )
   }
   return (
-    <section className="mt-[650px] flex h-auto min-h-[960px] w-full justify-center sm:h-[1800px] md:mt-[-50px] md:h-screen md:max-h-[1300px]">
+    <section className="mt-[650px] flex h-auto min-h-[960px] w-full justify-center sm:h-[1800px] md:mt-[250px] md:h-screen md:max-h-[1300px]">
       <div className="g-body-container h-full items-end justify-center">
         <div className="flex flex-col items-center p-0 md:max-w-[900px] md:items-start md:rounded-[16px] md:border md:border-white/10 md:bg-[#3B5D66]/10 md:pt-[50px] md:pl-[43px] md:pr-[95px] md:pb-[62px]">
           <h1 className="text-[45px] font-semibold md:pl-[228px] md:text-[56px]">

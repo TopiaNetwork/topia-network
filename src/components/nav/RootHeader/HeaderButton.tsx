@@ -35,7 +35,7 @@ export const HeaderButton = () => {
           <ArrowDropDownIcon className={`w-5 ${style.headerfill}`} />
         </div>
         <div
-          className={`absolute top-full right-0 rounded-[10px] py-[30px] md:py-2 ${style.headlist} h-auto w-full border border-[#37674A] bg-[#070B0C]/50 text-center text-[15px] md:h-auto md:text-[18px]`}
+          className={`absolute top-full right-0 rounded-[10px] py-[30px] md:rounded-[9px] md:py-2 ${style.headlist} h-auto w-full border border-[#37674A] bg-[#070B0C]/50 text-center text-[15px] md:h-auto md:border-[#1A2626] md:text-[16px]`}
         >
           {renderBtn(TOPIA_TWITTER_LINK, 'Twitter')}
           {renderBtn(TOPIA_DISCORD_LINK, 'Discord')}

@@ -14,7 +14,7 @@ export const HomeApplication = () => {
     )
   }
   return (
-    <section className="flex min-h-[960px] w-full justify-center md:h-screen md:max-h-[1300px]">
+    <section className="flex min-h-[960px] w-full justify-center md:h-screen md:max-h-[1300px] mxl:mt-[400px]">
       <div className="g-body-container h-full items-center justify-center">
         <div className="flex w-full flex-col items-center md:h-full md:items-start">
           <h1 className="pl-[20px] text-[40px] sm:text-[56px]">Application</h1>
@@ -52,7 +52,7 @@ export const HomeApplication = () => {
               )}
             </div>
           </div>
-          <div className="g-card mt-[60px] grid flex-grow grid-cols-1 gap-y-[55px] p-[50px] md:hidden">
+          <div className="g-card mt-[60px] grid flex-grow grid-cols-1 gap-y-[55px] p-[20px] md:hidden md:p-[50px]">
             {displayApplication(
               'Social Media',
               'Decentralized media (Mirror), dTwitter, dPersonal blog, etc'

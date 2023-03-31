@@ -1,6 +1,7 @@
 'use client'
 import { FooterLogo } from '../../svg/FooterLogo'
 import { ArrowUp } from '../../svg/ArrowUp'
+import style from './styles.module.css'
 
 export const RootFooter = () => {
   const climbToTop = () => {
@@ -12,13 +13,22 @@ export const RootFooter = () => {
         <div className="mx-4 flex h-[95px] max-w-[1120px] flex-auto items-center justify-between">
           <FooterLogo className="h-[36px]" />
           <div
-            className="flex h-[37px] w-[159px] cursor-pointer items-center rounded-full bg-[#6eff89] text-black"
+            className={
+              style.icongroup +
+              ' h-[37px] w-[159px] cursor-pointer rounded-full bg-white text-black'
+            }
             onClick={climbToTop}
           >
-            <div className="ml-[4px] h-[31px] w-[31px] rounded-full border border-solid border-black bg-[#4CFF6D]">
-              <ArrowUp height="100%" />
+            <div
+              className={
+                style.icon + ' flex h-full w-full items-center rounded-full'
+              }
+            >
+              <div className="ml-[4px] h-[31px] w-[31px] rounded-full border border-solid border-black ">
+                <ArrowUp height="100%" />
+              </div>
+              <p className="ml-[18px] text-[14px]">Back to top</p>
             </div>
-            <p className="ml-[18px] text-[14px]">Back to top</p>
           </div>
           <div className="text-[14px]">@copyright 2023</div>
         </div>

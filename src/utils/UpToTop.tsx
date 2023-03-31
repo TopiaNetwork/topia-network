@@ -50,7 +50,7 @@ export const UpToTop = () => {
       {visibleBackTopBtn && (
         <div
           className={
-            'fixed bottom-[31px] right-[31px] z-[999] flex h-[50px] w-[50px] cursor-pointer flex-col items-center rounded-full border-[2px] border-[#E6E6E6] bg-[#00FF7A] md:h-[80px] md:w-[80px]'
+            'fixed bottom-[31px] right-[31px] z-[999] flex h-[50px] w-[50px] cursor-pointer flex-col items-center rounded-full border-[2px] border-[#E6E6E6] bg-[#00FF7A] md:hidden md:h-[80px] md:w-[80px]'
           }
           onClick={climbToTop}
         >

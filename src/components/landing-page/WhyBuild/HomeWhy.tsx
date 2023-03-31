@@ -12,9 +12,9 @@ export const HomeWhy = () => {
     )
   }
   return (
-    <section className="mt-[100px] flex h-[1500px] w-full justify-center md:h-screen md:max-h-[1300px] md:min-h-[960px]">
+    <section className="mt-[100px] flex h-[1500px] w-full justify-center md:h-[1080px] md:max-h-[1300px] md:min-h-[960px]">
       <div className="g-body-container h-full items-start justify-end">
-        <div className="flex w-auto flex-col py-0 pl-0 pr-0 sm:max-w-[584px] md:w-[793px] md:rounded-[16px] md:border md:border-white/10 md:bg-[#3B5D66]/10 md:py-[94px] md:pl-[65px] md:pr-[50px]">
+        <div className="flex w-auto flex-col py-0 pl-0 pr-0 sm:max-w-[584px] md:w-[793px] md:max-w-max md:rounded-[16px] md:border md:border-white/10 md:bg-[#3B5D66]/10 md:py-[94px] md:pl-[65px] md:pr-[50px]">
           <h1 className="ml-[20px] text-[38px] font-semibold tracking-wide sm:ml-[41px] sm:text-[57px] md:ml-0 md:text-[49px]">
             <b className="text-[#6eff89]">Why</b> Build Topia
           </h1>

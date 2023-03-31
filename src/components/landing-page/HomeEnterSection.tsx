@@ -1,9 +1,9 @@
 import { TOPIA_GITHUB_LINK } from '../../constants/community'
 export const HomeEnterSection = () => {
   return (
-    <section className="g-page-height flex w-full justify-center">
-      <div className="g-body-container flex h-full items-center">
-        <div className="ml-[10px] h-[500px] w-[240px] sm:w-[260px] md:ml-0 md:mt-[184px] md:w-[550px]">
+    <section className="flex w-full justify-center">
+      <div className="flex h-screen max-h-[1600px] w-full max-w-[1120px] items-center">
+        <div className="ml-[16px] h-[500px] w-[240px] sm:w-[260px] md:ml-0 md:mt-[184px] md:w-[550px]">
           <div className="flex justify-between text-[45px] font-bold leading-[74px] tracking-wide sm:text-[50px] md:text-[108px] md:leading-[95px]">
             <h1>SCALE</h1>
             <h1>TO</h1>
