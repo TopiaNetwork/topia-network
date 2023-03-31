@@ -24,11 +24,11 @@ export const HeaderButton = () => {
   return (
     <nav className="flex items-center">
       <div
-        className={`relative mr-[5px] ml-[15px] md:mr-[36px] md:ml-12 ${style.headercommunitygroup}`}
+        className={`relative mr-[1px] ml-[1px] md:mr-[36px] md:ml-12 ${style.headercommunitygroup}`}
       >
         <div className="flex cursor-pointer items-center justify-between py-3">
           <p
-            className={`mr-[5px] md:mr-[10px] ${style.headertran} text-[15px] md:text-[16px]`}
+            className={`mr-[5px] md:mr-[10px] ${style.headertran} text-[14px] sm:text-[16px]`}
           >
             Community
           </p>
@@ -51,7 +51,7 @@ export const HeaderButton = () => {
         {/* GitHub */}
         <div className="hidden md:block md:text-[16px]">GitHub</div>
         <div className="relative top-[-2px] right-[-5px] block md:hidden">
-          <GithubIcon className="h-[28px] md:h-[41px]" />
+          <GithubIcon className="h-[28px] sm:h-[32px] md:h-[41px]" />
         </div>
       </a>
       {/* <div className="pl-14">About Us</div> */}

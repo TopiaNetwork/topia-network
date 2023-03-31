@@ -2,11 +2,11 @@ export const HomeApplication = () => {
   const displayApplication = (title: string, des: string) => {
     return (
       <div className="w-full]">
-        <h3 className="g-back-divide-line text-[25px] sm:text-[33px] md:text-[18px]">
+        <h3 className="g-back-divide-line text-[20px] sm:text-[23px] md:text-[18px]">
           {title}
         </h3>
         {des ? (
-          <p className="mt-[5px] text-[20px] text-[#fff]/70 sm:text-[29px] md:text-[14px] md:text-[#fff]/90">
+          <p className="mt-[5px] text-[20px] text-[#fff]/70 sm:text-[20px] md:text-[14px] md:text-[#fff]/90">
             {des}
           </p>
         ) : null}

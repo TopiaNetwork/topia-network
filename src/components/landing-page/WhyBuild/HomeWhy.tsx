@@ -2,10 +2,10 @@ export const HomeWhy = () => {
   const displayWhy = (title: string, des: string) => {
     return (
       <div>
-        <h3 className="g-back-divide-line text-[28px] sm:text-[31px] md:text-[21px]">
+        <h3 className="g-back-divide-line text-[25px] md:text-[21px]">
           {title}
         </h3>
-        <p className="mt-[20px] text-[23px] text-white/[.7] sm:text-[27px] md:text-[14px] md:leading-[26px]">
+        <p className="mt-[20px] text-[20px] text-white/[.7] md:text-[14px] md:leading-[26px]">
           {des}
         </p>
       </div>
@@ -18,7 +18,7 @@ export const HomeWhy = () => {
           <h1 className="ml-[20px] text-[38px] font-semibold tracking-wide sm:ml-[41px] sm:text-[57px] md:ml-0 md:text-[49px]">
             <b className="text-[#6eff89]">Why</b> Build Topia
           </h1>
-          <h2 className="ml-[20px] mt-[19px] mb-[32px] max-w-[426px] text-[20px] sm:ml-[41px] sm:text-[28px] md:ml-0 md:mt-[11px] md:mb-[85px] md:w-auto md:text-[14px]">
+          <h2 className="ml-[20px] mt-[19px] mb-[32px] max-w-[426px] text-[20px] sm:ml-[41px] md:ml-0 md:mt-[11px] md:mb-[85px] md:w-auto md:text-[14px]">
             Scaling the data storage capability of Ethereum while significantly
             reducing KV storage costs
           </h2>

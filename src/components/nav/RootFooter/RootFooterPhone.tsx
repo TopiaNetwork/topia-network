@@ -48,7 +48,7 @@ export const RootFooterPhone = () => {
         <span>the</span>
         <span>Community</span>
       </h1>
-      <h2 className="text-center text-[25px] font-thin sm:text-[31px]">
+      <h2 className="text-center text-[24px] font-thin">
         <p>Get involved, Take part in community</p>
         <p>discussions and keep up with</p>
         <p>important updates</p>
@@ -59,7 +59,7 @@ export const RootFooterPhone = () => {
         {communityBtn(DiscordIcon, TOPIA_DISCORD_LINK)}
         {communityBtn(MediumIcon, TOPIA_MEDIUM_LINK)}
       </div>
-      <p className="absolute bottom-[30px] text-[25px] font-thin">
+      <p className="absolute bottom-[30px] text-[20px] font-thin">
         @copyright 2023
       </p>
     </section>

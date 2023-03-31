@@ -18,7 +18,7 @@ export const HomeBackground = () => {
         <img
           src="/img/background/pto_02.png"
           alt="Picture 2 of background"
-          className="absolute left-[231px] bottom-[20px] h-[155px] md:left-[35%] md:bottom-[-120px] md:h-[23.73%]"
+          className="absolute left-[231px] bottom-[220px] h-[155px] md:left-[35%] md:bottom-[-120px] md:h-[23.73%]"
         ></img>
         {/* <div className="flex h-full w-screen justify-center">
           <div className="g-body-container">
@@ -74,7 +74,7 @@ export const HomeBackground = () => {
         <img
           src="/img/background/pto_09.png"
           alt="Picture 9 of background"
-          className="absolute bottom-[600px] right-0 h-[265px] sm:bottom-[100px] md:bottom-[-150px] md:right-[27%] md:h-[20.32%]"
+          className="absolute bottom-[600px] right-0 h-[265px] sm:bottom-[100px] md:bottom-[-250px] md:right-[17%] md:h-[20.32%]"
         ></img>
       </div>
     </div>
