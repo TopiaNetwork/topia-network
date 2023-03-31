@@ -14,7 +14,7 @@ export const HomeHow = () => {
   }
   return (
     <section className="g-page-height flex w-full justify-center">
-      <div className="g-body-container justify-center">
+      <div className="g-body-container justify-start md:justify-center">
         <div className="flex max-w-[594px] flex-col md:w-[585px]">
           <h1 className="pl-[20px] text-[38px]  sm:pl-[63px] sm:text-[56px]">
             <b className="text-[#6eff89]">How</b> to Build

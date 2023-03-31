@@ -15,7 +15,7 @@
 }
 
 .g-body-container {
-  @apply max-w-[1120px] mx-[10px] flex flex-grow;
+  @apply max-w-[1120px] mx-[16px] flex flex-grow;
 }
 
 .g-page-height {

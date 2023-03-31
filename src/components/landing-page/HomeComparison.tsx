@@ -100,7 +100,7 @@ export const HomeComparison = () => {
   }
 
   return (
-    <section className="mx-[10px] mt-24 flex h-[1200px] min-h-[960px] justify-center md:mt-[-200px] md:h-screen md:max-h-[1300px]">
+    <section className="mx-[16px] mt-24 flex h-[1200px] min-h-[960px] justify-center md:mt-[-200px] md:h-screen md:max-h-[1300px]">
       <div className="flex max-w-full flex-col items-center">
         <div className="text-[30px] font-bold tracking-[1.5px] sm:text-[56px]">
           Decentralized Storage{' '}
