@@ -23,12 +23,12 @@ export const RootFooterPhone = () => {
           rel="noreferrer"
         >
           <div
-            className={`flex h-[56px] w-[56px] items-center justify-center rounded-[5px] bg-white`}
+            className={`flex h-[32px] w-[32px] items-center justify-center rounded-[5px] bg-white`}
           >
             <div
               className={`flex h-full w-full items-center justify-center rounded-[5px] ${style.icon}`}
             >
-              <Icon width={40} height={40} className="fill-black" />
+              <Icon width={28} height={28} className="fill-black" />
             </div>
           </div>
           {/* <div className={`mt-1 text-[10px] text-[#6eff89] ${style.iconname}`}>
@@ -39,27 +39,27 @@ export const RootFooterPhone = () => {
     )
   }
   return (
-    <section className="relative z-10 mt-[100px] flex h-[800px] w-full flex-col items-center justify-center md:hidden">
+    <section className="relative z-10 mt-[100px] flex h-[600px] w-full flex-col items-center justify-center md:hidden">
       {/* <div className="flex flex-col items-center justify-center rounded-[16px] bg-[#070B0C] pb-[26px]">
       </div> */}
       <TopiaIcon className="h-[102px]" />
-      <h1 className="mt-[34px] flex flex-col items-center justify-center text-[40px] tracking-[2px] sm:flex-row sm:space-x-4 md:text-[57px]">
+      <h1 className="mt-[34px] flex items-center justify-center space-x-2 text-[28px] tracking-[2px] sm:text-[35px] md:text-[57px]">
         <b className="text-[#6eff89]">Join</b>
         <span>the</span>
         <span>Community</span>
       </h1>
-      <h2 className="text-center text-[24px] font-thin">
+      <h2 className="text-center text-[15px] font-thin">
         <p>Get involved, Take part in community</p>
         <p>discussions and keep up with</p>
         <p>important updates</p>
       </h2>
-      <div className="mt-[45px] grid grid-cols-3 gap-x-[35px]">
+      <div className="mt-[45px] grid grid-cols-3 gap-x-[17px]">
         {/* <div className="grid"> */}
         {communityBtn(TwitterIcon, TOPIA_TWITTER_LINK)}
         {communityBtn(DiscordIcon, TOPIA_DISCORD_LINK)}
         {communityBtn(MediumIcon, TOPIA_MEDIUM_LINK)}
       </div>
-      <p className="absolute bottom-[30px] text-[20px] font-thin">
+      <p className="absolute bottom-[30px] text-[12px] font-thin">
         @copyright 2023
       </p>
     </section>

@@ -38,7 +38,7 @@ export const HomeComparison = () => {
     return compItems.map((item, index) => (
       <div
         key={index}
-        className="my-[3px] flex h-[60px] min-h-[36px] w-full items-center bg-[#3B5D66]/10 pl-10 text-[16px] md:text-[12px]"
+        className="my-[3px] flex h-[60px] min-h-[36px] w-full items-center bg-[#3B5D66]/10 pl-10 text-[12px]"
       >
         <span>{item}</span>
       </div>
@@ -57,7 +57,7 @@ export const HomeComparison = () => {
         {compItems.map((item, index) => (
           <div
             key={index}
-            className="my-[3px] flex h-[60px] min-h-[36px] w-full items-center justify-center bg-[#3B5D66]/10 px-6 text-center text-[16px] md:text-[12px]"
+            className="my-[3px] flex h-[60px] min-h-[36px] w-full items-center justify-center bg-[#3B5D66]/10 px-6 text-center text-[12px]"
           >
             {item === true ? (
               <img
@@ -89,30 +89,37 @@ export const HomeComparison = () => {
       <div
         className={
           `${showing === index ? 'border-[#33F8FF] ' : 'border-white '}` +
-          'curcor-pointer flex h-[36px] flex-auto basis-[200px] items-center justify-center rounded-[10px] border-[1px] sm:h-[66px]'
+          'curcor-pointer flex h-[56px] max-w-[280px] flex-auto basis-[180px] items-center justify-center rounded-[10px] border-[1px] lt:h-[86px]'
         }
         key={logoname}
         onClick={() => changeShowing(index)}
       >
-        <img src={logo} alt={logoname} className="w-[80%]" />
+        <img src={logo} alt={logoname} className="w-[75%]" />
       </div>
     )
   }
 
   return (
-    <section className="mx-[16px] mt-24 flex h-[1200px] min-h-[960px] justify-center md:mt-0 md:h-[1080px] md:max-h-[1300px]">
+    <section className="mx-[16px] mt-[100px] flex min-h-[960px] justify-center">
+      <div className="absolute z-[-1] h-[1200px] w-full max-w-[2080px]">
+        <img
+          src="/img/background/pto_07.png"
+          alt="Picture 7 of background"
+          className="absolute bottom-[150px] left-0 w-[200px] rotate-[35deg] sm:bottom-[100px] sm:left-0 sm:w-[30%] lt:bottom-[150px] lt:left-0 lt:w-[20%] md:bottom-[300px] md:left-[5%] md:w-[15%] mxl:bottom-[200px] mxl:left-[18%] mxl:w-[15%]"
+        ></img>
+      </div>
       <div className="flex max-w-full flex-col items-center">
-        <div className="text-[30px] font-bold tracking-[1.5px] sm:text-[56px]">
+        <div className="text-[28px] font-bold tracking-[1.5px] sm:text-[50px] md:text-[56px]">
           Decentralized Storage{' '}
           <span className="text-[#6EFF89] md:font-[#ffffff]">Comparison</span>
         </div>
-        <div className="mt-[23px] flex w-full justify-between space-x-1 md:hidden">
+        <div className="mt-[23px] flex w-full justify-between space-x-[10px] md:hidden">
           {showArr.map((item, index) =>
             renderBtn(item.logo, index, item.logoname)
           )}
         </div>
         <div className="flex w-screen max-w-full justify-center">
-          <div className="mt-10 flex max-w-[1120px] items-center gap-x-[1.5px] overflow-auto">
+          <div className="mt-10 flex max-w-[1120px] flex-grow items-center gap-x-[1.5px] overflow-auto">
             <div className="flex min-w-[200px] flex-auto flex-grow flex-col md:w-[216px] md:min-w-[200px]">
               <div className="my-[3px] h-[60px] w-full bg-[#3B5D66]/10" />
               {blockNameRender(compItems)}
@@ -130,7 +137,7 @@ export const HomeComparison = () => {
               {compTopia.map((item, index) => (
                 <div
                   key={index}
-                  className="my-[3px] flex h-[63.5px] min-h-[36px] w-full items-center justify-center border-[2px] border-[#fff]/10 bg-[#3B5D66]/10 px-6 text-center text-[18px] md:border-0 md:text-[12px]"
+                  className="my-[3px] flex h-[63.5px] min-h-[36px] w-full items-center justify-center border-[2px] border-[#fff]/10 bg-[#3B5D66]/10 px-6 text-center text-[12px] md:border-0"
                 >
                   {item === true ? (
                     <img
