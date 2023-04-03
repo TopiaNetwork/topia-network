@@ -12,12 +12,12 @@ export const HomeWhy = () => {
     )
   }
   return (
-    <section className="relative flex w-full justify-center">
+    <section className="relative mt-[200px] flex w-full justify-center">
       <div className="absolute z-[-1] h-full w-full max-w-[2080px]">
         <img
           src="/img/background/pto_03.png"
           alt="Picture 3 of background"
-          className="absolute left-[-50%] top-[30%] w-[400px] rotate-[-10deg]  sm:top-[40%] sm:left-[-15%] sm:w-[400px] lt:w-[523px] md:w-[634px] md:rotate-0 mxl:top-[20%] mxl:left-[5%] mxl:w-[825px]"
+          className="absolute left-[-50%] top-[30%] w-[400px] rotate-[-10deg] sm:top-[40%] sm:left-[-35%] sm:w-[400px] lt:w-[523px] md:left-[-20%] md:w-[634px] md:rotate-0 mxl:top-[20%] mxl:left-[5%] mxl:w-[825px]"
         ></img>
         <img
           src="/img/background/pto_04.png"

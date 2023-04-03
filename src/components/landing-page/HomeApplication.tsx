@@ -14,7 +14,7 @@ export const HomeApplication = () => {
     )
   }
   return (
-    <section className="mt-[200px] flex w-full justify-center">
+    <section className="mt-[300px] flex w-full justify-center px-[16px]">
       <div className="absolute z-[-1] h-[1000px] w-full max-w-[2080px]">
         <img
           src="/img/background/pto_06.png"
@@ -59,7 +59,7 @@ export const HomeApplication = () => {
               )}
             </div>
           </div>
-          <div className="g-card mt-[60px] grid flex-grow grid-cols-1 gap-y-[55px] p-[20px] md:hidden md:p-[50px]">
+          <div className="g-card mt-[60px] grid flex-grow grid-cols-1 gap-y-[35px] p-[20px] md:hidden md:p-[50px]">
             {displayApplication(
               'Social Media',
               'Decentralized media (Mirror), dTwitter, dPersonal blog, etc'

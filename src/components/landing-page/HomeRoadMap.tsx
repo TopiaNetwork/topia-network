@@ -34,7 +34,7 @@ export const HomeRoadMap = () => {
     )
   }
   return (
-    <section className="mt-[200px] flex w-full justify-center">
+    <section className="mt-[400px] flex w-full justify-center px-[16px]">
       <div className="absolute z-[-1] h-[1000px] w-full max-w-[2080px]">
         <img
           src="/img/background/pto_08.png"
@@ -48,7 +48,7 @@ export const HomeRoadMap = () => {
         ></img>
       </div>
       <div className="h-auto items-end justify-center">
-        <div className="flex flex-col items-center p-0 md:max-w-[900px] md:items-start md:rounded-[16px] md:border md:border-white/10 md:bg-[#3B5D66]/10 md:pt-[50px] md:pl-[43px] md:pr-[95px] md:pb-[62px]">
+        <div className="flex max-w-[600px] flex-col items-center p-0 md:max-w-[900px] md:items-start md:rounded-[16px] md:border md:border-white/10 md:bg-[#3B5D66]/10 md:pt-[50px] md:pl-[43px] md:pr-[95px] md:pb-[62px]">
           <h1 className="text-[28px] font-semibold sm:text-[50px] md:pl-[228px] md:text-[56px]">
             RoadMap
           </h1>

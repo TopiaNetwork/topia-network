@@ -1,8 +1,8 @@
 import { TOPIA_GITHUB_LINK } from '../../constants/community'
 export const HomeEnterSection = () => {
   return (
-    <section className="relative flex w-full justify-center">
-      <div className="absolute z-[-1] h-screen max-h-[1600px] w-full max-w-[2080px]">
+    <section className="relative mt-[60px] flex w-full justify-center">
+      <div className="absolute top-[-80px] z-[-1] h-screen max-h-[1600px] w-full max-w-[2080px]">
         <img
           src="/img/background/pto_01.png"
           alt="Picture 1 of background"
@@ -14,8 +14,8 @@ export const HomeEnterSection = () => {
           className="absolute bottom-0 left-[20%] w-[100px] sm:w-[150px] lt:w-[200px] md:left-[15%] md:w-[266px] mxl:left-[25%]"
         ></img>
       </div>
-      <div className="mt-[60px] flex h-screen max-h-[1600px] min-h-[315px] w-full max-w-[1120px] items-center">
-        <div className="ml-[16px] w-[180px] sm:w-[260px] md:ml-0 md:w-[550px]">
+      <div className="flex h-screen max-h-[1600px] min-h-[315px] w-full max-w-[1120px] items-center">
+        <div className="relative top-[-10%] ml-[16px] w-[180px] sm:w-[260px] md:ml-0 md:w-[550px]">
           <div className="flex justify-between text-[32px] font-bold leading-[74px] tracking-wide sm:text-[50px] md:text-[108px] md:leading-[95px]">
             <h1>SCALE</h1>
             <h1>TO</h1>

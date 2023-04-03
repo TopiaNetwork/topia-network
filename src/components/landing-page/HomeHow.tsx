@@ -13,7 +13,7 @@ export const HomeHow = () => {
     )
   }
   return (
-    <section className="mt-[400px] flex w-full justify-center">
+    <section className="mt-[400px] flex w-full justify-center px-[16px]">
       <div className="absolute z-[-1] h-[1000px] w-full max-w-[2080px]">
         <img
           src="/img/background/pto_10.png"
