@@ -19,7 +19,7 @@ export const HomeApplication = () => {
         <img
           src="/img/background/pto_06.png"
           alt="Picture 6 of background"
-          className="absolute bottom-[150px] right-[-150px] h-[400px] sm:bottom-[200px] sm:h-[423px] lt:h-[623px] md:bottom-[350px] md:right-[-10%] md:h-[719px] mxl:bottom-[350px] mxl:right-[6%] mxl:h-[65.48%]"
+          className="absolute bottom-[200px] right-[-150px] h-[400px] sm:bottom-[200px] sm:h-[423px] lt:h-[623px] md:bottom-[350px] md:right-[-10%] md:h-[719px] mxl:bottom-[350px] mxl:right-[6%] mxl:h-[65.48%]"
         ></img>
       </div>
       <div className="h-[1000px] max-w-[1120px] items-center justify-center">
