@@ -7,7 +7,6 @@ import {
   TOPIA_MEDIUM_LINK,
   TOPIA_TWITTER_LINK,
 } from '../../../constants/community'
-import style from './styles.module.css'
 
 export const RootFooterPhone = () => {
   const communityBtn = (
@@ -18,7 +17,7 @@ export const RootFooterPhone = () => {
       <div className="group flex flex-col items-center">
         <a
           href={href}
-          className={`flex flex-col items-center justify-center ${style.icongroup}`}
+          className={`flex flex-col items-center justify-center`}
           target="_blank"
           rel="noreferrer"
         >
@@ -26,7 +25,7 @@ export const RootFooterPhone = () => {
             className={`flex h-[32px] w-[32px] items-center justify-center rounded-[5px] bg-white`}
           >
             <div
-              className={`flex h-full w-full items-center justify-center rounded-[5px] ${style.icon}`}
+              className={`flex h-full w-full items-center justify-center rounded-[5px]`}
             >
               <Icon width={28} height={28} className="fill-black" />
             </div>
@@ -42,8 +41,8 @@ export const RootFooterPhone = () => {
     <section className="relative z-10 mt-[100px] flex h-[600px] w-full flex-col items-center justify-center md:hidden">
       {/* <div className="flex flex-col items-center justify-center rounded-[16px] bg-[#070B0C] pb-[26px]">
       </div> */}
-      <TopiaIcon className="h-[102px]" />
-      <h1 className="mt-[34px] flex items-center justify-center space-x-2 text-[28px] tracking-[2px] sm:text-[35px] md:text-[57px]">
+      <TopiaIcon className="h-[80px]" />
+      <h1 className="mt-[24px] flex items-center justify-center space-x-2 text-[28px] tracking-[2px] sm:text-[35px] md:text-[57px]">
         <b className="text-[#6eff89]">Join</b>
         <span>the</span>
         <span>Community</span>

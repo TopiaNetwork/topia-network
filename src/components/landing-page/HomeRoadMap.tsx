@@ -15,7 +15,7 @@ export const HomeRoadMap = () => {
           <h3 className="g-back-divide-line relative top-[-3px] mt-[23px] mb-[33px] text-[15px] md:hidden">
             {period}
           </h3>
-          <ul className="ml-[20px] grid flex-grow grid-cols-1 gap-y-[15px] text-[14px] md:ml-[17px] md:gap-y-[10px] md:text-[14px]">
+          <ul className="ml-[20px] grid flex-grow grid-cols-1 gap-y-[15px] text-[14px] md:ml-[17px] md:gap-y-[10px] md:text-[16px]">
             {des.map((item, index) => displayLi(index, item))}
           </ul>
         </div>
@@ -34,12 +34,13 @@ export const HomeRoadMap = () => {
     )
   }
   return (
-    <section className="mt-[400px] flex w-full justify-center px-[16px]">
-      <div className="absolute z-[-1] h-[1000px] w-full max-w-[2080px]">
+    <section className="mt-[100px] flex w-full justify-center px-[16px]">
+      <div className="absolute z-[-1] flex h-[1000px] w-full max-w-[2080px] justify-center">
         <img
           src="/img/background/pto_08.png"
           alt="Picture 8 of background"
-          className="absolute top-[-150px] right-[2%] h-[300px] sm:right-[5%] sm:top-[-200px] sm:h-[396px] lt:right-[15%] lt:top-[-200px] md:right-[10%] md:top-[-400px] md:h-[584px] mxl:top-[-350px] mxl:left-[35%] mxl:h-[56.29%]"
+          // className="absolute top-[-150px] right-[2%] h-[300px] sm:right-[5%] sm:top-[-200px] sm:h-[396px] lt:right-[15%] lt:top-[-200px] md:right-[10%] md:top-[-400px] md:h-[584px] mxl:top-[-350px] mxl:left-[35%] mxl:h-[56.29%]"
+          className="relative top-[-200px] h-[300px] sm:h-[396px] md:top-[-400px] md:h-[584px] mxl:h-[56.29%]"
         ></img>
         <img
           src="/img/background/pto_09.png"

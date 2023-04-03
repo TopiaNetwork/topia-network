@@ -38,7 +38,7 @@ export const HomeComparison = () => {
     return compItems.map((item, index) => (
       <div
         key={index}
-        className="my-[3px] flex h-[60px] min-h-[36px] w-full items-center bg-[#3B5D66]/10 pl-10 text-[12px]"
+        className="my-[3px] flex h-[40px] min-h-[36px] w-full items-center bg-[#3B5D66]/10 pl-[6px] text-[9px] sm:pl-[15px] lt:pl-[20px] md:h-[60px] md:pl-10 md:text-[16px]"
       >
         <span>{item}</span>
       </div>
@@ -47,17 +47,14 @@ export const HomeComparison = () => {
   const blockItemRender = (data: compareItem) => {
     const { logo, logoname, compItems } = data
     return (
-      <div
-        className="mx-[1.5px] flex min-w-[150px] flex-col md:w-[216px] md:min-w-[200px]"
-        key={logoname}
-      >
-        <div className="my-[3px] flex h-[60px] w-full flex-auto items-center justify-center bg-[#3B5D66]/10">
-          <img className="h-[30px]" src={logo} alt={logoname} />
+      <div className="flex w-full flex-col md:mx-[3px]" key={logoname}>
+        <div className="my-[3px] flex h-[40px] w-full flex-auto items-center justify-center bg-[#3B5D66]/10 md:h-[60px]">
+          <img className="h-[20px] md:h-[30px]" src={logo} alt={logoname} />
         </div>
         {compItems.map((item, index) => (
           <div
             key={index}
-            className="my-[3px] flex h-[60px] min-h-[36px] w-full items-center justify-center bg-[#3B5D66]/10 px-6 text-center text-[12px]"
+            className="my-[3px] flex h-[40px] min-h-[36px] w-full items-center justify-center bg-[#3B5D66]/10 px-6 text-center text-[8px] lt:text-[12px] md:h-[60px] md:text-[16px]"
           >
             {item === true ? (
               <img
@@ -119,25 +116,25 @@ export const HomeComparison = () => {
           )}
         </div>
         <div className="flex w-screen max-w-full justify-center">
-          <div className="mt-10 flex max-w-[1120px] flex-grow items-center gap-x-[1.5px] overflow-auto">
-            <div className="flex min-w-[200px] flex-auto flex-grow flex-col md:w-[216px] md:min-w-[200px]">
-              <div className="my-[3px] h-[60px] w-full bg-[#3B5D66]/10" />
+          <div className="mt-10 grid max-w-[1120px] flex-grow grid-cols-3 items-center gap-x-[5px] overflow-auto md:grid-cols-5 md:gap-x-[3px]">
+            <div className="flex flex-grow flex-col">
+              <div className="my-[3px] h-[40px] w-full bg-[#3B5D66]/10 md:h-[60px]" />
               {blockNameRender(compItems)}
             </div>
-            <div className="hidden md:flex">
+            <div className="col-span-3 hidden md:flex">
               {showArr.map((item) => blockItemRender(item))}
             </div>
-            <div className="min-w-[200px] flex-auto flex-grow md:hidden">
+            <div className="flex md:hidden">
               {blockItemRender(showArr[showing])}
             </div>
-            <div className="flex min-w-[242px] flex-auto flex-grow flex-col md:w-[222px] md:min-w-[200px]">
-              <div className="my-[3px] flex h-[60px] w-full items-center justify-center rounded-tr-[40px] border-[2px] border-[#fff]/10 bg-[#3B5D66]/10 md:border-0">
-                <TopiaLogo className="h-[30px]" />
+            <div className="flex flex-col">
+              <div className="my-[3px] flex h-[40px] w-full items-center justify-center rounded-tr-[40px] border-[2px] border-[#fff]/10 bg-[#3B5D66]/10 md:h-[60px] md:border-0">
+                <TopiaLogo className="h-[20px] md:h-[30px]" />
               </div>
               {compTopia.map((item, index) => (
                 <div
                   key={index}
-                  className="my-[3px] flex h-[63.5px] min-h-[36px] w-full items-center justify-center border-[2px] border-[#fff]/10 bg-[#3B5D66]/10 px-6 text-center text-[12px] md:border-0"
+                  className="my-[3px] flex h-[41px] min-h-[36px] w-full items-center justify-center border-[2px] border-[#fff]/10 bg-[#3B5D66]/10 px-6 text-center text-[8px] lt:text-[12px] md:h-[63.5px] md:border-0 md:text-[16px]"
                 >
                   {item === true ? (
                     <img

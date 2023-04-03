@@ -6,7 +6,7 @@ export const HomeApplication = () => {
           {title}
         </h3>
         {des ? (
-          <p className="mt-[5px] text-[14px] text-[#fff]/70 md:text-[#fff]/90">
+          <p className="mt-[5px] text-[14px] text-[#fff]/70 md:text-[16px] md:text-[#fff]/90">
             {des}
           </p>
         ) : null}
@@ -19,14 +19,14 @@ export const HomeApplication = () => {
         <img
           src="/img/background/pto_06.png"
           alt="Picture 6 of background"
-          className="absolute bottom-0 right-[-150px] h-[400px] sm:bottom-[100px] sm:h-[523px] lt:h-[623px] md:bottom-[350px] md:right-[-10%] md:h-[719px] mxl:bottom-[350px] mxl:right-[6%] mxl:h-[65.48%]"
+          className="absolute bottom-[150px] right-[-150px] h-[400px] sm:bottom-[200px] sm:h-[423px] lt:h-[623px] md:bottom-[350px] md:right-[-10%] md:h-[719px] mxl:bottom-[350px] mxl:right-[6%] mxl:h-[65.48%]"
         ></img>
       </div>
-      <div className="h-[1000px] items-center justify-center">
+      <div className="h-[1000px] max-w-[1120px] items-center justify-center">
         <div className="flex w-full flex-col items-center md:h-full md:items-start">
           <h1 className="pl-[20px] text-[40px] md:text-[56px]">Application</h1>
           <div className="mt-[60px] hidden flex-grow grid-cols-2 gap-x-[18px] md:grid">
-            <div className="g-card grid h-[449px] flex-grow grid-cols-1 p-[50px]">
+            <div className="g-card grid h-[449px] flex-grow grid-cols-1 px-[50px] pt-[50px] pb-[10px]">
               {displayApplication(
                 'Social Media',
                 'Decentralized media (Mirror), dTwitter, dPersonal blog, etc'
@@ -44,7 +44,7 @@ export const HomeApplication = () => {
                 ''
               )}
             </div>
-            <div className="g-card grid h-[449px] flex-grow grid-cols-1 px-[50px] pt-[50px] pb-[20px]">
+            <div className="g-card grid h-[449px] flex-grow grid-cols-1 px-[50px] pt-[50px] pb-[10px]">
               {displayApplication(
                 'Personal Data Market',
                 'Store your encrypted personal data in your own account and only allow use after permission'
