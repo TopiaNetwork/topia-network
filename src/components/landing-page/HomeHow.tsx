@@ -5,7 +5,7 @@ export const HomeHow = () => {
         <div className="g-back-divide-line">
           <div className="h-[2px] w-[31px] bg-[#6eff89] md:w-[25px]"></div>
         </div>
-        <p className="mt-[25px] mb-[50px] text-[14px] font-thin md:mb-[10px] md:mt-0 md:text-[16px] md:text-[#fff]/90">
+        <p className="mt-[20px] mb-[40px] text-[14px] font-thin md:mb-[10px] md:mt-0 md:text-[16px] md:text-[#fff]/90">
           {des}
         </p>
         <div></div>
@@ -13,15 +13,15 @@ export const HomeHow = () => {
     )
   }
   return (
-    <section className="mt-[400px] flex w-full justify-center px-[16px]">
+    <section className="mt-[200px] flex w-full justify-center px-[16px] md:mt-[400px]">
       <div className="absolute z-[-1] h-[1000px] w-full max-w-[2080px]">
         <img
           src="/img/background/pto_10.png"
           alt="Picture 10 of background"
-          className="absolute bottom-0 right-[-40%] w-[500px] sm:bottom-[-10%] sm:right-[-30%] sm:w-[600px] lt:right-[-30%] lt:bottom-[-20%] lt:w-[700px] md:right-[-24%] md:bottom-[-20%] md:w-[900px] mxl:right-[-12%] mxl:bottom-[-25%] mxl:w-[952px]"
+          className="absolute bottom-[100px] right-[-40%] w-[500px] sm:bottom-[-2%] sm:right-[-30%] sm:w-[600px] lt:right-[-30%] lt:bottom-[-20%] lt:w-[700px] md:right-[-24%] md:bottom-[-20%] md:w-[900px] mxl:right-[-12%] mxl:bottom-[-25%] mxl:w-[952px]"
         ></img>
       </div>
-      <div className="h-[1000px] justify-start md:justify-center">
+      <div className="h-[800px] justify-start md:h-[1000px] md:justify-center">
         <div className="w-[290px] sm:w-auto sm:max-w-[504px] md:w-[585px] md:max-w-max">
           <h1 className="pl-[20px] text-[28px]  sm:pl-[63px] sm:text-[50px] md:text-[56px]">
             <b className="text-[#6eff89]">How</b> to Build

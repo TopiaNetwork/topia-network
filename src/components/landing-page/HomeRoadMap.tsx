@@ -12,7 +12,7 @@ export const HomeRoadMap = () => {
           <h3 className="g-back-divide-line relative top-[-3px] mb-[10px] !hidden text-[25px] md:!flex">
             {title}
           </h3>
-          <h3 className="g-back-divide-line relative top-[-3px] mt-[23px] mb-[33px] text-[15px] md:hidden">
+          <h3 className="g-back-divide-line relative top-[-3px] mt-[10px] mb-[10px] text-[15px] md:mb-[33px] md:hidden">
             {period}
           </h3>
           <ul className="ml-[20px] grid flex-grow grid-cols-1 gap-y-[15px] text-[14px] md:ml-[17px] md:gap-y-[10px] md:text-[16px]">
@@ -26,7 +26,7 @@ export const HomeRoadMap = () => {
     return (
       <li
         key={index}
-        className="list-disc leading-[35px] text-white/[.7] md:leading-[30px]"
+        className="list-disc leading-[20px] text-white/[.7] md:leading-[30px]"
       >
         {/* <div className="mr-6 h-1.5 w-1.5 flex-shrink-0 rounded bg-white inline" /> */}
         {des}
@@ -45,7 +45,7 @@ export const HomeRoadMap = () => {
         <img
           src="/img/background/pto_09.png"
           alt="Picture 9 of background"
-          className="absolute bottom-[-800px] right-0 h-[165px] sm:bottom-[-50%] md:bottom-[-100px] md:right-[10%] mxl:bottom-[-150px] mxl:right-[27%] mxl:h-[20.32%]"
+          className="absolute bottom-[-200px] right-0 h-[165px] sm:bottom-[-30%] lt:bottom-[-20%] md:bottom-[-100px] md:right-[10%] mxl:bottom-[-150px] mxl:right-[27%] mxl:h-[20.32%]"
         ></img>
       </div>
       <div className="h-auto items-end justify-center">

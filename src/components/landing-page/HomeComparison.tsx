@@ -102,7 +102,7 @@ export const HomeComparison = () => {
         <img
           src="/img/background/pto_07.png"
           alt="Picture 7 of background"
-          className="absolute bottom-[150px] left-0 w-[200px] rotate-[35deg] sm:bottom-[100px] sm:left-0 sm:w-[30%] lt:bottom-[150px] lt:left-0 lt:w-[20%] md:bottom-[300px] md:left-[5%] md:w-[15%] mxl:bottom-[200px] mxl:left-[18%] mxl:w-[15%]"
+          className="absolute bottom-[380px] left-0 w-[200px] rotate-[35deg] sm:bottom-[300px] sm:left-0 sm:w-[30%] lt:bottom-[280px] lt:left-0 lt:w-[20%] md:bottom-[300px] md:left-[5%] md:w-[15%] mxl:bottom-[200px] mxl:left-[18%] mxl:w-[15%]"
         ></img>
       </div>
       <div className="flex max-w-full flex-col items-center">
@@ -128,7 +128,7 @@ export const HomeComparison = () => {
               {blockItemRender(showArr[showing])}
             </div>
             <div className="flex flex-col">
-              <div className="my-[1.5px] flex h-[40px] w-full items-center justify-center rounded-tr-[40px] border-[1px] border-[#fff]/10 bg-[#3B5D66]/10 md:my-[2px] md:h-[60px] md:border-0">
+              <div className="my-[1.5px] flex h-[40px] w-full items-center justify-center rounded-tr-[28px] border-[1px] border-[#fff]/10 bg-[#3B5D66]/10 md:my-[2px] md:h-[60px] md:rounded-tr-[40px] md:border-0">
                 <TopiaLogo className="h-[20px] md:h-[30px]" />
               </div>
               {compTopia.map((item, index) => (
