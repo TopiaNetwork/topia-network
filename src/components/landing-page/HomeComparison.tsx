@@ -108,7 +108,7 @@ export const HomeComparison = () => {
       <div className="flex max-w-full flex-col items-center">
         <div className="text-[28px] font-bold tracking-[1.5px] sm:text-[50px] md:text-[56px]">
           Decentralized Storage{' '}
-          <span className="text-[#6EFF89] md:font-[#ffffff]">Comparison</span>
+          <span className="text-[#6EFF89] md:text-[#fff]">Comparison</span>
         </div>
         <div className="mt-[23px] flex w-full justify-between space-x-[10px] lt:mt-[80px] md:hidden">
           {showArr.map((item, index) =>

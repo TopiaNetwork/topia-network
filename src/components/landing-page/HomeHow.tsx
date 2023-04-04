@@ -5,7 +5,7 @@ export const HomeHow = () => {
         <div className="g-back-divide-line">
           <div className="h-[2px] w-[31px] bg-[#6eff89] md:w-[25px]"></div>
         </div>
-        <p className="mt-[20px] mb-[40px] text-[14px] font-thin md:mb-[10px] md:mt-0 md:text-[16px] md:text-[#fff]/90">
+        <p className="mt-[20px] mb-[40px] text-[14px] md:mb-[10px] md:mt-0 md:text-[16px] md:font-thin md:text-[#fff]/90">
           {des}
         </p>
         <div></div>
@@ -26,7 +26,7 @@ export const HomeHow = () => {
           <h1 className="pl-[20px] text-[28px]  sm:pl-[63px] sm:text-[50px] md:text-[56px]">
             <b className="text-[#6eff89]">How</b> to Build
           </h1>
-          <h2 className="mb-[26px] mt-[22px] pl-[20px] text-[15px] sm:pl-[66px] md:mb-[56px] md:mt-[30px] md:w-auto md:text-[16px]">
+          <h2 className="mb-[26px] mt-[22px] w-[170px] pl-[20px] text-[15px] sm:w-auto sm:pl-[66px] md:mb-[56px] md:mt-[30px] md:text-[16px]">
             Distributed Storage DeeplyIntegrated with Layer2
           </h2>
           <div className="g-card grid grid-cols-1 py-[20px] pl-[20px] pr-[20px] sm:px-[66px] sm:pt-[80px] sm:pb-[30px] md:h-[560px] md:pt-[77px] md:pb-[27px] md:pl-[66px] md:pr-[85px]">

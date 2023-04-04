@@ -12,7 +12,7 @@ export const HomeWhy = () => {
     )
   }
   return (
-    <section className="relative flex w-full justify-center sm:mt-[200px]">
+    <section className="relative flex w-full justify-center lt:mt-[200px]">
       <div className="absolute z-[-1] h-full w-full max-w-[2080px]">
         <img
           src="/img/background/pto_03.png"
