@@ -12,9 +12,9 @@ export const BackToTop = (props: SVGProps<SVGSVGElement>) => {
       {...props}
     >
       <style>
-        {`.st0{opacity:0.6;stroke:#6EFF89;stroke-width:2;stroke-miterlimit:10}.st1{fill:#6EFF89}`}
+        {`.backtoupst0{opacity:0.6;stroke:#6EFF89;stroke-width:2;stroke-miterlimit:10}.st1{fill:#6EFF89}`}
       </style>
-      <circle className="st0" cx="49" cy="49" r="48" />
+      <circle className="backtoupst0" cx="49" cy="49" r="48" />
 
       <g>
         <path

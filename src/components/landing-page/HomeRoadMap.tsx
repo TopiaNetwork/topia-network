@@ -34,7 +34,7 @@ export const HomeRoadMap = () => {
     )
   }
   return (
-    <section className="mt-[100px] flex w-full justify-center px-[16px]">
+    <section className="mt-[200px] flex w-full justify-center px-[16px]">
       <div className="absolute z-[-1] flex h-[1000px] w-full max-w-[2080px] justify-center">
         <img
           src="/img/background/pto_08.png"
