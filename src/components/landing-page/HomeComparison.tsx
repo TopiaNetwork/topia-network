@@ -38,7 +38,7 @@ export const HomeComparison = () => {
     return compItems.map((item, index) => (
       <div
         key={index}
-        className="my-[3px] flex h-[40px] min-h-[36px] w-full items-center bg-[#3B5D66]/10 pl-[6px] text-[9px] sm:pl-[15px] lt:pl-[20px] md:h-[60px] md:pl-10 md:text-[16px]"
+        className="my-[1.5px] flex h-[40px] min-h-[36px] w-full items-center bg-[#3B5D66]/10 pl-[6px] text-[7px] sm:pl-[15px] lt:pl-[20px] md:my-[2px] md:h-[60px] md:pl-10 md:text-[15px]"
       >
         <span>{item}</span>
       </div>
@@ -47,14 +47,14 @@ export const HomeComparison = () => {
   const blockItemRender = (data: compareItem) => {
     const { logo, logoname, compItems } = data
     return (
-      <div className="flex w-full flex-col md:mx-[3px]" key={logoname}>
-        <div className="my-[3px] flex h-[40px] w-full flex-auto items-center justify-center bg-[#3B5D66]/10 md:h-[60px]">
+      <div className="flex w-full flex-col md:mx-[2px]" key={logoname}>
+        <div className="my-[1.5px] flex h-[40px] w-full flex-auto items-center justify-center bg-[#3B5D66]/10 md:my-[2px] md:h-[60px]">
           <img className="h-[20px] md:h-[30px]" src={logo} alt={logoname} />
         </div>
         {compItems.map((item, index) => (
           <div
             key={index}
-            className="my-[3px] flex h-[40px] min-h-[36px] w-full items-center justify-center bg-[#3B5D66]/10 px-6 text-center text-[8px] lt:text-[12px] md:h-[60px] md:text-[16px]"
+            className="my-[1.5px] flex h-[40px] min-h-[36px] w-full items-center justify-center bg-[#3B5D66]/10 px-0 text-center text-[8px] lt:text-[12px] md:my-[2px] md:h-[60px] md:px-6 md:text-[15px]"
           >
             {item === true ? (
               <img
@@ -86,12 +86,12 @@ export const HomeComparison = () => {
       <div
         className={
           `${showing === index ? 'border-[#33F8FF] ' : 'border-white '}` +
-          'curcor-pointer flex h-[56px] max-w-[280px] flex-auto basis-[180px] items-center justify-center rounded-[10px] border-[1px] lt:h-[86px]'
+          'curcor-pointer flex h-[30px] max-w-[280px] flex-auto basis-[180px] items-center justify-center rounded-[5px] border-[1px] sm:h-[40px] lt:h-[56px]'
         }
         key={logoname}
         onClick={() => changeShowing(index)}
       >
-        <img src={logo} alt={logoname} className="w-[75%]" />
+        <img src={logo} alt={logoname} className="h-[50%]" />
       </div>
     )
   }
@@ -110,15 +110,15 @@ export const HomeComparison = () => {
           Decentralized Storage{' '}
           <span className="text-[#6EFF89] md:font-[#ffffff]">Comparison</span>
         </div>
-        <div className="mt-[23px] flex w-full justify-between space-x-[10px] md:hidden">
+        <div className="mt-[23px] flex w-full justify-between space-x-[10px] lt:mt-[80px] md:hidden">
           {showArr.map((item, index) =>
             renderBtn(item.logo, index, item.logoname)
           )}
         </div>
         <div className="flex w-screen max-w-full justify-center">
-          <div className="mt-10 grid max-w-[1120px] flex-grow grid-cols-3 items-center gap-x-[5px] overflow-auto md:grid-cols-5 md:gap-x-[3px]">
+          <div className="mt-10 grid max-w-[1120px] flex-grow grid-cols-3 items-center gap-x-[3px] overflow-auto md:grid-cols-5 md:gap-x-[2px]">
             <div className="flex flex-grow flex-col">
-              <div className="my-[3px] h-[40px] w-full bg-[#3B5D66]/10 md:h-[60px]" />
+              <div className="my-[1.5px] h-[40px] w-full bg-[#3B5D66]/10 md:my-[2px] md:h-[60px]" />
               {blockNameRender(compItems)}
             </div>
             <div className="col-span-3 hidden md:flex">
@@ -128,13 +128,13 @@ export const HomeComparison = () => {
               {blockItemRender(showArr[showing])}
             </div>
             <div className="flex flex-col">
-              <div className="my-[3px] flex h-[40px] w-full items-center justify-center rounded-tr-[40px] border-[2px] border-[#fff]/10 bg-[#3B5D66]/10 md:h-[60px] md:border-0">
+              <div className="my-[1.5px] flex h-[40px] w-full items-center justify-center rounded-tr-[40px] border-[1px] border-[#fff]/10 bg-[#3B5D66]/10 md:my-[2px] md:h-[60px] md:border-0">
                 <TopiaLogo className="h-[20px] md:h-[30px]" />
               </div>
               {compTopia.map((item, index) => (
                 <div
                   key={index}
-                  className="my-[3px] flex h-[41px] min-h-[36px] w-full items-center justify-center border-[2px] border-[#fff]/10 bg-[#3B5D66]/10 px-6 text-center text-[8px] lt:text-[12px] md:h-[63.5px] md:border-0 md:text-[16px]"
+                  className="my-[1.5px] flex h-[41px] min-h-[36px] w-full items-center justify-center border-[1px] border-[#fff]/10 bg-[#3B5D66]/10 px-0 text-center text-[8px] lt:text-[12px] md:my-[2px] md:h-[63.5px] md:border-0 md:px-6 md:text-[15px]"
                 >
                   {item === true ? (
                     <img
