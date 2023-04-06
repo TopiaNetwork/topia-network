@@ -1,14 +1,14 @@
 import { SVGProps } from 'react'
 
-export const TopiaLogo = (props: SVGProps<SVGSVGElement>) => {
+export const TopiaIcon = (props: SVGProps<SVGSVGElement>) => {
   return (
     <svg
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
       x="0px"
       y="0px"
-      viewBox="0 0 1392 388"
-      enableBackground="new 0 0 1392 388"
+      viewBox="0 0 388 388"
+      enableBackground="new 0 0 388 388"
       xmlSpace="preserve"
       {...props}
     >
@@ -30,7 +30,7 @@ export const TopiaLogo = (props: SVGProps<SVGSVGElement>) => {
 			c-27.3,14.1-68.6,15.6-92.2,3.4L17.9,71.2L17.9,71.2z"
           />
         </g>
-        <g>
+        {/* <g>
           <path
             fill="#fff"
             d="M526.9,99h121v34.9H492C492,114.6,507.6,99,526.9,99L526.9,99z M552.4,133.9h35V289
@@ -58,7 +58,7 @@ export const TopiaLogo = (props: SVGProps<SVGSVGElement>) => {
             d="M1356,99h-83.8c-19.9,0-36,16.1-36,36v154h35v-64.9h85.8V289h17c9.9,0,18-8.1,18-18v-46.9v-34.9V135
 			C1392,115.1,1375.9,99,1356,99z M1271.2,189.2v-55.3h85.8v55.3H1271.2z"
           />
-        </g>
+        </g> */}
       </g>
     </svg>
   )
