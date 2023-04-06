@@ -24,7 +24,7 @@ export const HeaderButton = () => {
   return (
     <nav className="flex h-full items-center">
       <div
-        className={`relative mr-[1px] ml-[1px] md:mr-[36px] md:ml-12 ${style.headercommunitygroup}`}
+        className={`relative mr-[1px] ml-[1px] h-full md:mr-[36px] md:ml-12 ${style.headercommunitygroup}`}
       >
         <div className="flex h-full cursor-pointer items-center justify-between py-3">
           <p
