@@ -5,7 +5,7 @@ export const HomeWhy = () => {
         <h3 className="g-back-divide-line text-[16px] md:text-[21px]">
           {title}
         </h3>
-        <p className="mt-[10px] text-[14px] text-white/[.7] sm:mt-[20px] md:text-[16px] md:leading-[26px]">
+        <p className="mt-[10px] text-[14px] tracking-wide text-white/[.9] md:text-[14px] md:leading-[26px]">
           {des}
         </p>
       </div>
@@ -26,11 +26,11 @@ export const HomeWhy = () => {
         ></img>
       </div>
       <div className="g-body-container h-full items-start justify-end">
-        <div className="flex w-[285px] flex-col py-0 pl-0 pr-0 sm:w-auto sm:max-w-[584px] md:w-[893px] md:max-w-max md:rounded-[16px] md:border md:border-white/10 md:bg-[#3B5D66]/10 md:py-[94px] md:pl-[65px] md:pr-[50px]">
+        <div className="flex w-[285px] flex-col py-0 pl-0 pr-0 sm:w-auto sm:max-w-[584px] md:w-[893px] md:max-w-max md:rounded-[16px] md:border md:border-white/10 md:bg-[#3B5D66]/10 md:pt-[90px] md:pb-[95px] md:pl-[65px] md:pr-[50px]">
           <h1 className="ml-[20px] text-[28px] font-semibold tracking-wide sm:ml-[41px] sm:text-[50px] md:ml-0 md:text-[56px]">
             <b className="text-[#6eff89]">Why</b> Build Topia
           </h1>
-          <h2 className="ml-[20px] mt-[19px] mb-[32px] text-[15px] sm:ml-[41px] md:ml-0 md:mt-[11px] md:mb-[85px] md:w-auto md:text-[16px]">
+          <h2 className="ml-[20px] mt-[19px] mb-[32px] text-[15px] tracking-wide sm:ml-[41px] md:ml-0 md:mt-[11px] md:mb-[85px] md:w-auto md:text-[16px]">
             Scaling the data storage capability of Ethereum while significantly
             reducing KV storage costs
           </h2>

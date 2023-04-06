@@ -24,7 +24,7 @@ export const RootFooter = () => {
                 style.icon + ' flex h-full w-full items-center rounded-full'
               }
             >
-              <div className="ml-[4px] h-[31px] w-[31px] rounded-full border border-solid border-black ">
+              <div className="ml-[4px] h-[31px] w-[31px] rounded-full border border-solid border-black">
                 <ArrowUp height="100%" />
               </div>
               <p className="ml-[18px] text-[14px]">Back to top</p>

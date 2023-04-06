@@ -38,7 +38,7 @@ export const HomeComparison = () => {
     return compItems.map((item, index) => (
       <div
         key={index}
-        className="my-[1.5px] flex h-[40px] min-h-[36px] w-full items-center bg-[#3B5D66]/10 pl-[6px] text-[7px] sm:pl-[15px] lt:pl-[20px] md:my-[2px] md:h-[60px] md:pl-10 md:text-[15px]"
+        className="my-[1.5px] flex h-[40px] min-h-[36px] w-full items-center bg-[#3B5D66]/10 pl-[6px] text-[9px] tracking-wide sm:pl-[15px] lt:pl-[20px] md:my-[2px] md:h-[60px] md:pl-10 md:text-[14px]"
       >
         <span>{item}</span>
       </div>
@@ -54,7 +54,7 @@ export const HomeComparison = () => {
         {compItems.map((item, index) => (
           <div
             key={index}
-            className="my-[1.5px] flex h-[40px] min-h-[36px] w-full items-center justify-center bg-[#3B5D66]/10 px-0 text-center text-[8px] lt:text-[12px] md:my-[2px] md:h-[60px] md:px-6 md:text-[15px]"
+            className="my-[1.5px] flex h-[40px] min-h-[36px] w-full items-center justify-center bg-[#3B5D66]/10 px-0 text-center text-[9px] lt:text-[12px] md:my-[2px] md:h-[60px] md:px-6 md:text-[14px]"
           >
             {item === true ? (
               <img
@@ -134,7 +134,7 @@ export const HomeComparison = () => {
               {compTopia.map((item, index) => (
                 <div
                   key={index}
-                  className="my-[1.5px] flex h-[41px] min-h-[36px] w-full items-center justify-center border-[1px] border-[#fff]/10 bg-[#3B5D66]/10 px-0 text-center text-[8px] lt:text-[12px] md:my-[2px] md:h-[63.5px] md:border-0 md:px-6 md:text-[15px]"
+                  className="my-[1.5px] flex h-[41px] min-h-[36px] w-full items-center justify-center border-[1px] border-[#fff]/10 bg-[#3B5D66]/10 px-0 text-center text-[9px] lt:text-[12px] md:my-[2px] md:h-[63.5px] md:border-0 md:px-6 md:text-[15px]"
                 >
                   {item === true ? (
                     <img
@@ -149,7 +149,7 @@ export const HomeComparison = () => {
                       alt="No"
                     />
                   ) : (
-                    <span className="font-semibold">{item}</span>
+                    <span>{item}</span>
                   )}
                 </div>
               ))}

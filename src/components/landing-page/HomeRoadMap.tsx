@@ -1,21 +1,21 @@
 export const HomeRoadMap = () => {
   const displayRoadMap = (period: string, title: string, des: string[]) => {
     return (
-      <div className="g-card flex w-full flex-col p-[20px] sm:px-[35px] sm:pt-[48px] sm:pb-[36px] md:mb-[20px] md:flex-row md:border-0 md:bg-transparent md:p-0">
+      <div className="g-card flex w-full flex-col p-[20px] sm:px-[35px] sm:pt-[36px] sm:pb-[36px] md:mb-[20px] md:flex-row md:border-0 md:bg-transparent md:p-0">
         <h3 className="hidden w-[230px] flex-shrink-0 text-[21px] md:block">
           {period}
         </h3>
-        <h3 className="flex-shrink-0 text-[17px] text-[#6EFF89] md:hidden">
+        <h3 className="flex-shrink-0 text-[17px] tracking-wide text-[#6EFF89] md:hidden">
           {title}
         </h3>
         <div className="flex flex-grow flex-col">
-          <h3 className="g-back-divide-line relative top-[-3px] mb-[10px] !hidden text-[25px] md:!flex">
+          <h3 className="g-back-divide-line relative top-[-3px] mb-[10px] !hidden text-[25px] tracking-wide md:!flex">
             {title}
           </h3>
           <h3 className="g-back-divide-line relative top-[-3px] mt-[10px] mb-[10px] text-[15px] md:mb-[33px] md:hidden">
             {period}
           </h3>
-          <ul className="ml-[20px] grid flex-grow grid-cols-1 gap-y-[15px] text-[14px] md:ml-[17px] md:gap-y-[10px] md:text-[16px]">
+          <ul className="ml-[20px] grid flex-grow grid-cols-1 gap-y-[15px] text-[14px] md:ml-[17px] md:gap-y-[10px]">
             {des.map((item, index) => displayLi(index, item))}
           </ul>
         </div>
@@ -26,7 +26,7 @@ export const HomeRoadMap = () => {
     return (
       <li
         key={index}
-        className="list-disc leading-[20px] text-white/[.7] md:leading-[30px]"
+        className="list-disc leading-[20px] tracking-wide text-white md:leading-[30px]"
       >
         {/* <div className="mr-6 h-1.5 w-1.5 flex-shrink-0 rounded bg-white inline" /> */}
         {des}
@@ -50,7 +50,7 @@ export const HomeRoadMap = () => {
       </div>
       <div className="h-auto items-end justify-center">
         <div className="flex max-w-[600px] flex-col items-center p-0 md:max-w-[900px] md:items-start md:rounded-[16px] md:border md:border-white/10 md:bg-[#3B5D66]/10 md:pt-[50px] md:pl-[43px] md:pr-[95px] md:pb-[62px]">
-          <h1 className="text-[28px] font-semibold sm:text-[50px] md:pl-[228px] md:text-[56px]">
+          <h1 className="text-[28px] font-semibold tracking-wide sm:text-[50px] md:pl-[228px] md:text-[56px]">
             RoadMap
           </h1>
           <div className="mt-[45px] grid flex-grow grid-cols-1 gap-y-[30px]">

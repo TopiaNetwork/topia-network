@@ -43,7 +43,7 @@ export const HomeCommunity = () => {
       <div className="h-[90px] flex-grow rounded-[16px] bg-[#0F171A]"></div>
       <div className="flex basis-[1172px] items-center justify-center rounded-[16px] bg-[#070B0C] pb-[26px]">
         <div className="g-card flex max-w-[1120px] flex-grow items-center justify-between px-[52px] py-[36px]">
-          <div className="w-[409px]">
+          <div className="relative top-[-5px] w-[409px]">
             <h1 className="text-[40px]">
               <b className="text-[#6eff89]">Join</b> the Community
             </h1>

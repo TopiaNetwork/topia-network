@@ -11,7 +11,7 @@ export const HomeEnterSection = () => {
         <img
           src="/img/background/pto_02.png"
           alt="Picture 2 of background"
-          className="absolute bottom-0 left-[20%] w-[80px] sm:w-[120px] lt:w-[160px] md:left-[10%] md:bottom-[-80px] md:w-[206px] mxl:left-[25%]"
+          className="absolute bottom-0 left-[20%] w-[80px] sm:w-[120px] lt:w-[160px] md:left-[10%] md:bottom-[-80px] md:w-[206px] mdl:left-[25%] mxl:bottom-0 mxl:left-[25%] mxl:w-[256px]"
         ></img>
       </div>
       <div className="ml-[16px] flex h-screen max-h-[600px] min-h-[315px] w-full max-w-[1120px] items-center sm:max-h-[800px] lt:max-h-[900px] md:max-h-[1000px] md:min-h-[900px] mxl:max-h-[1600px]">
