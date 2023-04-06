@@ -22,11 +22,11 @@ export const HeaderButton = () => {
     )
   }
   return (
-    <nav className="flex items-center">
+    <nav className="flex h-full items-center">
       <div
         className={`relative mr-[1px] ml-[1px] md:mr-[36px] md:ml-12 ${style.headercommunitygroup}`}
       >
-        <div className="flex cursor-pointer items-center justify-between py-3">
+        <div className="flex h-full cursor-pointer items-center justify-between py-3">
           <p
             className={`mr-[5px] md:mr-[10px] ${style.headertran} text-[14px] sm:text-[16px]`}
           >
@@ -35,7 +35,7 @@ export const HeaderButton = () => {
           <ArrowDropDownIcon className={`w-5 ${style.headerfill}`} />
         </div>
         <div
-          className={`absolute top-full right-0 mt-[6px] rounded-[10px] py-[10px] md:mt-[15px] md:rounded-[9px] md:py-2 ${style.headlist} h-auto w-full border-[1px] border-[#37674A]/50 bg-[#070B0C]/50 text-center text-[15px] md:h-auto md:border-[#1A2626] md:text-[16px]`}
+          className={`absolute top-full right-0 rounded-[10px] py-[10px] md:rounded-[9px] md:py-2 ${style.headlist} h-auto w-full border-[1px] border-[#37674A]/50 bg-[#070B0C]/50 text-center text-[15px] md:h-auto md:border-[#1A2626] md:text-[16px]`}
         >
           {renderBtn(TOPIA_TWITTER_LINK, 'Twitter')}
           {renderBtn(TOPIA_DISCORD_LINK, 'Discord')}
