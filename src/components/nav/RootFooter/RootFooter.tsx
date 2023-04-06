@@ -1,6 +1,4 @@
 'use client'
-import { FooterLogo } from '../../svg/FooterLogo'
-import { ArrowUp } from '../../svg/ArrowUp'
 import style from './styles.module.css'
 
 export const RootFooter = () => {
@@ -11,7 +9,11 @@ export const RootFooter = () => {
     <footer className="z-0 hidden bg-[#0F171A] pt-[20px] md:block">
       <div className="flex justify-center">
         <div className="mx-4 flex h-[95px] max-w-[1120px] flex-auto items-center justify-between">
-          <FooterLogo className="h-[36px]" />
+          <img
+            src="/img/footer_logo.svg"
+            alt="footer_logo"
+            className="h-[36px]"
+          />
           <div
             className={
               style.icongroup +
@@ -25,7 +27,11 @@ export const RootFooter = () => {
               }
             >
               <div className="ml-[4px] h-[31px] w-[31px] rounded-full border border-solid border-black">
-                <ArrowUp height="100%" />
+                <img
+                  src="/img/footer_icon_top.svg"
+                  alt="footer_icon_top"
+                  className="h-[36px]"
+                />
               </div>
               <p className="ml-[18px] text-[14px]">Back to top</p>
             </div>
