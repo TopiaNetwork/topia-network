@@ -16,11 +16,11 @@ export const HomeApplication = () => {
   return (
     <section className="flex w-full justify-center px-[16px] md:mt-[300px]">
       <div className="absolute z-[-1] h-[1000px] w-full max-w-[2080px]">
-        <img
-          src="/img/background/pto_06.png"
-          alt="Picture 6 of background"
-          className="absolute bottom-[200px] right-[-150px] h-[400px] sm:bottom-[200px] sm:h-[423px] lt:h-[623px] md:bottom-[350px] md:right-[-10%] md:h-[719px] mxl:bottom-[350px] mxl:right-[6%] mxl:h-[65.48%]"
-        ></img>
+        <picture className="absolute bottom-[200px] right-[-150px] w-[400px] sm:bottom-[200px] sm:w-[423px] lt:w-[623px] md:bottom-[350px] md:right-[-10%] md:w-[719px] mxl:bottom-[350px] mxl:right-[6%] mxl:w-[35%]">
+          <source srcSet="/img/background/pto_06.avif" type="image/avif" />
+          <source srcSet="/img/background/pto_06.webp" type="image/webp" />
+          <img src="/img/background/pto_06.png" alt="Picture 6 of background" />
+        </picture>
       </div>
       <div className="h-[1000px] max-w-[1120px] items-center justify-center">
         <div className="flex w-full flex-col items-center md:h-full md:items-start">

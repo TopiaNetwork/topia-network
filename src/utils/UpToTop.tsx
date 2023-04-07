@@ -35,11 +35,11 @@ export const UpToTop = () => {
     }
     setVisibleBackTopBtn(false)
   }
-  const handleScroll = throttle(detectScroll, 300)
   useEffect(() => {
     detectScroll()
+    const handleScroll = throttle(detectScroll, 300)
     window.addEventListener('scroll', handleScroll, true)
-  })
+  }, [])
 
   return (
     <>

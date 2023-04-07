@@ -14,16 +14,16 @@ export const HomeWhy = () => {
   return (
     <section className="relative flex w-full justify-center lt:mt-[200px]">
       <div className="absolute z-[-1] h-full w-full max-w-[2080px]">
-        <img
-          src="/img/background/pto_03.png"
-          alt="Picture 3 of background"
-          className="absolute left-[-50%] top-[30%] w-[400px] rotate-[-10deg] sm:top-[40%] sm:left-[-35%] sm:w-[400px] lt:w-[523px] md:left-[-20%] md:w-[834px] md:rotate-0 mxl:top-[20%] mxl:left-[5%] mxl:w-[825px]"
-        ></img>
-        <img
-          src="/img/background/pto_04.png"
-          alt="Picture 4 of background"
-          className="absolute right-0 bottom-[-10%] w-[150px] sm:right-0 sm:bottom-[-10%] sm:w-[180px] lt:right-0 lt:bottom-[-15%] lt:w-[200px] md:bottom-[-15%] md:right-0 md:w-[262px] mxl:right-[15%] mxl:bottom-[-10%] mxl:w-[340px]"
-        ></img>
+        <picture className="absolute left-[-50%] top-[30%] w-[400px] rotate-[-10deg] sm:top-[40%] sm:left-[-35%] sm:w-[400px] lt:w-[523px] md:left-[-20%] md:w-[834px] md:rotate-0 mxl:top-[20%] mxl:left-[5%] mxl:w-[825px]">
+          <source srcSet="/img/background/pto_03.avif" type="image/avif" />
+          <source srcSet="/img/background/pto_03.webp" type="image/webp" />
+          <img src="/img/background/pto_03.png" alt="Picture 3 of background" />
+        </picture>
+        <picture className="absolute right-0 bottom-[-10%] w-[150px] sm:right-0 sm:bottom-[-10%] sm:w-[180px] lt:right-0 lt:bottom-[-15%] lt:w-[200px] md:bottom-[-15%] md:right-0 md:w-[262px] mxl:right-[15%] mxl:bottom-[-10%] mxl:w-[340px]">
+          <source srcSet="/img/background/pto_04.avif" type="image/avif" />
+          <source srcSet="/img/background/pto_04.webp" type="image/webp" />
+          <img src="/img/background/pto_04.png" alt="Picture 4 of background" />
+        </picture>
       </div>
       <div className="g-body-container h-full items-start justify-end">
         <div className="flex w-[285px] flex-col py-0 pl-0 pr-0 sm:w-auto sm:max-w-[584px] md:w-[893px] md:max-w-max md:rounded-[16px] md:border md:border-white/10 md:bg-[#3B5D66]/10 md:pt-[90px] md:pb-[95px] md:pl-[65px] md:pr-[50px]">

@@ -15,11 +15,14 @@ export const HomeHow = () => {
   return (
     <section className="mt-[200px] flex w-full justify-start px-[16px] md:mt-[400px] md:justify-center">
       <div className="absolute z-[-1] h-[1000px] w-full max-w-[2080px]">
-        <img
-          src="/img/background/pto_10.png"
-          alt="Picture 10 of background"
-          className="absolute bottom-[100px] right-[-40%] w-[500px] sm:bottom-[-2%] sm:right-[-30%] sm:w-[600px] lt:right-[-30%] lt:bottom-[-20%] lt:w-[700px] md:right-[-24%] md:bottom-[-20%] md:w-[900px] mxl:right-[-12%] mxl:bottom-[-25%] mxl:w-[952px]"
-        ></img>
+        <picture className="absolute bottom-[100px] right-[-40%] w-[500px] sm:bottom-[-2%] sm:right-[-30%] sm:w-[600px] lt:right-[-30%] lt:bottom-[-20%] lt:w-[700px] md:right-[-24%] md:bottom-[-20%] md:w-[900px] mxl:right-[-12%] mxl:bottom-[-25%] mxl:w-[952px]">
+          <source srcSet="/img/background/pto_10.avif" type="image/avif" />
+          <source srcSet="/img/background/pto_10.webp" type="image/webp" />
+          <img
+            src="/img/background/pto_10.png"
+            alt="Picture 10 of background"
+          />
+        </picture>
       </div>
       <div className="h-[800px] md:h-[1000px]">
         <div className="w-[290px] sm:w-auto sm:max-w-[504px] md:w-[585px] md:max-w-max">
