@@ -48,7 +48,7 @@ export const RootFooterPhone = () => {
         <span>Community</span>
       </h1>
       <h2 className="text-center text-[15px] font-thin">
-        <p>Get involved, Take part in community</p>
+        <p>Get involved, take part in community</p>
         <p>discussions and keep up with</p>
         <p>important updates</p>
       </h2>
