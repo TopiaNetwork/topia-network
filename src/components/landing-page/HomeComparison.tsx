@@ -99,11 +99,6 @@ export const HomeComparison = () => {
   return (
     <section className="mx-[16px] mt-[100px] flex min-h-[960px] justify-center">
       <div className="absolute z-[-1] h-[1200px] w-full max-w-[2080px]">
-        {/* <img
-          src="/img/background/pto_07.png"
-          alt="Picture 7 of background"
-          className="absolute bottom-[380px] left-0 w-[200px] rotate-[35deg] sm:bottom-[300px] sm:left-0 sm:w-[30%] lt:bottom-[280px] lt:left-0 lt:w-[20%] md:bottom-[300px] md:left-[5%] md:w-[15%] mxl:bottom-[200px] mxl:left-[18%] mxl:w-[15%]"
-        ></img> */}
         <picture className="absolute bottom-[380px] left-0 w-[200px] rotate-[35deg] sm:bottom-[300px] sm:left-0 sm:w-[30%] lt:bottom-[280px] lt:left-0 lt:w-[20%] md:bottom-[300px] md:left-[5%] md:w-[15%] mxl:bottom-[200px] mxl:left-[18%] mxl:w-[15%]">
           <source srcSet="/img/background/pto_07.avif" type="image/avif" />
           <source srcSet="/img/background/pto_07.webp" type="image/webp" />
