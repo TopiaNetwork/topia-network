@@ -36,17 +36,16 @@ export const HomeRoadMap = () => {
   return (
     <section className="mt-[200px] flex w-full justify-center px-[16px]">
       <div className="absolute z-[-1] flex h-[1000px] w-full max-w-[2080px] justify-center">
-        <img
-          src="/img/background/pto_08.png"
-          alt="Picture 8 of background"
-          // className="absolute top-[-150px] right-[2%] h-[300px] sm:right-[5%] sm:top-[-200px] sm:h-[396px] lt:right-[15%] lt:top-[-200px] md:right-[10%] md:top-[-400px] md:h-[584px] mxl:top-[-350px] mxl:left-[35%] mxl:h-[56.29%]"
-          className="relative top-[-200px] h-[300px] sm:h-[396px] md:top-[-400px] md:h-[584px] mxl:h-[56.29%]"
-        ></img>
-        <img
-          src="/img/background/pto_09.png"
-          alt="Picture 9 of background"
-          className="absolute bottom-[-200px] right-0 h-[165px] sm:bottom-[-30%] lt:bottom-[-20%] md:bottom-[-100px] md:right-[10%] mxl:bottom-[-150px] mxl:right-[27%] mxl:h-[20.32%]"
-        ></img>
+        <picture className="relative top-[-200px] h-[300px] sm:h-[396px] md:top-[-400px] md:h-[584px] mxl:h-[56.29%]">
+          <source srcSet="/img/background/pto_08.avif" type="image/avif" />
+          <source srcSet="/img/background/pto_08.webp" type="image/webp" />
+          <img src="/img/background/pto_08.png" alt="Picture 8 of background" />
+        </picture>
+        <picture className="absolute bottom-[-200px] right-0 h-[165px] sm:bottom-[-30%] lt:bottom-[-20%] md:bottom-[-100px] md:right-[10%] mxl:bottom-[-150px] mxl:right-[27%] mxl:h-[20.32%]">
+          <source srcSet="/img/background/pto_09.avif" type="image/avif" />
+          <source srcSet="/img/background/pto_09.webp" type="image/webp" />
+          <img src="/img/background/pto_09.png" alt="Picture 9 of background" />
+        </picture>
       </div>
       <div className="h-auto items-end justify-center">
         <div className="flex max-w-[600px] flex-col items-center p-0 md:max-w-[900px] md:items-start md:rounded-[16px] md:border md:border-white/10 md:bg-[#3B5D66]/10 md:pt-[50px] md:pl-[43px] md:pr-[95px] md:pb-[62px]">

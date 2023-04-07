@@ -9,12 +9,12 @@ import { HomeRoadMap } from '../components/landing-page/HomeRoadMap'
 import { HomeCommunity } from '../components/landing-page/Community/HomeCommunity'
 import { RootFooter } from '../components/nav/RootFooter/RootFooter'
 import { RootFooterPhone } from '../components/nav/RootFooter/RootFooterPhone'
-// import { UpToTop } from '../utils/UpToTop'
+import { UpToTop } from '../utils/UpToTop'
 
 const page = async () => {
   return (
     <div className="relative w-full overflow-hidden">
-      {/* <UpToTop /> */}
+      <UpToTop />
       <RootHeader />
       <HomeEnterSection />
       <HomeWhy />
