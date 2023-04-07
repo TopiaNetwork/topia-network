@@ -48,7 +48,7 @@ export const HomeCommunity = () => {
               <b className="text-[#6eff89]">Join</b> the Community
             </h1>
             <h2 className="text-[16px]">
-              Get involved, Take part in community discussions and keep up with
+              Get involved, take part in community discussions and keep up with
               important updates
             </h2>
           </div>

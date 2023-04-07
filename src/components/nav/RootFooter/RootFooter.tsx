@@ -26,7 +26,7 @@ export const RootFooter = () => {
                 style.icon + ' flex h-full w-full items-center rounded-full'
               }
             >
-              <div className="ml-[4px] h-[31px] w-[31px] rounded-full border border-solid border-black">
+              <div className="ml-[4px] flex h-[31px] w-[31px] items-center rounded-full border border-solid border-black">
                 <img
                   src="/img/footer_icon_top.svg"
                   alt="footer_icon_top"
