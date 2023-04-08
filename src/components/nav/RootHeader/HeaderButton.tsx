@@ -6,13 +6,12 @@ import {
   TOPIA_MEDIUM_LINK,
   TOPIA_TWITTER_LINK,
 } from '../../../constants/community'
-import style from './styles.module.css'
 
 export const HeaderButton = () => {
   const renderBtn = (href: string, name: string) => {
     return (
       <a
-        className={`block px-[3px] py-[5px] md:px-8 md:py-2.5 ${style.navtransition}`}
+        className="block px-[3px] py-[5px] text-[#fff] transition-colors duration-300 ease-in-out md:px-8 md:py-2.5 md:hover:text-[#6eff89]"
         href={href}
         target="_blank"
         rel="noreferrer"
@@ -23,19 +22,16 @@ export const HeaderButton = () => {
   }
   return (
     <nav className="flex h-full items-center">
-      <div
-        className={`relative mr-[1px] ml-[1px] h-full md:mr-[36px] md:ml-12 ${style.headercommunitygroup}`}
-      >
+      <div className="group relative mr-[1px] ml-[1px] h-full md:mr-[36px] md:ml-12">
         <div className="flex h-full cursor-pointer items-center justify-between py-3">
-          <p
-            className={`mr-[5px] md:mr-[10px] ${style.headertran} text-[14px] sm:text-[16px]`}
-          >
+          <p className="mr-[5px] text-[14px] text-[#fff] transition-colors duration-300 ease-in-out sm:text-[16px] md:mr-[10px] md:group-hover:text-[#6eff89]">
             Community
           </p>
-          <ArrowDropDownIcon className={`w-5 ${style.headerfill}`} />
+          <ArrowDropDownIcon className="w-5 md:group-hover:fill-[#6eff89]" />
         </div>
         <div
-          className={`absolute top-full right-0 rounded-[10px] py-[10px] md:rounded-[9px] md:py-2 ${style.headlist} h-auto w-full border-[1px] border-[#37674A]/50 bg-[#070B0C]/50 text-center text-[15px] md:h-auto md:border-[#1A2626] md:text-[16px]`}
+          // className={`absolute top-full right-0 rounded-[10px] py-[10px] md:rounded-[9px] md:py-2 ${style.headlist} h-auto w-full border-[1px] border-[#37674A]/50 bg-[#070B0C]/50 text-center text-[15px] md:h-auto md:border-[#1A2626] md:text-[16px]`}
+          className="absolute top-full right-0 hidden h-auto w-full rounded-[10px] border-[1px] border-[#37674A]/50 bg-[#070B0C]/50 py-[10px] text-center text-[15px] group-hover:block md:h-auto md:rounded-[9px] md:border-[#1A2626] md:py-2 md:text-[16px]"
         >
           {renderBtn(TOPIA_TWITTER_LINK, 'Twitter')}
           {renderBtn(TOPIA_DISCORD_LINK, 'Discord')}
@@ -43,7 +39,8 @@ export const HeaderButton = () => {
         </div>
       </div>
       <a
-        className={`ml-0 md:ml-[81px] ${style.navtransition}`}
+        // className={`ml-0 md:ml-[81px] ${style.navtransition}`}
+        className="ml-0 text-[#fff] transition duration-300 ease-in-out md:ml-[81px] md:hover:text-[#6eff89]"
         href={TOPIA_GITHUB_LINK}
         target="_blank"
         rel="noreferrer"

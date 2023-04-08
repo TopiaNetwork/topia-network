@@ -6,8 +6,8 @@ import {
   compItems,
   compSSTORE,
   compTopia,
-} from '../../constants/comparison'
-import { TopiaLogo } from '../svg/TopiaLogo'
+} from '../../../constants/comparison'
+import { TopiaLogo } from '../../svg/TopiaLogo'
 
 type compareItem = {
   logo: string

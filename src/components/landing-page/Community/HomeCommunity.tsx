@@ -6,7 +6,6 @@ import {
   TOPIA_MEDIUM_LINK,
   TOPIA_TWITTER_LINK,
 } from '../../../constants/community'
-import style from './styles.module.css'
 
 export const HomeCommunity = () => {
   const communityBtn = (
@@ -18,20 +17,18 @@ export const HomeCommunity = () => {
       <div className="group flex flex-col items-center">
         <a
           href={href}
-          className={`flex flex-col items-center justify-center ${style.icongroup}`}
+          className="group flex flex-col items-center justify-center"
           target="_blank"
           rel="noreferrer"
         >
           <div
             className={`flex h-[40px] w-[40px] items-center justify-center rounded-[5px] bg-white`}
           >
-            <div
-              className={`flex h-full w-full items-center justify-center rounded-[5px] ${style.icon}`}
-            >
+            <div className="flex h-full w-full items-center justify-center rounded-[5px] bg-[#fff] transition-all duration-300 ease-in-out group-hover:bg-[#6eff89]">
               <Icon className="w-[28px] fill-black" />
             </div>
           </div>
-          <div className={`mt-1 text-[10px] text-[#6eff89] ${style.iconname}`}>
+          <div className="mt-1 text-[10px] text-[#6eff89] opacity-0 transition-all duration-300 ease-in-out group-hover:opacity-100">
             {name}
           </div>
         </a>

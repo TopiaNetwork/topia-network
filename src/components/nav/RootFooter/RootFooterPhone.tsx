@@ -17,22 +17,15 @@ export const RootFooterPhone = () => {
       <div className="group flex flex-col items-center">
         <a
           href={href}
-          className={`flex flex-col items-center justify-center`}
+          className="flex flex-col items-center justify-center"
           target="_blank"
           rel="noreferrer"
         >
-          <div
-            className={`flex h-[32px] w-[32px] items-center justify-center rounded-[5px] bg-white`}
-          >
-            <div
-              className={`flex h-full w-full items-center justify-center rounded-[5px]`}
-            >
+          <div className="flex h-[32px] w-[32px] items-center justify-center rounded-[5px] bg-white">
+            <div className="flex h-full w-full items-center justify-center rounded-[5px]">
               <Icon width={28} height={28} className="fill-black" />
             </div>
           </div>
-          {/* <div className={`mt-1 text-[10px] text-[#6eff89] ${style.iconname}`}>
-            {name}
-          </div> */}
         </a>
       </div>
     )

@@ -1,5 +1,4 @@
 'use client'
-import style from './styles.module.css'
 
 export const RootFooter = () => {
   const climbToTop = () => {
@@ -15,17 +14,10 @@ export const RootFooter = () => {
             className="h-[36px]"
           />
           <div
-            className={
-              style.icongroup +
-              ' h-[37px] w-[159px] cursor-pointer rounded-full bg-white text-black'
-            }
+            className="group h-[37px] w-[159px] cursor-pointer rounded-full bg-white text-black"
             onClick={climbToTop}
           >
-            <div
-              className={
-                style.icon + ' flex h-full w-full items-center rounded-full'
-              }
-            >
+            <div className="flex h-full w-full items-center rounded-full bg-[#fff] transition-all duration-300 ease-in-out group-hover:bg-[#6eff89]">
               <div className="ml-[4px] flex h-[31px] w-[31px] items-center rounded-full border border-solid border-black">
                 <img
                   src="/img/footer_icon_top.svg"
