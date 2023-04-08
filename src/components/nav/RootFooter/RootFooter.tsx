@@ -1,9 +1,4 @@
-'use client'
-
 export const RootFooter = () => {
-  const climbToTop = () => {
-    window.scrollTo(0, 0)
-  }
   return (
     <footer className="z-0 hidden bg-[#0F171A] pt-[20px] md:block">
       <div className="flex justify-center">
@@ -13,9 +8,9 @@ export const RootFooter = () => {
             alt="footer_logo"
             className="h-[36px]"
           />
-          <div
+          <a
             className="group h-[37px] w-[159px] cursor-pointer rounded-full bg-white text-black"
-            onClick={climbToTop}
+            href="#"
           >
             <div className="flex h-full w-full items-center rounded-full bg-[#fff] transition-all duration-300 ease-in-out group-hover:bg-[#6eff89]">
               <div className="ml-[4px] flex h-[31px] w-[31px] items-center rounded-full border border-solid border-black">
@@ -27,7 +22,7 @@ export const RootFooter = () => {
               </div>
               <p className="ml-[18px] text-[14px]">Back to top</p>
             </div>
-          </div>
+          </a>
           <div className="text-[14px]">© 2023 Topia</div>
         </div>
       </div>

@@ -13,18 +13,20 @@ import { UpToTop } from '../utils/UpToTop'
 
 const page = async () => {
   return (
-    <div className="relative w-full overflow-hidden">
+    <div className="w-full">
       <UpToTop />
-      <RootHeader />
-      <HomeEnterSection />
-      <HomeWhy />
-      <HomeHow />
-      <HomeComparison />
-      <HomeApplication />
-      <HomeRoadMap />
-      <HomeCommunity />
-      <RootFooter />
-      <RootFooterPhone />
+      <div className="relative w-full overflow-hidden">
+        <RootHeader />
+        <HomeEnterSection />
+        <HomeWhy />
+        <HomeHow />
+        <HomeComparison />
+        <HomeApplication />
+        <HomeRoadMap />
+        <HomeCommunity />
+        <RootFooter />
+        <RootFooterPhone />
+      </div>
     </div>
   )
 }
