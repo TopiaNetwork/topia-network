@@ -62,3 +62,27 @@ export const compTopia = [
   'Proof of availability base on Merkle tree',
   'CRUD',
 ]
+
+export type compareItem = {
+  logo: string
+  logoname: string
+  compItems: (string | boolean)[]
+}
+
+export const showArr: compareItem[] = [
+  {
+    logo: '/img/logo_filecoin.svg',
+    logoname: 'filecoin',
+    compItems: compFilecoin,
+  },
+  {
+    logo: '/img/logo_ar.svg',
+    logoname: 'arweave',
+    compItems: compArweave,
+  },
+  {
+    logo: '/img/logo_eth_sstore.svg',
+    logoname: 'ethsstore',
+    compItems: compSSTORE,
+  },
+]
