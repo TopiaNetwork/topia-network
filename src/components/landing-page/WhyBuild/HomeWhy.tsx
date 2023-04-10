@@ -43,10 +43,7 @@ export const HomeWhy = () => {
               'ACHIEVE',
               'Ultimately achieve full on-chain applications and personal data sovereignty'
             )}
-            {displayWhy(
-              'REDUCING',
-              'Significantly reducing data storage costs'
-            )}
+            {displayWhy('REDUCE', 'Significantly reducing data storage costs')}
             {displayWhy(
               'EXPAND',
               "Expand Ethereum's data storage capabilities"
