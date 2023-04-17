@@ -1,7 +1,7 @@
 export const HomeApplication = () => {
   const displayApplication = (title: string, des: string) => {
     return (
-      <div className="w-full]">
+      <div className="w-full">
         <h3 className="g-back-divide-line text-[16px] sm:text-[17px]">
           {title}
         </h3>
@@ -57,7 +57,7 @@ export const HomeApplication = () => {
               )}
               {displayApplication(
                 'Fully on-chain GameFi',
-                '95% code of gameFi  is currently deployed on centralized cloud servers'
+                '95% code of gameFi is currently deployed on centralized cloud servers'
               )}
             </div>
           </div>
@@ -84,7 +84,7 @@ export const HomeApplication = () => {
             )}
             {displayApplication(
               'Fully on-chain GameFi',
-              '95% code of gameFi  is currently deployed on centralized cloud servers'
+              '95% code of gameFi is currently deployed on centralized cloud servers'
             )}
             {displayApplication('Other Web 3.0 and Metaverse Applications', '')}
           </div>
