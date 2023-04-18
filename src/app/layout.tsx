@@ -3,8 +3,8 @@ import { Providers } from '../components/providers'
 import React from 'react'
 
 export const metadata = {
-  title: 'Topia - The first dStorage Layer2 solution.',
-  description: 'The first dStorage Layer2 solution.',
+  title: 'Topia - The first shared restaking DA.',
+  description: 'The first shared restaking DA.',
   icons: {
     icon: '/favicon.ico',
   },

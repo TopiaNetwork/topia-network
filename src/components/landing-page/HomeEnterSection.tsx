@@ -29,11 +29,9 @@ export const HomeEnterSection = () => {
             INFINITY
           </h1>
           <h2 className="mt-[22px] w-[289px] text-[15px] leading-[37px] tracking-[1px] sm:text-[27px] md:mt-0 md:w-[602px] md:font-light md:leading-[40px] md:tracking-[1px]">
-            <p className="block md:hidden">The First dStorage</p>
-            <p className="block md:hidden">Layer2 solution</p>
-            <p className="hidden md:block">
-              The first dStorage Layer2 solution
-            </p>
+            <p className="block md:hidden">The first shared</p>
+            <p className="block md:hidden">restaking DA</p>
+            <p className="hidden md:block">The first shared restaking DA.</p>
           </h2>
           <a
             href={TOPIA_GITHUB_LINK}
