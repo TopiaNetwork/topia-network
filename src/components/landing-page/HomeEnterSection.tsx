@@ -21,19 +21,14 @@ export const HomeEnterSection = () => {
       </div>
       <div className="ml-[16px] flex h-screen max-h-[600px] min-h-[315px] w-full max-w-[1120px] items-center sm:max-h-[800px] lt:max-h-[900px] md:max-h-[1000px] md:min-h-[900px] mxl:max-h-[1600px]">
         <div className="relative top-[-15%] w-[180px] sm:w-[260px] md:ml-0 md:w-[500px] mxl:w-[550px]">
-          <div className="flex justify-between text-[32px] font-bold leading-[74px] tracking-wide sm:text-[50px] md:text-[90px] md:leading-[95px] mxl:text-[108px]">
-            <h1>SCALE</h1>
-            <h1>TO</h1>
+          <div className="whitespace-nowrap text-[32px] font-bold leading-[74px] tracking-wide sm:text-[40px] md:text-[52px] md:leading-[90px]">
+            <h1>THE FIRST SHARED</h1>
           </div>
-          <h1 className="text-[32px] font-bold sm:text-[50px] md:text-[90px] mxl:text-[108px]">
-            INFINITY
+          <h1 className="text-[32px] font-bold sm:text-[40px] md:text-[52px]">
+            RESTAKING
           </h1>
-          <h2 className="mt-[22px] w-[289px] text-[15px] leading-[37px] tracking-[1px] sm:text-[27px] md:mt-0 md:w-[602px] md:font-light md:leading-[40px] md:tracking-[1px]">
-            <p className="block md:hidden">The First dStorage</p>
-            <p className="block md:hidden">Layer2 solution</p>
-            <p className="hidden md:block">
-              The first dStorage Layer2 solution
-            </p>
+          <h2 className="mt-3 whitespace-nowrap text-[20px] font-medium sm:text-[26px] md:text-[40px] md:leading-[72px]">
+            Data Availability
           </h2>
           <a
             href={TOPIA_GITHUB_LINK}
