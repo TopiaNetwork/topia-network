@@ -28,65 +28,52 @@ export const HomeApplication = () => {
             Application
           </h1>
           <div className="mt-[60px] hidden flex-grow grid-cols-2 gap-x-[18px] md:grid">
-            <div className="g-card grid h-[449px] flex-grow grid-cols-1 px-[50px] pt-[50px] pb-0">
-              {displayApplication(
-                'Social Media',
-                'Decentralized media (Mirror), dTwitter, dPersonal blog, etc'
-              )}
-              {displayApplication(
-                'Composable NFT',
-                'NFT with on-chain programmability'
-              )}
-              {displayApplication(
-                'Fully on-chain NFT and NFT Exchange',
-                'Store NFT traits and images in decentralized way'
-              )}
-              {displayApplication(
-                'Other Web 3.0 and Metaverse Applications',
-                ''
-              )}
-            </div>
-            <div className="g-card grid h-[449px] flex-grow grid-cols-1 px-[50px] pt-[50px] pb-0">
-              {displayApplication(
-                'Personal Data Market',
-                'Store your encrypted personal data in your own account and only allow use after permission'
-              )}
+            <div className="g-card grid h-[400px] flex-grow grid-cols-1 px-[50px] pt-[50px] pb-[30px]">
               {displayApplication(
                 'Website Hosting',
-                'Every dApp frontend can be hosted in a decentralized way'
+                'Decentralized front-end can improve the security of all Dapps'
               )}
               {displayApplication(
-                'Fully on-chain GameFi',
-                '95% code of gameFi is currently deployed on centralized cloud servers'
+                'Social Media',
+                'A decentralized twitter or wechat can help you own your data'
+              )}
+              {displayApplication(
+                'On-chain NFT',
+                'Secure ownership of your assets, such as game items'
+              )}
+            </div>
+            <div className="g-card grid h-[400px] flex-grow grid-cols-1 px-[50px] pt-[100px] pb-[50px]">
+              {displayApplication(
+                'Publishing',
+                'A decentralized medium can help you store your work and own your content forever'
+              )}
+              {displayApplication(
+                'Fully on-chain Dapps',
+                'All moves on-chain, such as fully on-chain games'
               )}
             </div>
           </div>
           <div className="g-card mt-[60px] grid flex-grow grid-cols-1 gap-y-[35px] p-[20px] sm:p-[40px] md:hidden">
             {displayApplication(
-              'Social Media',
-              'Decentralized media (Mirror), dTwitter, dPersonal blog, etc'
-            )}
-            {displayApplication(
-              'Composable NFT',
-              'NFT with on-chain programmability'
-            )}
-            {displayApplication(
-              'Fully on-chain NFT and NFT Exchange',
-              'Store NFT traits and images in decentralized way'
-            )}
-            {displayApplication(
-              'Personal Data Market',
-              'Store your encrypted personal data in your own account and only allow use after permission'
-            )}
-            {displayApplication(
               'Website Hosting',
-              'Every dApp frontend can be hosted in a decentralized way'
+              'Decentralized front-end can improve the security of all Dapps'
             )}
             {displayApplication(
-              'Fully on-chain GameFi',
-              '95% code of gameFi is currently deployed on centralized cloud servers'
+              'Social Media',
+              'A decentralized twitter or wechat can help you own your data'
             )}
-            {displayApplication('Other Web 3.0 and Metaverse Applications', '')}
+            {displayApplication(
+              'On-chain NFT',
+              'Secure ownership of your assets, such as game items'
+            )}
+            {displayApplication(
+              'Publishing',
+              'A decentralized medium can help you store your work and own your content forever'
+            )}
+            {displayApplication(
+              'Fully on-chain Dapps',
+              'All moves on-chain, such as fully on-chain games'
+            )}
           </div>
         </div>
       </div>

@@ -31,8 +31,8 @@ export const HomeWhy = () => {
             <b className="text-[#6eff89]">Why</b> Build Topia
           </h1>
           <h2 className="ml-[20px] mt-[19px] mb-[32px] text-[15px] tracking-wide sm:ml-[41px] md:ml-0 md:mt-[11px] md:mb-[85px] md:w-auto md:text-[16px]">
-            Scaling the data storage capability of Ethereum while significantly
-            reducing KV storage costs
+            We need a DA that has both very high security and a very large
+            throughput
           </h2>
           <div className="g-card md:rounded-0 grid flex-grow grid-cols-1 gap-x-[40px] gap-y-[26px] py-[20px] px-[20px] sm:gap-y-[61px] sm:py-[72px] sm:px-[41px] md:grid-cols-2 md:gap-x-[40px] md:gap-y-[78px] md:border-0 md:bg-transparent md:py-0 md:px-0">
             {displayWhy(
@@ -43,7 +43,10 @@ export const HomeWhy = () => {
               'ACHIEVE',
               'Ultimately achieve full on-chain applications and personal data sovereignty'
             )}
-            {displayWhy('REDUCE', 'Significantly reducing data storage costs')}
+            {displayWhy(
+              'REDUCING',
+              'Significantly reducing data storage costs'
+            )}
             {displayWhy(
               'EXPAND',
               "Expand Ethereum's data storage capabilities"

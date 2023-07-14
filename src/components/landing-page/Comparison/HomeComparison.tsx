@@ -1,4 +1,5 @@
 import { ComparisonTable } from './components/ComparisonTable'
+// todo 已被其他组件替换，还未删除此组件
 export const HomeComparison = () => {
   return (
     <section className="mx-[16px] mt-[100px] flex min-h-[960px] justify-center">
