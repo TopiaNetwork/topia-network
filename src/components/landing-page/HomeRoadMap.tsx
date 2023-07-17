@@ -41,7 +41,7 @@ export const HomeRoadMap = () => {
           <source srcSet="/img/background/pto_08.webp" type="image/webp" />
           <img src="/img/background/pto_08.png" alt="Picture 8 of background" />
         </picture>
-        <picture className="absolute bottom-[-200px] right-0 w-[265px] sm:bottom-[-30%] lt:bottom-[-20%] md:bottom-[-100px] md:right-[10%] mxl:bottom-[-150px] mxl:right-[27%] mxl:w-[20.32%]">
+        <picture className="absolute bottom-[-230px] right-0 w-[165px] sm:bottom-[-30%] lt:bottom-[-20%] md:bottom-[-100px] md:right-[10%] mxl:bottom-[-150px] mxl:right-[27%] mxl:w-[20.32%]">
           <source srcSet="/img/background/pto_09.avif" type="image/avif" />
           <source srcSet="/img/background/pto_09.webp" type="image/webp" />
           <img src="/img/background/pto_09.png" alt="Picture 9 of background" />

@@ -28,7 +28,7 @@ export const HomeApplication = () => {
             Application
           </h1>
           <div className="mt-[60px] hidden flex-grow grid-cols-2 gap-x-[18px] md:grid">
-            <div className="g-card grid h-[400px] flex-grow grid-cols-1 px-[50px] pt-[50px] pb-[30px]">
+            <div className="g-card grid h-[350px] flex-grow grid-cols-1 px-[50px] pt-[50px] pb-[30px]">
               {displayApplication(
                 'Website Hosting',
                 'Decentralized front-end can improve the security of all Dapps'
@@ -42,7 +42,7 @@ export const HomeApplication = () => {
                 'Secure ownership of your assets, such as game items'
               )}
             </div>
-            <div className="g-card grid h-[400px] flex-grow grid-cols-1 px-[50px] pt-[100px] pb-[50px]">
+            <div className="g-card grid h-[350px] flex-grow grid-cols-1 px-[50px] pt-[80px] pb-[50px]">
               {displayApplication(
                 'Publishing',
                 'A decentralized medium can help you store your work and own your content forever'

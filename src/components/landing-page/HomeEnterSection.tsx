@@ -13,7 +13,7 @@ export const HomeEnterSection = () => {
           <source srcSet="/img/background/pto_01.webp" type="image/webp" />
           <img src="/img/background/pto_01.png" alt="Picture 1 of background" />
         </picture>
-        <picture className="absolute bottom-0 left-[20%] w-[80px] sm:w-[120px] lt:w-[160px] md:left-[10%] md:bottom-[-80px] md:w-[206px] mdl:left-[25%] mxl:bottom-0 mxl:left-[25%] mxl:w-[256px]">
+        <picture className="absolute bottom-[-70px] left-[30%] w-[120px] sm:w-[120px] lt:w-[160px] md:left-[10%] md:bottom-[-80px] md:w-[206px] mdl:left-[25%] mxl:bottom-0 mxl:left-[25%] mxl:w-[256px]">
           <source srcSet="/img/background/pto_02.avif" type="image/avif" />
           <source srcSet="/img/background/pto_02.webp" type="image/webp" />
           <img src="/img/background/pto_02.png" alt="Picture 2 of background" />
@@ -27,7 +27,7 @@ export const HomeEnterSection = () => {
           <h1 className="text-[32px] font-bold sm:text-[40px] md:text-[52px]">
             RESTAKING
           </h1>
-          <h2 className="mt-3 whitespace-nowrap text-[20px] font-medium sm:text-[26px] md:text-[40px] md:leading-[72px]">
+          <h2 className="mt-3 whitespace-nowrap text-[20px] font-medium sm:text-[26px] md:text-[42px] md:leading-[72px]">
             Data Availability
           </h2>
           <a
