@@ -13,7 +13,7 @@ export const HomeComparison = () => {
     )
   }
   return (
-    <section className="mt-[200px] flex w-full justify-start px-[16px] md:mt-[250px] md:justify-center mxl:mt-[100px]">
+    <section className="mt-[200px] flex w-full justify-start px-[16px] md:mt-[250px] md:justify-center mxl:mt-[300px]">
       <div className="absolute z-[-1] h-[1100px] max-w-[2080px] sm:w-[calc(100%-32px)] md:w-full">
         <picture className="absolute bottom-[380px] left-0 w-[200px] rotate-[35deg] sm:bottom-[300px] sm:left-0 sm:w-[30%] lt:bottom-[280px] lt:left-0 lt:w-[20%] md:bottom-[300px] md:left-[5%] md:w-[15%] mxl:bottom-[200px] mxl:left-[10%] mxl:w-[25%]">
           <source srcSet="/img/background/pto_07.avif" type="image/avif" />
@@ -22,7 +22,7 @@ export const HomeComparison = () => {
         </picture>
       </div>
       <div className="h-[1100px] w-full sm:h-[1350px] md:h-[900px] md:w-auto">
-        <div className="mx-auto max-w-[600px] sm:w-full md:w-[993px] md:max-w-max">
+        <div className="mx-auto max-w-[600px] sm:w-full md:w-auto md:max-w-[1120px]">
           <h1 className="text-center text-[28px] font-bold tracking-wide sm:text-[40px] md:text-[56px]">
             COMPARISON
           </h1>
@@ -36,7 +36,7 @@ export const HomeComparison = () => {
               )}
               {displayComparison('Higher throughputs and lower DA cost')}
             </div>
-            <div className="g-card grid flex-[1.6] grid-cols-1 px-[20px] pt-[20px] pt-[20px] sm:p-[40px] sm:pb-0 md:h-[450px] md:px-[26px] md:pt-[57px] md:pb-[10px]">
+            <div className="g-card grid flex-[1.6] grid-cols-1 px-[20px] pt-[20px] sm:p-[40px] sm:pb-0 md:h-[450px] md:px-[26px] md:pt-[57px] md:pb-[10px]">
               <h2 className="pb-8 text-[16px] font-medium">
                 TopiaDA Vs Celestia, Polygon Avail, ZkPorter
               </h2>
@@ -50,7 +50,7 @@ export const HomeComparison = () => {
                 'Pay directly using ETH and other L2 native tokens'
               )}
             </div>
-            <div className="g-card grid flex-1 grid-cols-1 px-[20px] pt-[20px] pt-[20px] sm:p-[40px] sm:pb-0 md:h-[450px] md:px-[26px] md:pt-[57px] md:pb-[30px]">
+            <div className="g-card grid flex-1 grid-cols-1 px-[20px] pt-[20px] sm:p-[40px] sm:pb-0 md:h-[450px] md:px-[26px] md:pt-[57px] md:pb-[30px]">
               <h2 className="pb-8 text-[16px] font-medium md:pb-0">
                 L2 Integrated TopiaDA Vs Current L2
               </h2>
