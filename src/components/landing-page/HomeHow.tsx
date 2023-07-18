@@ -34,16 +34,16 @@ export const HomeHow = () => {
           </h2>
           <div className="g-card grid grid-cols-1 px-[20px] pt-[20px] sm:px-[41px] sm:pt-[72px] sm:pb-[32px] md:h-[560px] md:pt-[77px] md:pb-[10px] md:pl-[66px] md:pr-[85px]">
             {displayHow(
-              'The Topia restaking system includes staker, validator and re-stakingContract'
+              'Restaking offers Ethereum-level security and stability, enhancing rewards for Ethereum validators, thus favoring the initial launch of the DA network'
             )}
             {displayHow(
-              'The sequencer uses RS encoding to extend the DA transaction block, forming a matrix E ,and publishes it to the DA node network'
+              'Introduction of DAS (Data Availability Sampling) technology ensures data availability and reduces node resource requirements'
             )}
             {displayHow(
-              'KZG Commitments are a polynomial commitment scheme based on elliptic curve cryptography'
+              'The use of KZG Commitments, a core technology, provides greater efficiency and prevents fraudulent proofs'
             )}
             {displayHow(
-              'In each Epoch, the system randomly selects a subset of nodes, these nodes need to provide custody proofs'
+              'Implementation of Proof of Custody ensures proactive and accurate data storage by DA nodes'
             )}
           </div>
         </div>
