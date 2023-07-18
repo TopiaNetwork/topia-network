@@ -26,20 +26,24 @@ export const HomeHow = () => {
       </div>
       <div className="h-[800px] md:h-[1000px]">
         <div className="w-[290px] sm:w-auto sm:max-w-[504px] md:w-[585px] md:max-w-max">
-          <h1 className="pl-[20px] text-[28px] tracking-wide sm:px-[63px] sm:text-[50px] md:text-[56px]">
+          <h1 className="pl-[20px] text-[28px] tracking-wide sm:px-[41px] sm:text-[50px] md:text-[56px]">
             <b className="text-[#6eff89]">How</b> to Build
           </h1>
-          <h2 className="mb-[26px] mt-[22px] w-[170px] pl-[20px] text-[15px] tracking-wide sm:w-auto sm:px-[66px] md:mb-[56px] md:mt-[30px] md:text-[16px]">
-            Distributed Storage Deeply Integrated with Layer2
+          <h2 className="mb-[26px] mt-[22px] w-[170px] pl-[20px] text-[15px] tracking-wide sm:w-auto sm:px-[41px] md:mb-[56px] md:mt-[30px] md:text-[16px]">
+            Provides Ethereum-level security and stability
           </h2>
-          <div className="g-card grid grid-cols-1 px-[20px] pt-[20px] sm:px-[66px] sm:pt-[80px] sm:pb-[30px] md:h-[560px] md:pt-[77px] md:pb-[10px] md:pl-[66px] md:pr-[85px]">
-            {displayHow('The first evm-compatible storage layer2 based on OP')}
+          <div className="g-card grid grid-cols-1 px-[20px] pt-[20px] sm:px-[41px] sm:pt-[72px] sm:pb-[32px] md:h-[560px] md:pt-[77px] md:pb-[10px] md:pl-[66px] md:pr-[85px]">
             {displayHow(
-              'Strong interoperability between storage and smart contracts'
+              'The Topia restaking system includes staker, validator and re-stakingContract'
             )}
-            {displayHow('Storage nodes need to submit storage proofs on-chain')}
             {displayHow(
-              'Incentives for storage nodes are an integral part of the economic model of the native Topia token'
+              'The sequencer uses RS encoding to extend the DA transaction block, forming a matrix E ,and publishes it to the DA node network'
+            )}
+            {displayHow(
+              'KZG Commitments are a polynomial commitment scheme based on elliptic curve cryptography'
+            )}
+            {displayHow(
+              'In each Epoch, the system randomly selects a subset of nodes, these nodes need to provide custody proofs'
             )}
           </div>
         </div>
