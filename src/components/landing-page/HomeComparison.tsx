@@ -15,7 +15,7 @@ export const HomeComparison = () => {
   return (
     <section className="mt-[200px] flex w-full justify-start px-[16px] md:mt-[250px] md:justify-center mxl:mt-[300px]">
       <div className="absolute z-[-1] h-[1100px] max-w-[2080px] sm:w-[calc(100%-32px)] md:w-full">
-        <picture className="absolute bottom-[380px] left-[-30px] w-[200px] rotate-[35deg] sm:bottom-[300px] sm:left-0 sm:w-[30%] lt:bottom-[280px] lt:left-0 lt:w-[20%] md:bottom-[300px] md:left-[5%] md:w-[15%] mxl:bottom-[200px] mxl:left-[10%] mxl:w-[25%]">
+        <picture className="absolute bottom-[380px] left-[-30px] w-[140px] rotate-[35deg] sm:bottom-[300px] sm:left-0 sm:w-[30%] lt:bottom-[280px] lt:left-0 lt:w-[20%] md:bottom-[400px] md:left-[5%] md:w-[15%] mxl:bottom-[300px] mxl:left-[7%] mxl:w-[25%]">
           <source srcSet="/img/background/pto_07.avif" type="image/avif" />
           <source srcSet="/img/background/pto_07.webp" type="image/webp" />
           <img src="/img/background/pto_07.png" alt="Picture 7 of background" />
