@@ -22,7 +22,7 @@ const page = async () => {
         <HomeHow />
         <HomeComparison />
         {/*<HomeApplication />*/}
-        <HomeRoadMap />
+        {/*<HomeRoadMap />*/}
         <HomeCommunity />
         <RootFooter />
         <RootFooterPhone />
