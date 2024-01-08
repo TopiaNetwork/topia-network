@@ -23,7 +23,7 @@ export const RootFooter = () => {
               <p className="ml-[18px] text-[14px]">Back to top</p>
             </div>
           </a>
-          <div className="text-[14px]">© 2023 Topia</div>
+          <div className="text-[14px]">© 2024 Topia</div>
         </div>
       </div>
     </footer>
