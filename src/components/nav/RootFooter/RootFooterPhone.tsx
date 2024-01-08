@@ -52,7 +52,7 @@ export const RootFooterPhone = () => {
         {communityBtn(MediumIcon, TOPIA_MEDIUM_LINK)}
       </div>
       <p className="absolute bottom-[30px] text-[12px] font-thin">
-        © 2023 Topia
+        © 2024 Topia
       </p>
     </section>
   )
